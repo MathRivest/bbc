@@ -1,0 +1,232 @@
+
+@import "compass";
+@import "normalize";
+@import "susy";
+@import "h5bp";
+
+// ==========================================================================
+//   Job Hook
+// ==========================================================================
+
+@mixin input-placeholder($color){
+  &.placeholder{color: $color}
+  &:-moz-placeholder{color: $color}
+  &::-webkit-input-placeholder{color: $color}
+}
+//Compass variables
+// Grid
+$show-grid-backgrounds: true;
+$total-columns:         12;
+$column-width:          54px;
+$gutter-width:          30px;
+$grid-padding:          $gutter-width;
+$container-width:       1038px;
+
+$large-container-width: 1138px;
+$toedge-width:          80px;
+
+
+//Colors
+$black:                 #000000;
+$almost-black:          #111111;
+
+//Grey
+$dark-grey:             #242424;
+$grey:                  #333333;
+$light-grey:            #999999;
+$lighter-grey:          #dddddd;
+
+
+$white:                 #fff;
+
+$title-font-stack:      'Source Sans Pro', sans-serif;
+$paragraph-font-stack:  'Source Sans Pro', sans-serif;
+
+//Layout
+html, body{
+    height: 100%;
+}
+body{
+    //-webkit-font-smoothing: antialiased;
+    //@include background-image(image-url('bg-light_tile.png'));
+    font:{
+        family:$paragraph-font-stack;
+        size:16px;
+        weight:400;
+    }
+}
+
+.container{
+    margin:0 auto;
+    width:$large-container-width;
+}
+
+.wrapper{
+  @include container;
+  @include susy-grid-background;
+}
+
+%toedge{
+    margin-left:-$toedge-width;
+    margin-right:-$toedge-width;
+    padding-left:$toedge-width;
+    padding-right:$toedge-width;
+}
+
+// Branding
+h1, h2, h3, h4, h5, h6{
+    font:{
+        family:$title-font-stack;
+        weight:600;
+    }
+}
+
+h1{}
+h2{}
+h3{}
+h4{}
+h5{}
+h6{}
+
+%bigtitle{
+    font:{
+        size:68px;
+    }
+    line-height: 72px;
+}
+
+a{
+    @include transition-property(color);
+    @include transition-duration(0.2s);
+    @include transition-timing-function(ease-in);
+}
+
+.bbc-logo{
+    margin:0;
+    @include replace-text-with-dimensions('logo-bbc.png');
+    a{
+        display:block;
+        height:100%;
+    }
+}
+
+$padding-top: 140px;
+$padding-left: 80px;
+.m-hero{
+    margin:0 auto;
+    width:$large-container-width - $padding-left;
+    padding-top:$padding-top;
+    padding-left:$padding-left;
+    height:400px - $padding-top;
+    .home &{height: 720px - $padding-top;}
+    margin-top:-200px;
+    background:$grey;
+    color:$white;
+    h2{
+        @extend %bigtitle;
+        margin-bottom:24px;
+    }
+    p{
+        margin:0;
+        line-height: 30px;
+        font-size: 20px;
+    }
+}
+
+
+.main-header{
+    margin-bottom:60px;
+    color:$white;
+    .top{
+        @extend .clearfix;
+        height: 270px;
+        background:$almost-black;
+
+        #main-nav{float:left;}
+        .phone{float:right;}
+    }
+}
+
+.phone{
+    margin:0;
+    line-height: 67px;
+}
+// Main Nav
+#main-nav{
+    font:{
+        family:$paragraph-font-stack;
+        weight:600;
+    }
+    text:{
+        transform: uppercase;
+    }
+    ul{
+        overflow: hidden;
+        margin:0;
+        padding:0;
+        li{
+            float:left;
+            margin-right:40px;
+            border-top:3px solid $almost-black;
+        }
+    }
+
+    a{
+        text-decoration:none;
+        line-height: 67px;
+        @include link-colors($light-grey, $white, $light-grey, $light-grey, $white);
+    }
+    .current-menu-item{
+        a, a:visited{
+            color:$white;
+        }
+        border-top-color:$white;
+    }
+    span{color:$light-grey;}
+}
+
+.banner{
+    @extend %toedge;
+    margin-top:0;
+    margin-bottom: 60px;
+    @extend %bigtitle;
+    line-height: 180px;
+    &.contact{
+        background:$lighter-grey;
+    }
+}
+
+.m-contact{
+    .contact-block{
+        @include span-columns(3,12);
+        &.last{
+            @include span-columns(3 omega,12);
+        }
+    }
+    h4{
+        margin:0 0 16px 0;
+    }
+}
+
+.main-footer{
+    @extend .clearfix;
+    .bot{
+        color:$light-grey;
+        background:$almost-black;
+    }
+    .copyrights{
+        margin:0;
+        line-height: 50px;
+    }
+}
+
+// ==========================================================================
+//   Media Queries
+// ==========================================================================
+
+@media only screen and (min-width: 35em) {
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 144dpi) {
+}
