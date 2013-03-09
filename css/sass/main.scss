@@ -1,8 +1,9 @@
 
 @import "compass";
 @import "normalize";
-@import "susy";
 @import "h5bp";
+@import "susy";
+@import "font-awesome";
 
 // ==========================================================================
 //   Job Hook
@@ -15,7 +16,7 @@
 }
 //Compass variables
 // Grid
-$show-grid-backgrounds: true;
+$show-grid-backgrounds: false;
 $total-columns:         12;
 $column-width:          54px;
 $gutter-width:          30px;
@@ -33,8 +34,10 @@ $almost-black:          #111111;
 //Grey
 $dark-grey:             #242424;
 $grey:                  #333333;
+$grey-light:            #666666;
 $light-grey:            #999999;
 $lighter-grey:          #dddddd;
+$really-light-grey:     #f3f3f3;
 
 
 $white:                 #fff;
@@ -57,8 +60,10 @@ body{
 }
 
 .container{
+    @extend .clearfix;
     margin:0 auto;
     width:$large-container-width;
+    &.page-content{margin:60px auto;}
 }
 
 .wrapper{
@@ -82,11 +87,28 @@ h1, h2, h3, h4, h5, h6{
 }
 
 h1{}
-h2{}
-h3{}
-h4{}
+h2{
+    margin:52px 0 0;
+    font:{
+        size:68px;
+    }
+    line-height: 78px;
+}
+h3{
+    margin:0 0 28px 0;
+    font-size: 36px;
+    line-height: 40px;
+}
+h4{font-size:20px;}
 h5{}
 h6{}
+
+
+p{
+    margin-top:0;
+    &.first{margin:0;}
+}
+strong{font-weight:600;}
 
 %bigtitle{
     font:{
@@ -96,7 +118,7 @@ h6{}
 }
 
 a{
-    @include transition-property(color);
+    @include transition-property(background-color color);
     @include transition-duration(0.2s);
     @include transition-timing-function(ease-in);
 }
@@ -124,7 +146,7 @@ $padding-left: 80px;
     color:$white;
     h2{
         @extend %bigtitle;
-        margin-bottom:24px;
+        margin-bottom:20px;
     }
     p{
         margin:0;
@@ -135,7 +157,6 @@ $padding-left: 80px;
 
 
 .main-header{
-    margin-bottom:60px;
     color:$white;
     .top{
         @extend .clearfix;
@@ -143,13 +164,19 @@ $padding-left: 80px;
         background:$almost-black;
 
         #main-nav{float:left;}
-        .phone{float:right;}
+        .m-phone{float:right;}
     }
 }
 
-.phone{
+.m-phone{
     margin:0;
     line-height: 67px;
+    i{
+        position:relative;
+        top:1px;
+        margin-right:8px;
+        color:$light-grey;
+    }
 }
 // Main Nav
 #main-nav{
@@ -192,11 +219,12 @@ $padding-left: 80px;
     @extend %bigtitle;
     line-height: 180px;
     &.contact{
-        background:$lighter-grey;
+        @include background-image(image-url('bg-contact.jpg'));
     }
 }
 
 .m-contact{
+    margin-bottom: 40px;
     .contact-block{
         @include span-columns(3,12);
         &.last{
@@ -205,6 +233,26 @@ $padding-left: 80px;
     }
     h4{
         margin:0 0 16px 0;
+    }
+    .schedule{
+        padding:0;
+        margin:0;
+        li{
+            list-style: none;
+            font-weight: 600;
+            span{
+                float:right;
+                padding-right:60px;
+                font-weight: 400;
+                color:$grey-light;
+            }
+        }
+    }
+    .phone{
+        font:{
+            size:24px;
+            weight:200;
+        }
     }
 }
 
@@ -217,6 +265,99 @@ $padding-left: 80px;
     .copyrights{
         margin:0;
         line-height: 50px;
+    }
+}
+
+.m-cta{
+    float:left;
+    position:relative;
+    display:block;
+    width:33%;
+    height:260px;
+    background:$lighter-grey;
+    font:{
+        size:20px;
+        weight:200;
+    }
+    text:{
+        align:center;
+        transform: uppercase;
+    }
+    color:$white;
+    span{
+        display:block;
+        position:absolute;
+        bottom:0;
+        width:100%;
+        line-height: 60px;
+        background:rgba($black, 0.65);
+        @include transition-property(background-color);
+          @include transition-duration(0.2s);
+          @include transition-timing-function(ease-out);
+    }
+    &:hover span{
+        background:rgba($black, 0.85);
+    }
+    i{
+        position:relative;
+        top:1px;
+        margin-left:12px;
+    }
+    &.l-soins{}
+    &.l-tech{}
+    &.l-equipe{}
+    &.last{}
+}
+
+
+.entry-content{
+    font-size: 20px;
+}
+
+
+.col-main{
+    margin-bottom:60px;
+    @include span-columns(8,12);
+}
+.col-secondary{
+    margin-bottom:60px;
+    @include span-columns(4 omega,12);
+}
+
+%widget{
+    background-color:$really-light-grey;
+    .content{
+        padding:30px;
+    }
+}
+
+.m-tech-widget{
+    @extend %widget;
+    h3{
+        font-size: 18px;
+        margin-bottom:12px;
+    }
+    p{
+        font-size: 14px;
+        color:$grey-light;
+    }
+}
+
+
+.m-button{
+    padding:6px 12px;
+    background:$grey-light;
+    text:{
+        decoration:none;
+    }
+    color:$white;
+    i{
+        position:relative;
+        top:1px;
+        margin-left:6px;
+    }
+    &:hover{
+        background-color: $light-grey;
     }
 }
 

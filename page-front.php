@@ -16,17 +16,16 @@
 ?>
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 
-<div class="container">
+<div class="container page-content">
 
-
-    <a href="#" class="m-cta">
-        <span>Soins &amp; Services</span>
+    <a href="#" class="m-cta l-soins">
+        <span><strong>Soins</strong> &amp; <strong>Services</strong><i class="icon-caret-right"></i></span>
     </a>
-    <a href="#" class="m-cta">
-        <span>Technologies</span>
+    <a href="#" class="m-cta l-tech">
+        <span><strong>Technologies</strong><i class="icon-caret-right"></i></span>
     </a>
-    <a href="#" class="m-cta last">
-        <span>L’équipe</span>
+    <a href="#" class="m-cta last l-equipe">
+        <span><strong>L’équipe</strong><i class="icon-caret-right"></i></span>
     </a>
 
 <?php /*
