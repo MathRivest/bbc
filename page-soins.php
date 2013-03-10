@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying all pages.
+ * Template Name: Soins
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -32,7 +32,18 @@
             </div>
         <?php endwhile; ?>
 
-
+        <div class="col-main">
+            main
+        </div>
+        <aside class="col-secondary">
+            <section class="m-widget l-tech">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/widget-tech.jpg">
+                <div class="content">
+                    <h3>Haute technologie</h3>
+                    <p>De l’équipement à la fine pointe de la technologie. Pour nous, vous offrir les ressources technologiques les plus performantes est primordial. En effet, c’est avec ces ressources essentielles que notre équipe de professionnels établit les diagnostics et les traitements appropriés pour mieux vous servir.</p>
+                    <a href="#" class="m-button">En savoir plus<i class="icon-caret-right"></i></a>
+                </div>
+            </section>
 
     </div>
 </div>
