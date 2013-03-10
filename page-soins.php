@@ -33,7 +33,46 @@
         <?php endwhile; ?>
 
         <div class="col-main">
-            main
+
+
+            <div class="m-accordion">
+                <ul>
+                    <li class="m-accordion-container">
+                        <a href="#">
+                            Ambiance et qualité de vie au travail allégées
+                            <i class="icon-caret-right"></i>
+                        </a>
+                        <div class="m-accordion-content">
+                            <ul>
+                                <li>Diminution des frictions et incompréhensions</li>
+                                <li>Tolérance face aux relations difficiles</li>
+                                <li>Réduction d’énergie gaspillée par la gestion de frustrations</li>
+                                <li>Respect des individualités tout en poursuivant les objectifs de l’entreprise</li>
+                                <li>Augmentation de la rétention des employés</li>
+                                <li>Augmentation du taux de présence</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="m-accordion-container">
+                        <a href="#">
+                            Optimisation du temps de travail du dentiste
+                            <i class="icon-caret-right"></i>
+                        </a>
+                        <div class="m-accordion-content">
+                            <ul>
+                                <li>Collaboration plus efficace entre les partenaires</li>
+                                <li>Diminution du nombre de répétitions des consignes</li>
+                                <li>Mobilisation stratégique des personnels</li>
+                                <li>Création du contact-client avec plus d’aisance</li>
+                                <li>Gestion du travail en vue de disposer de plus de temps de qualité</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+
+
         </div>
         <aside class="col-secondary">
             <section class="m-widget l-tech">
@@ -44,7 +83,6 @@
                     <a href="#" class="m-button">En savoir plus<i class="icon-caret-right"></i></a>
                 </div>
             </section>
-
     </div>
 </div>
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer' ) ); ?>

@@ -450,8 +450,84 @@ $padding-left: 80px;
 
 
 
+    .m-accordion{
+        width:100%;
+        overflow: hidden;
+        >ul{
+            padding:0;
+            margin-top:0;
+        }
+        ul{
+            li{
+                &.m-accordion-container{
+                    overflow: hidden;
+                    padding:17px 0 0 30px;
+                    height:48px;
+                    background:none;
+                    border-bottom: 1px solid $lighter-grey;
+                    &.l-large{
+                        height:68px;
+                        > a{height:68px;}
+                    }
+                    &:first-child{border-top: 1px solid $lighter-grey;}
+                }
+                > a{
+                    display: block;
+                    position: relative;
+                    padding-right:30px;
+                    height:48px;
+                    outline:none;
+                    font:{
+                        size:20px;
+                        weight:600;
+                    }
+                    text-decoration: none;
+                    color:$grey;
+                    @include transition-property(color);
+                    @include transition-duration(0.2s);
+                    @include transition-timing-function(ease-in-out);
+                    &:hover{text-decoration:none;}
+                    &:hover,
+                    &:focus{
+                        i{
+                            opacity:1;
+                            right: 0;
+                            color:$grey;
+                        }
+                    }
+                    i{
+                        //@include hide-text;
+                        position: absolute;
+                        top: 50%;
+                        right:0;
+                        margin-top: -17px;
+                        width: 17px;
+                        height: 17px;
+                        color:$lighter-grey;
+                        @include transition-property(all);
+                        @include transition-duration(0.2s);
+                        @include transition-timing-function(ease-in-out);
+                    }
+                }
+                &.s-open > a{
+                    i{
+                        @include rotate(90deg);
+                    }
+                }
+            }
+        }
+        .m-accordion-content{
+            padding: 0 0px 26px 0px;
+            p{}
+            ul{margin:0;}
+            li{line-height:23px!important;}
+        }
+    }
 
-
+    .lt-ie8 .m-accordion ul li.m-accordion-container > a span{
+        top:15px;
+        right: 0;
+    }
 
 
 
