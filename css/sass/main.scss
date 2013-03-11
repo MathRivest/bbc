@@ -376,8 +376,18 @@ $padding-left: 80px;
     @include span-columns(4 omega,12);
 }
 
+.col-left{
+    clear:both;
+    margin-bottom:60px;
+    @include span-columns(6,12);
+}
+.col-right{
+    margin-bottom:60px;
+    @include span-columns(6 omega,12);
+}
+section{clear:both;}
+
 .m-widget{
-    margin-bottom: 60px;
     background-color:$really-light-grey;
     .content{
         padding:26px 30px 30px 30px;

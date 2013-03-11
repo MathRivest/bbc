@@ -39,26 +39,20 @@
                 <ul>
                     <li class="m-accordion-container">
                         <a href="#">
-                            Ambiance et qualité de vie au travail allégées
+                            Nettoyage et examen dentaire
                             <i class="icon-caret-right"></i>
                         </a>
                         <div class="m-accordion-content">
-                            <ul>
-                                <li>Diminution des frictions et incompréhensions</li>
-                                <li>Tolérance face aux relations difficiles</li>
-                                <li>Réduction d’énergie gaspillée par la gestion de frustrations</li>
-                                <li>Respect des individualités tout en poursuivant les objectifs de l’entreprise</li>
-                                <li>Augmentation de la rétention des employés</li>
-                                <li>Augmentation du taux de présence</li>
-                            </ul>
+                            <p>À votre arrivée, nous compléterons votre dossier médical et votre historique de soins dentaires.  Le nettoyage et l'examen dentaire sera complété. L'examen comprend des radiographies numériques, l'examen des dents, des os, des gencives, du palais et de la langue, ainsi que le dépistage du cancer buccale. Selon vos besoins une caméra intraorale peut être utilisée pour vous permettre de visualiser sur écran ce que le dentiste vous explique et vous permettre de bien comprendre le diagnostic.</p>
                         </div>
                     </li>
                     <li class="m-accordion-container">
                         <a href="#">
-                            Optimisation du temps de travail du dentiste
+                            Soins préventifs
                             <i class="icon-caret-right"></i>
                         </a>
                         <div class="m-accordion-content">
+                            <p>À votre arrivée, nous compléterons votre dossier médical et votre historique de soins dentaires.  Le nettoyage et l'examen dentaire sera complété. L'examen comprend des radiographies numériques, l'examen des dents, des os, des gencives, du palais et de la langue, ainsi que le dépistage du cancer buccale. Selon vos besoins une caméra intraorale peut être utilisée pour vous permettre de visualiser sur écran ce que le dentiste vous explique et vous permettre de bien comprendre le diagnostic.</p>
                             <ul>
                                 <li>Collaboration plus efficace entre les partenaires</li>
                                 <li>Diminution du nombre de répétitions des consignes</li>
@@ -66,6 +60,15 @@
                                 <li>Création du contact-client avec plus d’aisance</li>
                                 <li>Gestion du travail en vue de disposer de plus de temps de qualité</li>
                             </ul>
+                        </div>
+                    </li>
+                    <li class="m-accordion-container">
+                        <a href="#">
+                            Nettoyage et examen dentaire
+                            <i class="icon-caret-right"></i>
+                        </a>
+                        <div class="m-accordion-content">
+                            <p>À votre arrivée, nous compléterons votre dossier médical et votre historique de soins dentaires.  Le nettoyage et l'examen dentaire sera complété. L'examen comprend des radiographies numériques, l'examen des dents, des os, des gencives, du palais et de la langue, ainsi que le dépistage du cancer buccale. Selon vos besoins une caméra intraorale peut être utilisée pour vous permettre de visualiser sur écran ce que le dentiste vous explique et vous permettre de bien comprendre le diagnostic.</p>
                         </div>
                     </li>
                 </ul>

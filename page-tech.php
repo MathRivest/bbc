@@ -33,7 +33,7 @@
         <?php endwhile; ?>
 
 
-        <div class="col-main">
+        <section class="col-main">
             <h4>Haute technologie</h4>
             <p>Pour nous, vous offrir les ressources technologiques les plus performantes est primordial. En effet, c’est avec ces ressources essentielles que notre équipe de professionnels établit les diagnostics et les traitements appropriés pour mieux vous servir.</p>
             <ul class="bullet tech-list">
@@ -43,8 +43,7 @@
                 <li>L'<strong>abrasion à l’air</strong> (air abrasion) est un technique permettant de faire de petites obturations sans anesthésie.</li>
                 <li>Le « <strong>TENSE</strong> » est un appareil servant à diminuer les tensions dans les muscles de la mâchoire.</li>
             </ul>
-
-        </div>
+        </section>
         <aside class="col-secondary">
             <section class="m-widget l-soins">
                 <img src="<?php echo get_bloginfo('template_url') ?>/img/widget-soin.jpg">
@@ -55,7 +54,18 @@
                 </div>
             </section>
         </aside>
-
+        <section>
+            <h4>Centre de stérilisation</h4>
+            <div class="col-left">
+                <p>Tout comme vous, le personnel de la Clinique dentaire Bouchard et Bélanger accorde une importance absolue au respect des plus hauts standards d’hygiène et de stérilisation.</p>
+                <p><img src="<?php echo get_bloginfo('template_url') ?>/img/content-sterilisation.jpg"></p>
+            </div>
+            <div class="col-right">
+                <p>Tous les instruments et toutes les pièces à main utilisés sont déposés dans un contenant destiné à la décontamination. Ce contenant est d’abord placé dans un appareil qui exécute une première stérilisation à 93 °C pendant une heure. À leur sortie, les instruments sont ensuite emballés, placés dans un autre appareil pendant une heure supplémentaire à 132 °C, puis ils sont placés dans un séchoir avant de pouvoir être réutilisés.</p>
+                <p>Tout ce qui est non stérilisable ou non jetable est désinfecté et recouvert d’une pellicule de plastique, qui est changée après chaque visite. Les fauteuils et les comptoirs sont également nettoyés et désinfectés entre chaque patient. Par ailleurs, les conduites d’eau qui approvisionnent les appareils dentaires sont traitées périodiquement à l’aide d’un nettoyant antibactérien.</p>
+                <p>Ces normes d’hygiène sont vérifiées et mises à jour régulièrement pour votre sécurité et votre plus grand confort.</p>
+            </div>
+        </section>
 
     </div>
 </div>
