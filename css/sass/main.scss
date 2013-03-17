@@ -65,6 +65,7 @@ body{
     margin:0 auto;
     width:$large-container-width;
     &.page-content{margin:60px auto;}
+    .wrapper{margin-bottom:60px;}
 }
 
 .wrapper{
@@ -368,21 +369,17 @@ $padding-left: 80px;
 .entry-content p:last-child{margin-bottom:40px;}
 
 .col-main{
-    margin-bottom:60px;
     @include span-columns(8,12);
 }
 .col-secondary{
-    margin-bottom:60px;
     @include span-columns(4 omega,12);
 }
 
 .col-left{
     clear:both;
-    margin-bottom:60px;
     @include span-columns(6,12);
 }
 .col-right{
-    margin-bottom:60px;
     @include span-columns(6 omega,12);
 }
 section{clear:both;}
@@ -431,7 +428,6 @@ section{clear:both;}
 
 .m-equipe{
     @extend .clearfix;
-    margin-bottom:60px;
     .dentiste{
         @include span-columns(3,12);
         &.last{
