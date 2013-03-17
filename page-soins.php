@@ -20,14 +20,14 @@
     <div class="wrapper">
 
         <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-            <h2><?php the_title(); ?></h2>
-            <?php
-                $subtitle = get_post_meta($post->ID, 'subtitle', true);
-                if($subtitle){
-                    echo "<h3>" . $subtitle . "</h3>";
-                }
-            ?>
             <div class="entry-content">
+                <h2><?php the_title(); ?></h2>
+                <?php
+                    $subtitle = get_post_meta($post->ID, 'subtitle', true);
+                    if($subtitle){
+                        echo "<h3>" . $subtitle . "</h3>";
+                    }
+                ?>
                 <?php the_content(); ?>
             </div>
         <?php endwhile; ?>
@@ -53,18 +53,101 @@
                         </a>
                         <div class="m-accordion-content">
                             <p>À votre arrivée, nous compléterons votre dossier médical et votre historique de soins dentaires.  Le nettoyage et l'examen dentaire sera complété. L'examen comprend des radiographies numériques, l'examen des dents, des os, des gencives, du palais et de la langue, ainsi que le dépistage du cancer buccale. Selon vos besoins une caméra intraorale peut être utilisée pour vous permettre de visualiser sur écran ce que le dentiste vous explique et vous permettre de bien comprendre le diagnostic.</p>
-                            <ul>
-                                <li>Collaboration plus efficace entre les partenaires</li>
-                                <li>Diminution du nombre de répétitions des consignes</li>
-                                <li>Mobilisation stratégique des personnels</li>
-                                <li>Création du contact-client avec plus d’aisance</li>
-                                <li>Gestion du travail en vue de disposer de plus de temps de qualité</li>
-                            </ul>
                         </div>
                     </li>
                     <li class="m-accordion-container">
                         <a href="#">
-                            Nettoyage et examen dentaire
+                            Traitement de blanchiment
+                            <i class="icon-caret-right"></i>
+                        </a>
+                        <div class="m-accordion-content">
+                            <p>À votre arrivée, nous compléterons votre dossier médical et votre historique de soins dentaires.  Le nettoyage et l'examen dentaire sera complété. L'examen comprend des radiographies numériques, l'examen des dents, des os, des gencives, du palais et de la langue, ainsi que le dépistage du cancer buccale. Selon vos besoins une caméra intraorale peut être utilisée pour vous permettre de visualiser sur écran ce que le dentiste vous explique et vous permettre de bien comprendre le diagnostic.</p>
+                        </div>
+                    </li>
+                    <li class="m-accordion-container">
+                        <a href="#">
+                            Dentisterie esthétique
+                            <i class="icon-caret-right"></i>
+                        </a>
+                        <div class="m-accordion-content">
+                            <p>À votre arrivée, nous compléterons votre dossier médical et votre historique de soins dentaires.  Le nettoyage et l'examen dentaire sera complété. L'examen comprend des radiographies numériques, l'examen des dents, des os, des gencives, du palais et de la langue, ainsi que le dépistage du cancer buccale. Selon vos besoins une caméra intraorale peut être utilisée pour vous permettre de visualiser sur écran ce que le dentiste vous explique et vous permettre de bien comprendre le diagnostic.</p>
+                        </div>
+                    </li>
+                    <li class="m-accordion-container">
+                        <a href="#">
+                            Facette, couronne et pont
+                            <i class="icon-caret-right"></i>
+                        </a>
+                        <div class="m-accordion-content">
+                            <p>À votre arrivée, nous compléterons votre dossier médical et votre historique de soins dentaires.  Le nettoyage et l'examen dentaire sera complété. L'examen comprend des radiographies numériques, l'examen des dents, des os, des gencives, du palais et de la langue, ainsi que le dépistage du cancer buccale. Selon vos besoins une caméra intraorale peut être utilisée pour vous permettre de visualiser sur écran ce que le dentiste vous explique et vous permettre de bien comprendre le diagnostic.</p>
+                        </div>
+                    </li>
+                    <li class="m-accordion-container">
+                        <a href="#">
+                            Parodontie
+                            <i class="icon-caret-right"></i>
+                        </a>
+                        <div class="m-accordion-content">
+                            <p>À votre arrivée, nous compléterons votre dossier médical et votre historique de soins dentaires.  Le nettoyage et l'examen dentaire sera complété. L'examen comprend des radiographies numériques, l'examen des dents, des os, des gencives, du palais et de la langue, ainsi que le dépistage du cancer buccale. Selon vos besoins une caméra intraorale peut être utilisée pour vous permettre de visualiser sur écran ce que le dentiste vous explique et vous permettre de bien comprendre le diagnostic.</p>
+                        </div>
+                    </li>
+                    <li class="m-accordion-container">
+                        <a href="#">
+                            Endodontie
+                            <i class="icon-caret-right"></i>
+                        </a>
+                        <div class="m-accordion-content">
+                            <p>À votre arrivée, nous compléterons votre dossier médical et votre historique de soins dentaires.  Le nettoyage et l'examen dentaire sera complété. L'examen comprend des radiographies numériques, l'examen des dents, des os, des gencives, du palais et de la langue, ainsi que le dépistage du cancer buccale. Selon vos besoins une caméra intraorale peut être utilisée pour vous permettre de visualiser sur écran ce que le dentiste vous explique et vous permettre de bien comprendre le diagnostic.</p>
+                        </div>
+                    </li>
+                    <li class="m-accordion-container">
+                        <a href="#">
+                            Restaurations
+                            <i class="icon-caret-right"></i>
+                        </a>
+                        <div class="m-accordion-content">
+                            <p>À votre arrivée, nous compléterons votre dossier médical et votre historique de soins dentaires.  Le nettoyage et l'examen dentaire sera complété. L'examen comprend des radiographies numériques, l'examen des dents, des os, des gencives, du palais et de la langue, ainsi que le dépistage du cancer buccale. Selon vos besoins une caméra intraorale peut être utilisée pour vous permettre de visualiser sur écran ce que le dentiste vous explique et vous permettre de bien comprendre le diagnostic.</p>
+                        </div>
+                    </li>
+                    <li class="m-accordion-container">
+                        <a href="#">
+                            Chirurgie et greffe
+                            <i class="icon-caret-right"></i>
+                        </a>
+                        <div class="m-accordion-content">
+                            <p>À votre arrivée, nous compléterons votre dossier médical et votre historique de soins dentaires.  Le nettoyage et l'examen dentaire sera complété. L'examen comprend des radiographies numériques, l'examen des dents, des os, des gencives, du palais et de la langue, ainsi que le dépistage du cancer buccale. Selon vos besoins une caméra intraorale peut être utilisée pour vous permettre de visualiser sur écran ce que le dentiste vous explique et vous permettre de bien comprendre le diagnostic.</p>
+                        </div>
+                    </li>
+                    <li class="m-accordion-container">
+                        <a href="#">
+                            Orthodontie
+                            <i class="icon-caret-right"></i>
+                        </a>
+                        <div class="m-accordion-content">
+                            <p>À votre arrivée, nous compléterons votre dossier médical et votre historique de soins dentaires.  Le nettoyage et l'examen dentaire sera complété. L'examen comprend des radiographies numériques, l'examen des dents, des os, des gencives, du palais et de la langue, ainsi que le dépistage du cancer buccale. Selon vos besoins une caméra intraorale peut être utilisée pour vous permettre de visualiser sur écran ce que le dentiste vous explique et vous permettre de bien comprendre le diagnostic.</p>
+                        </div>
+                    </li>
+                    <li class="m-accordion-container">
+                        <a href="#">
+                            Implantologie
+                            <i class="icon-caret-right"></i>
+                        </a>
+                        <div class="m-accordion-content">
+                            <p>À votre arrivée, nous compléterons votre dossier médical et votre historique de soins dentaires.  Le nettoyage et l'examen dentaire sera complété. L'examen comprend des radiographies numériques, l'examen des dents, des os, des gencives, du palais et de la langue, ainsi que le dépistage du cancer buccale. Selon vos besoins une caméra intraorale peut être utilisée pour vous permettre de visualiser sur écran ce que le dentiste vous explique et vous permettre de bien comprendre le diagnostic.</p>
+                        </div>
+                    </li>
+                    <li class="m-accordion-container">
+                        <a href="#">
+                            Prothèse partielle ou complète
+                            <i class="icon-caret-right"></i>
+                        </a>
+                        <div class="m-accordion-content">
+                            <p>À votre arrivée, nous compléterons votre dossier médical et votre historique de soins dentaires.  Le nettoyage et l'examen dentaire sera complété. L'examen comprend des radiographies numériques, l'examen des dents, des os, des gencives, du palais et de la langue, ainsi que le dépistage du cancer buccale. Selon vos besoins une caméra intraorale peut être utilisée pour vous permettre de visualiser sur écran ce que le dentiste vous explique et vous permettre de bien comprendre le diagnostic.</p>
+                        </div>
+                    </li>
+                    <li class="m-accordion-container">
+                        <a href="#">
+                            Troubles articulaires
                             <i class="icon-caret-right"></i>
                         </a>
                         <div class="m-accordion-content">
@@ -83,9 +166,10 @@
                 <div class="content">
                     <h3>Haute technologie</h3>
                     <p>De l’équipement à la fine pointe de la technologie. Pour nous, vous offrir les ressources technologiques les plus performantes est primordial. En effet, c’est avec ces ressources essentielles que notre équipe de professionnels établit les diagnostics et les traitements appropriés pour mieux vous servir.</p>
-                    <a href="#" class="m-button">En savoir plus<i class="icon-caret-right"></i></a>
+                    <a href="/bbc/technologies" class="m-button">En savoir plus<i class="icon-caret-right"></i></a>
                 </div>
             </section>
+        </aside>
     </div>
 </div>
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer' ) ); ?>

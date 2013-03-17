@@ -20,18 +20,17 @@
     <div class="wrapper">
 
         <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-            <h2><?php the_title(); ?></h2>
-            <?php
-                $subtitle = get_post_meta($post->ID, 'subtitle', true);
-                if($subtitle){
-                    echo "<h3>" . $subtitle . "</h3>";
-                }
-            ?>
             <div class="entry-content">
+                <h2><?php the_title(); ?></h2>
+                <?php
+                    $subtitle = get_post_meta($post->ID, 'subtitle', true);
+                    if($subtitle){
+                        echo "<h3>" . $subtitle . "</h3>";
+                    }
+                ?>
                 <?php the_content(); ?>
             </div>
         <?php endwhile; ?>
-
 
         <section class="col-main">
             <h4>Haute technologie</h4>
@@ -50,14 +49,14 @@
                 <div class="content">
                     <h3>Soins offerts selon vos besoins</h3>
                     <p>De l’équipement à la fine pointe de la technologie. Pour nous, vous offrir les ressources technologiques les plus performantes est primordial. En effet, c’est avec ces ressources essentielles que notre équipe de professionnels établit les diagnostics et les traitements appropriés pour mieux vous servir.</p>
-                    <a href="#" class="m-button">En savoir plus<i class="icon-caret-right"></i></a>
+                    <a href="/bbc/soins-services" class="m-button">En savoir plus<i class="icon-caret-right"></i></a>
                 </div>
             </section>
         </aside>
         <section>
             <h4>Centre de stérilisation</h4>
             <div class="col-left">
-                <p>Tout comme vous, le personnel de la Clinique dentaire Bouchard et Bélanger accorde une importance absolue au respect des plus hauts standards d’hygiène et de stérilisation.</p>
+                <p class="important">Tout comme vous, le personnel de la Clinique dentaire Bouchard et Bélanger accorde une importance absolue au respect des plus hauts standards d’hygiène et de stérilisation.</p>
                 <p><img src="<?php echo get_bloginfo('template_url') ?>/img/content-sterilisation.jpg"></p>
             </div>
             <div class="col-right">

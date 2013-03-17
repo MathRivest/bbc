@@ -11,5 +11,13 @@ jQuery(function() {
         return false;
     });
 
+    jQuery('.m-hero').hover(function(){
+        jQuery('.no-opacity .bbc-logo').stop(true, false).hide();
+        jQuery('.opacity .bbc-logo').stop(true, false).fadeTo(400, 0.2);
+    }, function(){
+        jQuery('.no-opacity .bbc-logo').stop(true, false).show();
+        jQuery('.opacity .bbc-logo').stop(true, false).fadeTo(400, 1);
+    });
+
 
 });//End of ready function

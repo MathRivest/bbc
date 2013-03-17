@@ -20,14 +20,14 @@
     <div class="wrapper">
 
         <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-            <h2><?php the_title(); ?></h2>
-            <?php
-                $subtitle = get_post_meta($post->ID, 'subtitle', true);
-                if($subtitle){
-                    echo "<h3>" . $subtitle . "</h3>";
-                }
-            ?>
             <div class="entry-content">
+                <h2><?php the_title(); ?></h2>
+                <?php
+                    $subtitle = get_post_meta($post->ID, 'subtitle', true);
+                    if($subtitle){
+                        echo "<h3>" . $subtitle . "</h3>";
+                    }
+                ?>
                 <?php the_content(); ?>
             </div>
         <?php endwhile; ?>

@@ -32,7 +32,6 @@ $black:                 #000000;
 $almost-black:          #111111;
 
 //Grey
-$dark-grey:             #242424;
 $grey:                  #333333;
 $grey-light:            #666666;
 $light-grey:            #999999;
@@ -86,7 +85,7 @@ h1, h2, h3, h4, h5, h6{
         family:$title-font-stack;
         weight:600;
     }
-    color:$dark-grey;
+    color:$grey;
 }
 
 h1{}
@@ -135,6 +134,14 @@ p{
     margin-top:0;
     line-height: 24px;
     &.first{margin:0;}
+    &.important{
+        font:{
+            size:20px;
+            weight:200;
+        }
+        line-height: 30px;
+        color:$grey-light;
+    }
 }
 strong{
     font-weight:600;
@@ -177,13 +184,17 @@ $padding-left: 80px;
     color:$white;
     h2{
         @extend %bigtitle;
+        margin-top:180px;
         margin-bottom:20px;
         color:$white;
     }
     p{
         margin:0;
         line-height: 30px;
-        font-size: 20px;
+        font: {
+            size:20px;
+            weight:200;
+        }
     }
     &.l-soins{
         @include background-image(image-url('head-soin.jpg'));
@@ -285,6 +296,7 @@ $padding-left: 80px;
         li{
             list-style: none;
             font-weight: 600;
+            color:$grey;
             span{
                 float:right;
                 padding-right:60px;
@@ -294,6 +306,8 @@ $padding-left: 80px;
         }
     }
     .phone{
+        display: block;
+        margin-top:5px;
         font:{
             size:24px;
             weight:200;
@@ -336,6 +350,7 @@ $padding-left: 80px;
         bottom:0;
         width:100%;
         line-height: 60px;
+        background:$black;
         background:rgba($black, 0.65);
         @include transition-property(background-color);
         @include transition-duration(0.2s);
@@ -361,11 +376,19 @@ $padding-left: 80px;
     &.last{}
 }
 
-
-.entry-content p{
-    font-size: 20px;
-    line-height: 30px;
+.entry-content{
+    h3{
+        font-weight: 200;
+    }
+    p{
+        font:{
+            size:20px;
+            weight:200;
+        }
+        line-height: 30px;
+    }
 }
+
 .entry-content p:last-child{margin-bottom:40px;}
 
 .col-main{
@@ -396,6 +419,7 @@ section{clear:both;}
     }
     p{
         margin-bottom:28px;
+        line-height: 20px;
         font-size: 14px;
         color:$grey-light;
     }
@@ -418,6 +442,10 @@ section{clear:both;}
         position:relative;
         top:1px;
         margin-left:6px;
+        &.left{
+            margin-right:6px;
+            margin-left:0;
+        }
     }
     &:hover{
         background-color: $light-grey;
@@ -470,7 +498,8 @@ section{clear:both;}
                     padding:17px 0 0 30px;
                     height:48px;
                     background:none;
-                    border-bottom: 1px solid $lighter-grey;
+                    border: 1px solid $lighter-grey;
+                    border-top:none;
                     &.l-large{
                         height:68px;
                         > a{height:68px;}
@@ -497,7 +526,6 @@ section{clear:both;}
                     &:focus{
                         i{
                             opacity:1;
-                            right: 0;
                             color:$grey;
                         }
                     }
@@ -505,7 +533,7 @@ section{clear:both;}
                         //@include hide-text;
                         position: absolute;
                         top: 50%;
-                        right:0;
+                        right:28px;
                         margin-top: -17px;
                         width: 17px;
                         height: 17px;
