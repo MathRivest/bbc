@@ -11,7 +11,7 @@ Version:        1.0
 @import "font-awesome";
 
 // ==========================================================================
-//   Job Hook
+//   BBC
 // ==========================================================================
 
 @mixin input-placeholder($color){
@@ -48,6 +48,35 @@ $white:                 #fff;
 
 $title-font-stack:      'Source Sans Pro', sans-serif;
 $paragraph-font-stack:  'Source Sans Pro', sans-serif;
+
+
+// Responsive setup
+
+//Breakpoints
+$phone:                  0 47.9375em;
+$tablet:                 48em 61.1875em;
+$tablet-and-under:       0 61.1875em;
+$laptop:                 61.1875em 64em;
+$laptop-and-under:       0 64em;
+$desktop:                75em;
+
+//Responsives Mixins
+//@include at-breakpoint($phone){}
+//@include at-breakpoint($tablet){}
+//@include at-breakpoint($tablet-and-under){}
+//@include at-breakpoint($laptop){}
+//@include at-breakpoint($laptop-and-under){}
+//@include at-breakpoint($desktop){}
+
+//Responsives Mixins
+//@include at-breakpoint($phone){}
+//@include at-breakpoint($tablet){}
+//@include at-breakpoint($tablet-and-under){}
+//@include at-breakpoint($laptop){}
+//@include at-breakpoint($laptop-and-under){}
+//@include at-breakpoint($desktop){}
+
+
 
 //Layout
 html, body{
@@ -528,84 +557,84 @@ section{clear:both;}
 
 
 
-    .m-accordion{
-        width:100%;
-        overflow: hidden;
-        >ul{
-            padding:0;
-            margin-top:0;
-        }
-        ul{
-            li{
-                &.m-accordion-container{
-                    overflow: hidden;
-                    padding:17px 0 0 30px;
-                    height:48px;
-                    background:none;
-                    border: 1px solid $lighter-grey;
-                    border-top:none;
-                    &.l-large{
-                        height:68px;
-                        > a{height:68px;}
-                    }
-                    &:first-child{border-top: 1px solid $lighter-grey;}
+.m-accordion{
+    width:100%;
+    overflow: hidden;
+    >ul{
+        padding:0;
+        margin-top:0;
+    }
+    ul{
+        li{
+            &.m-accordion-container{
+                overflow: hidden;
+                padding:17px 0 0 30px;
+                height:48px;
+                background:none;
+                border: 1px solid $lighter-grey;
+                border-top:none;
+                &.l-large{
+                    height:68px;
+                    > a{height:68px;}
                 }
-                > a{
-                    display: block;
-                    position: relative;
-                    padding-right:30px;
-                    height:48px;
-                    outline:none;
-                    font:{
-                        size:20px;
-                        weight:600;
+                &:first-child{border-top: 1px solid $lighter-grey;}
+            }
+            > a{
+                display: block;
+                position: relative;
+                padding-right:30px;
+                height:48px;
+                outline:none;
+                font:{
+                    size:20px;
+                    weight:600;
+                }
+                text-decoration: none;
+                color:$grey;
+                @include transition-property(color);
+                @include transition-duration(0.2s);
+                @include transition-timing-function(ease-in-out);
+                &:hover{text-decoration:none;}
+                &:hover,
+                &:focus{
+                    i{
+                        opacity:1;
+                        color:$grey;
                     }
-                    text-decoration: none;
-                    color:$grey;
-                    @include transition-property(color);
+                }
+                i{
+                    //@include hide-text;
+                    position: absolute;
+                    top: 50%;
+                    right:28px;
+                    margin-top: -17px;
+                    width: 17px;
+                    height: 17px;
+                    color:$lighter-grey;
+                    @include transition-property(all);
                     @include transition-duration(0.2s);
                     @include transition-timing-function(ease-in-out);
-                    &:hover{text-decoration:none;}
-                    &:hover,
-                    &:focus{
-                        i{
-                            opacity:1;
-                            color:$grey;
-                        }
-                    }
-                    i{
-                        //@include hide-text;
-                        position: absolute;
-                        top: 50%;
-                        right:28px;
-                        margin-top: -17px;
-                        width: 17px;
-                        height: 17px;
-                        color:$lighter-grey;
-                        @include transition-property(all);
-                        @include transition-duration(0.2s);
-                        @include transition-timing-function(ease-in-out);
-                    }
                 }
-                &.s-open > a{
-                    i{
-                        @include rotate(90deg);
-                    }
+            }
+            &.s-open > a{
+                i{
+                    @include rotate(90deg);
                 }
             }
         }
-        .m-accordion-content{
-            padding: 0 0px 26px 0px;
-            p{}
-            ul{margin:0;}
-            li{line-height:23px!important;}
-        }
     }
+    .m-accordion-content{
+        padding: 0 0px 26px 0px;
+        p{}
+        ul{margin:0;}
+        li{line-height:23px!important;}
+    }
+}
 
-    .lt-ie8 .m-accordion ul li.m-accordion-container > a span{
-        top:15px;
-        right: 0;
-    }
+.lt-ie8 .m-accordion ul li.m-accordion-container > a span{
+    top:15px;
+    right: 0;
+}
 
 
 

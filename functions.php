@@ -67,7 +67,7 @@
 	 */
 
 	function starkers_script_enqueuer() {
-		wp_register_script( 'site', get_template_directory_uri().'/js/script.min.js', array( 'jquery' ) );
+		wp_register_script( 'site', get_template_directory_uri().'/js/script.js', array( 'jquery' ) );
 		wp_register_script( 'plugins', get_template_directory_uri().'/js/plugins.min.js', array( 'jquery' ) );
 		wp_register_script( 'modernizr', get_template_directory_uri().'/js/modernizr.custom.min.js' );
 
