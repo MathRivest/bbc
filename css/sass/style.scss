@@ -1,3 +1,8 @@
+/*!
+Theme Name:     Clinique BBC
+Description:    Theme for Clinique BBC
+Version:        1.0
+ */
 
 @import "compass";
 @import "normalize";
@@ -172,11 +177,13 @@ a{
 
 $padding-top: 140px;
 $padding-left: 80px;
+$padding-right: 80px;
 .m-hero{
     margin:0 auto;
-    width:$large-container-width - $padding-left;
+    width:$large-container-width - $padding-left - $padding-right;
     padding-top:$padding-top;
     padding-left:$padding-left;
+    padding-right:$padding-right;
     height:400px - $padding-top;
     .home &{height: 720px - $padding-top;}
     margin-top:-200px;
@@ -210,7 +217,19 @@ $padding-left: 80px;
     }
     .home &{
         height: 720px - $padding-top;
-        @include background-image(image-url('head-home.jpg'));
+        position:relative;
+    }
+    .home-slider{
+        position:absolute;
+        top:0;
+        left:0;
+        z-index:1;
+    }
+    .bbc-logo,
+    h2,
+    p{
+        position:relative;
+        z-index:1000;
     }
 }
 
@@ -230,6 +249,8 @@ $padding-left: 80px;
 .m-phone{
     margin:0;
     line-height: 67px;
+    font-size:24px;
+    font-weight: 200;
     i{
         position:relative;
         top:1px;
@@ -295,13 +316,18 @@ $padding-left: 80px;
         margin:0;
         li{
             list-style: none;
-            font-weight: 600;
-            color:$grey;
-            span{
+            clear:both;
+            span.d{
+                float:left;
+                font-weight: 600;
+                color:$grey;
+            }
+            span.t{
                 float:right;
-                padding-right:60px;
+                padding-right:50px;
                 font-weight: 400;
                 color:$grey-light;
+                width:150px - 60px;
             }
         }
     }
@@ -311,6 +337,11 @@ $padding-left: 80px;
         font:{
             size:24px;
             weight:200;
+        }
+        i{
+            position: relative;
+            top: 1px;
+            margin-right: 8px;
         }
     }
 }
@@ -345,9 +376,11 @@ $padding-left: 80px;
     color:$white;
     strong{color:$white;}
     span{
+        cursor:pointer;
         display:block;
         position:absolute;
         bottom:0;
+        left:0;
         width:100%;
         line-height: 60px;
         background:$black;
@@ -457,9 +490,20 @@ section{clear:both;}
 .m-equipe{
     @extend .clearfix;
     .dentiste{
-        @include span-columns(3,12);
+        margin-bottom:40px;
+        @include span-columns(4,12);
         &.last{
-            @include span-columns(3 omega,12);
+            @include span-columns(4 omega,12);
+        }
+        &.full{
+            @include span-columns(12 omega,12);
+            border-top:1px solid $lighter-grey;
+            padding-top:60px;
+            margin-bottom:0;
+            img{
+                @include span-columns(4,12);
+                float:left;
+            }
         }
     }
     img{margin-bottom:30px;}
