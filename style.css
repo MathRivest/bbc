@@ -2,4 +2,2919 @@
 Theme Name:     Clinique BBC
 Description:    Theme for Clinique BBC
 Version:        1.0
- */article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none;height:0}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html,button,input,select,textarea{font-family:sans-serif}body{margin:0}a:focus{outline:thin dotted}a:active,a:hover{outline:0}h1{font-size:2em;margin:0.67em 0}h2{font-size:1.5em;margin:0.83em 0}h3{font-size:1.17em;margin:1em 0}h4{font-size:1em;margin:1.33em 0}h5{font-size:0.83em;margin:1.67em 0}h6{font-size:0.75em;margin:2.33em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}blockquote{margin:1em 40px}dfn{font-style:italic}mark{background:#ff0;color:#000}p,pre{margin:1em 0}code,kbd,pre,samp{font-family:monospace, serif;_font-family:'courier new', monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}dl,menu,ol,ul{margin:1em 0}dd{margin:0 0 0 40px}menu,ol,ul{padding:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0;white-space:normal;*margin-left:-7px}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;*overflow:visible}button[disabled],input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;*height:13px;*width:13px}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}html,button,input,select,textarea{color:#222}body{font-size:1em;line-height:1.4}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}img{vertical-align:middle}fieldset{border:0;margin:0;padding:0}textarea{resize:vertical}.chromeframe{margin:0.2em 0;background:#ccc;color:#000;padding:0.2em 0}.ir{background-color:transparent;border:0;overflow:hidden;*text-indent:-9999px}.ir:before{content:"";display:block;width:0;height:100%}.hidden{display:none !important;visibility:hidden}.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.invisible{visibility:hidden}.clearfix:before,.container:before,.main-header .top:before,.main-footer:before,.m-equipe:before,.clearfix:after,.container:after,.main-header .top:after,.main-footer:after,.m-equipe:after{content:" ";display:table}.clearfix:after,.container:after,.main-header .top:after,.main-footer:after,.m-equipe:after{clear:both}.clearfix,.container,.main-header .top,.main-footer,.m-equipe{*zoom:1}@font-face{font-family:'FontAwesome';src:url("font/fontawesome-webfont.eot?v=3.0.1");src:url("font/fontawesome-webfont.eot?#iefix&v=3.0.1") format("embedded-opentype"),url("font/fontawesome-webfont.woff?v=3.0.1") format("woff"),url("font/fontawesome-webfont.ttf?v=3.0.1") format("truetype");font-weight:normal;font-style:normal}[class^="icon-"],[class*=" icon-"]{font-family:FontAwesome;font-weight:normal;font-style:normal;text-decoration:inherit;-webkit-font-smoothing:antialiased;display:inline;width:auto;height:auto;line-height:normal;vertical-align:baseline;background-image:none;background-position:0% 0%;background-repeat:repeat;margin-top:0}.icon-white,.nav-pills>.active>a>[class^="icon-"],.nav-pills>.active>a>[class*=" icon-"],.nav-list>.active>a>[class^="icon-"],.nav-list>.active>a>[class*=" icon-"],.navbar-inverse .nav>.active>a>[class^="icon-"],.navbar-inverse .nav>.active>a>[class*=" icon-"],.dropdown-menu>li>a:hover>[class^="icon-"],.dropdown-menu>li>a:hover>[class*=" icon-"],.dropdown-menu>.active>a>[class^="icon-"],.dropdown-menu>.active>a>[class*=" icon-"],.dropdown-submenu:hover>a>[class^="icon-"],.dropdown-submenu:hover>a>[class*=" icon-"]{background-image:none}[class^="icon-"]:before,[class*=" icon-"]:before{text-decoration:inherit;display:inline-block;speak:none}a [class^="icon-"],a [class*=" icon-"]{display:inline-block}.icon-large:before{vertical-align:-10%;font-size:1.3333333333333333em}.btn [class^="icon-"],.btn [class*=" icon-"],.nav [class^="icon-"],.nav [class*=" icon-"]{display:inline}.btn [class^="icon-"].icon-large,.btn [class*=" icon-"].icon-large,.nav [class^="icon-"].icon-large,.nav [class*=" icon-"].icon-large{line-height:.9em}.btn [class^="icon-"].icon-spin,.btn [class*=" icon-"].icon-spin,.nav [class^="icon-"].icon-spin,.nav [class*=" icon-"].icon-spin{display:inline-block}.nav-tabs [class^="icon-"],.nav-tabs [class^="icon-"].icon-large,.nav-tabs [class*=" icon-"],.nav-tabs [class*=" icon-"].icon-large,.nav-pills [class^="icon-"],.nav-pills [class^="icon-"].icon-large,.nav-pills [class*=" icon-"],.nav-pills [class*=" icon-"].icon-large{line-height:.9em}li [class^="icon-"],li [class*=" icon-"],.nav li [class^="icon-"],.nav li [class*=" icon-"]{display:inline-block;width:1.25em;text-align:center}li [class^="icon-"].icon-large,li [class*=" icon-"].icon-large,.nav li [class^="icon-"].icon-large,.nav li [class*=" icon-"].icon-large{width:1.5625em}ul.icons{list-style-type:none;text-indent:-.75em}ul.icons li [class^="icon-"],ul.icons li [class*=" icon-"]{width:.75em}.icon-muted{color:#eee}.icon-border{border:solid 1px #eee;padding:.2em .25em .15em;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}.icon-2x{font-size:2em}.icon-2x.icon-border{border-width:2px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}.icon-3x{font-size:3em}.icon-3x.icon-border{border-width:3px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}.icon-4x{font-size:4em}.icon-4x.icon-border{border-width:4px;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px}.pull-right{float:right}.pull-left{float:left}[class^="icon-"].pull-left,[class*=" icon-"].pull-left{margin-right:.3em}[class^="icon-"].pull-right,[class*=" icon-"].pull-right{margin-left:.3em}.btn [class^="icon-"].pull-left.icon-2x,.btn [class^="icon-"].pull-right.icon-2x,.btn [class*=" icon-"].pull-left.icon-2x,.btn [class*=" icon-"].pull-right.icon-2x{margin-top:.18em}.btn [class^="icon-"].icon-spin.icon-large,.btn [class*=" icon-"].icon-spin.icon-large{line-height:.8em}.btn.btn-small [class^="icon-"].pull-left.icon-2x,.btn.btn-small [class^="icon-"].pull-right.icon-2x,.btn.btn-small [class*=" icon-"].pull-left.icon-2x,.btn.btn-small [class*=" icon-"].pull-right.icon-2x{margin-top:.25em}.btn.btn-large [class^="icon-"],.btn.btn-large [class*=" icon-"]{margin-top:0}.btn.btn-large [class^="icon-"].pull-left.icon-2x,.btn.btn-large [class^="icon-"].pull-right.icon-2x,.btn.btn-large [class*=" icon-"].pull-left.icon-2x,.btn.btn-large [class*=" icon-"].pull-right.icon-2x{margin-top:.05em}.btn.btn-large [class^="icon-"].pull-left.icon-2x,.btn.btn-large [class*=" icon-"].pull-left.icon-2x{margin-right:.2em}.btn.btn-large [class^="icon-"].pull-right.icon-2x,.btn.btn-large [class*=" icon-"].pull-right.icon-2x{margin-left:.2em}.icon-spin{display:inline-block;-moz-animation:spin 2s infinite linear;-o-animation:spin 2s infinite linear;-webkit-animation:spin 2s infinite linear;animation:spin 2s infinite linear}@-moz-keyframes spin{0%{-moz-transform:rotate(0deg)}100%{-moz-transform:rotate(359deg)}}@-webkit-keyframes spin{0%{-webkit-transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg)}}@-o-keyframes spin{0%{-o-transform:rotate(0deg)}100%{-o-transform:rotate(359deg)}}@-ms-keyframes spin{0%{-ms-transform:rotate(0deg)}100%{-ms-transform:rotate(359deg)}}@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(359deg)}}@-moz-document url-prefix(){.icon-spin{height:.9em}.btn .icon-spin{height:auto}.icon-spin.icon-large{height:1.25em}.btn .icon-spin.icon-large{height:.75em}}.icon-glass:before{content:"\f000"}.icon-music:before{content:"\f001"}.icon-search:before{content:"\f002"}.icon-envelope:before{content:"\f003"}.icon-heart:before{content:"\f004"}.icon-star:before{content:"\f005"}.icon-star-empty:before{content:"\f006"}.icon-user:before{content:"\f007"}.icon-film:before{content:"\f008"}.icon-th-large:before{content:"\f009"}.icon-th:before{content:"\f00a"}.icon-th-list:before{content:"\f00b"}.icon-ok:before{content:"\f00c"}.icon-remove:before{content:"\f00d"}.icon-zoom-in:before{content:"\f00e"}.icon-zoom-out:before{content:"\f010"}.icon-off:before{content:"\f011"}.icon-signal:before{content:"\f012"}.icon-cog:before{content:"\f013"}.icon-trash:before{content:"\f014"}.icon-home:before{content:"\f015"}.icon-file:before{content:"\f016"}.icon-time:before{content:"\f017"}.icon-road:before{content:"\f018"}.icon-download-alt:before{content:"\f019"}.icon-download:before{content:"\f01a"}.icon-upload:before{content:"\f01b"}.icon-inbox:before{content:"\f01c"}.icon-play-circle:before{content:"\f01d"}.icon-repeat:before{content:"\f01e"}.icon-refresh:before{content:"\f021"}.icon-list-alt:before{content:"\f022"}.icon-lock:before{content:"\f023"}.icon-flag:before{content:"\f024"}.icon-headphones:before{content:"\f025"}.icon-volume-off:before{content:"\f026"}.icon-volume-down:before{content:"\f027"}.icon-volume-up:before{content:"\f028"}.icon-qrcode:before{content:"\f029"}.icon-barcode:before{content:"\f02a"}.icon-tag:before{content:"\f02b"}.icon-tags:before{content:"\f02c"}.icon-book:before{content:"\f02d"}.icon-bookmark:before{content:"\f02e"}.icon-print:before{content:"\f02f"}.icon-camera:before{content:"\f030"}.icon-font:before{content:"\f031"}.icon-bold:before{content:"\f032"}.icon-italic:before{content:"\f033"}.icon-text-height:before{content:"\f034"}.icon-text-width:before{content:"\f035"}.icon-align-left:before{content:"\f036"}.icon-align-center:before{content:"\f037"}.icon-align-right:before{content:"\f038"}.icon-align-justify:before{content:"\f039"}.icon-list:before{content:"\f03a"}.icon-indent-left:before{content:"\f03b"}.icon-indent-right:before{content:"\f03c"}.icon-facetime-video:before{content:"\f03d"}.icon-picture:before{content:"\f03e"}.icon-pencil:before{content:"\f040"}.icon-map-marker:before{content:"\f041"}.icon-adjust:before{content:"\f042"}.icon-tint:before{content:"\f043"}.icon-edit:before{content:"\f044"}.icon-share:before{content:"\f045"}.icon-check:before{content:"\f046"}.icon-move:before{content:"\f047"}.icon-step-backward:before{content:"\f048"}.icon-fast-backward:before{content:"\f049"}.icon-backward:before{content:"\f04a"}.icon-play:before{content:"\f04b"}.icon-pause:before{content:"\f04c"}.icon-stop:before{content:"\f04d"}.icon-forward:before{content:"\f04e"}.icon-fast-forward:before{content:"\f050"}.icon-step-forward:before{content:"\f051"}.icon-eject:before{content:"\f052"}.icon-chevron-left:before{content:"\f053"}.icon-chevron-right:before{content:"\f054"}.icon-plus-sign:before{content:"\f055"}.icon-minus-sign:before{content:"\f056"}.icon-remove-sign:before{content:"\f057"}.icon-ok-sign:before{content:"\f058"}.icon-question-sign:before{content:"\f059"}.icon-info-sign:before{content:"\f05a"}.icon-screenshot:before{content:"\f05b"}.icon-remove-circle:before{content:"\f05c"}.icon-ok-circle:before{content:"\f05d"}.icon-ban-circle:before{content:"\f05e"}.icon-arrow-left:before{content:"\f060"}.icon-arrow-right:before{content:"\f061"}.icon-arrow-up:before{content:"\f062"}.icon-arrow-down:before{content:"\f063"}.icon-share-alt:before{content:"\f064"}.icon-resize-full:before{content:"\f065"}.icon-resize-small:before{content:"\f066"}.icon-plus:before{content:"\f067"}.icon-minus:before{content:"\f068"}.icon-asterisk:before{content:"\f069"}.icon-exclamation-sign:before{content:"\f06a"}.icon-gift:before{content:"\f06b"}.icon-leaf:before{content:"\f06c"}.icon-fire:before{content:"\f06d"}.icon-eye-open:before{content:"\f06e"}.icon-eye-close:before{content:"\f070"}.icon-warning-sign:before{content:"\f071"}.icon-plane:before{content:"\f072"}.icon-calendar:before{content:"\f073"}.icon-random:before{content:"\f074"}.icon-comment:before{content:"\f075"}.icon-magnet:before{content:"\f076"}.icon-chevron-up:before{content:"\f077"}.icon-chevron-down:before{content:"\f078"}.icon-retweet:before{content:"\f079"}.icon-shopping-cart:before{content:"\f07a"}.icon-folder-close:before{content:"\f07b"}.icon-folder-open:before{content:"\f07c"}.icon-resize-vertical:before{content:"\f07d"}.icon-resize-horizontal:before{content:"\f07e"}.icon-bar-chart:before{content:"\f080"}.icon-twitter-sign:before{content:"\f081"}.icon-facebook-sign:before{content:"\f082"}.icon-camera-retro:before{content:"\f083"}.icon-key:before{content:"\f084"}.icon-cogs:before{content:"\f085"}.icon-comments:before{content:"\f086"}.icon-thumbs-up:before{content:"\f087"}.icon-thumbs-down:before{content:"\f088"}.icon-star-half:before{content:"\f089"}.icon-heart-empty:before{content:"\f08a"}.icon-signout:before{content:"\f08b"}.icon-linkedin-sign:before{content:"\f08c"}.icon-pushpin:before{content:"\f08d"}.icon-external-link:before{content:"\f08e"}.icon-signin:before{content:"\f090"}.icon-trophy:before{content:"\f091"}.icon-github-sign:before{content:"\f092"}.icon-upload-alt:before{content:"\f093"}.icon-lemon:before{content:"\f094"}.icon-phone:before{content:"\f095"}.icon-check-empty:before{content:"\f096"}.icon-bookmark-empty:before{content:"\f097"}.icon-phone-sign:before{content:"\f098"}.icon-twitter:before{content:"\f099"}.icon-facebook:before{content:"\f09a"}.icon-github:before{content:"\f09b"}.icon-unlock:before{content:"\f09c"}.icon-credit-card:before{content:"\f09d"}.icon-rss:before{content:"\f09e"}.icon-hdd:before{content:"\f0a0"}.icon-bullhorn:before{content:"\f0a1"}.icon-bell:before{content:"\f0a2"}.icon-certificate:before{content:"\f0a3"}.icon-hand-right:before{content:"\f0a4"}.icon-hand-left:before{content:"\f0a5"}.icon-hand-up:before{content:"\f0a6"}.icon-hand-down:before{content:"\f0a7"}.icon-circle-arrow-left:before{content:"\f0a8"}.icon-circle-arrow-right:before{content:"\f0a9"}.icon-circle-arrow-up:before{content:"\f0aa"}.icon-circle-arrow-down:before{content:"\f0ab"}.icon-globe:before{content:"\f0ac"}.icon-wrench:before{content:"\f0ad"}.icon-tasks:before{content:"\f0ae"}.icon-filter:before{content:"\f0b0"}.icon-briefcase:before{content:"\f0b1"}.icon-fullscreen:before{content:"\f0b2"}.icon-group:before{content:"\f0c0"}.icon-link:before{content:"\f0c1"}.icon-cloud:before{content:"\f0c2"}.icon-beaker:before{content:"\f0c3"}.icon-cut:before{content:"\f0c4"}.icon-copy:before{content:"\f0c5"}.icon-paper-clip:before{content:"\f0c6"}.icon-save:before{content:"\f0c7"}.icon-sign-blank:before{content:"\f0c8"}.icon-reorder:before{content:"\f0c9"}.icon-list-ul:before{content:"\f0ca"}.icon-list-ol:before{content:"\f0cb"}.icon-strikethrough:before{content:"\f0cc"}.icon-underline:before{content:"\f0cd"}.icon-table:before{content:"\f0ce"}.icon-magic:before{content:"\f0d0"}.icon-truck:before{content:"\f0d1"}.icon-pinterest:before{content:"\f0d2"}.icon-pinterest-sign:before{content:"\f0d3"}.icon-google-plus-sign:before{content:"\f0d4"}.icon-google-plus:before{content:"\f0d5"}.icon-money:before{content:"\f0d6"}.icon-caret-down:before{content:"\f0d7"}.icon-caret-up:before{content:"\f0d8"}.icon-caret-left:before{content:"\f0d9"}.icon-caret-right:before{content:"\f0da"}.icon-columns:before{content:"\f0db"}.icon-sort:before{content:"\f0dc"}.icon-sort-down:before{content:"\f0dd"}.icon-sort-up:before{content:"\f0de"}.icon-envelope-alt:before{content:"\f0e0"}.icon-linkedin:before{content:"\f0e1"}.icon-undo:before{content:"\f0e2"}.icon-legal:before{content:"\f0e3"}.icon-dashboard:before{content:"\f0e4"}.icon-comment-alt:before{content:"\f0e5"}.icon-comments-alt:before{content:"\f0e6"}.icon-bolt:before{content:"\f0e7"}.icon-sitemap:before{content:"\f0e8"}.icon-umbrella:before{content:"\f0e9"}.icon-paste:before{content:"\f0ea"}.icon-lightbulb:before{content:"\f0eb"}.icon-exchange:before{content:"\f0ec"}.icon-cloud-download:before{content:"\f0ed"}.icon-cloud-upload:before{content:"\f0ee"}.icon-user-md:before{content:"\f0f0"}.icon-stethoscope:before{content:"\f0f1"}.icon-suitcase:before{content:"\f0f2"}.icon-bell-alt:before{content:"\f0f3"}.icon-coffee:before{content:"\f0f4"}.icon-food:before{content:"\f0f5"}.icon-file-alt:before{content:"\f0f6"}.icon-building:before{content:"\f0f7"}.icon-hospital:before{content:"\f0f8"}.icon-ambulance:before{content:"\f0f9"}.icon-medkit:before{content:"\f0fa"}.icon-fighter-jet:before{content:"\f0fb"}.icon-beer:before{content:"\f0fc"}.icon-h-sign:before{content:"\f0fd"}.icon-plus-sign-alt:before{content:"\f0fe"}.icon-double-angle-left:before{content:"\f100"}.icon-double-angle-right:before{content:"\f101"}.icon-double-angle-up:before{content:"\f102"}.icon-double-angle-down:before{content:"\f103"}.icon-angle-left:before{content:"\f104"}.icon-angle-right:before{content:"\f105"}.icon-angle-up:before{content:"\f106"}.icon-angle-down:before{content:"\f107"}.icon-desktop:before{content:"\f108"}.icon-laptop:before{content:"\f109"}.icon-tablet:before{content:"\f10a"}.icon-mobile-phone:before{content:"\f10b"}.icon-circle-blank:before{content:"\f10c"}.icon-quote-left:before{content:"\f10d"}.icon-quote-right:before{content:"\f10e"}.icon-spinner:before{content:"\f110"}.icon-circle:before{content:"\f111"}.icon-reply:before{content:"\f112"}.icon-github-alt:before{content:"\f113"}.icon-folder-close-alt:before{content:"\f114"}.icon-folder-open-alt:before{content:"\f115"}html,body{height:100%}body{font-family:"Source Sans Pro",sans-serif;font-size:16px;font-weight:400;color:#666}.container{margin:0 auto;width:1138px}.container.page-content{margin:60px auto}.container .wrapper{margin-bottom:60px}.wrapper{*zoom:1;max-width:978px;_width:978px;padding-left:30px;padding-right:30px;margin-left:auto;margin-right:auto;-webkit-background-origin:content;-moz-background-origin:content;-ms-background-origin:content-box;-o-background-origin:content-box;background-origin:content-box;-webkit-background-clip:content-box;-moz-background-clip:content-box;background-clip:content-box}.wrapper:after{content:"";display:table;clear:both}.banner{margin-left:-80px;margin-right:-80px;padding-left:80px;padding-right:80px}h1,h2,h3,h4,h5,h6{font-family:"Source Sans Pro",sans-serif;font-weight:600;color:#333}h2{margin:52px 0 0;font-size:68px;line-height:78px}h3{margin:0 0 28px 0;font-size:36px;line-height:40px}h4{margin:0 0 16px 0;font-size:20px}ul.bullet{padding:0}ul.bullet li{position:relative;list-style:none;line-height:24px}ul.bullet li:before{content:" ";position:absolute;top:12px;left:-16px;width:4px;height:4px;-webkit-border-radius:4em;-moz-border-radius:4em;border-radius:4em;background-color:#333}ul.bullet.tech-list li{margin-bottom:1em}p{margin-top:0;line-height:24px}p.first{margin:0}p.important{font-size:20px;font-weight:200;line-height:30px;color:#666}strong{font-weight:600;color:#333}.m-hero h2,.banner{font-size:68px;line-height:72px}a{-webkit-transition-property:background-color,color;-moz-transition-property:background-color,color;-o-transition-property:background-color,color;transition-property:background-color color;-webkit-transition-duration:0.2s;-moz-transition-duration:0.2s;-o-transition-duration:0.2s;transition-duration:0.2s;-webkit-transition-timing-function:ease-in;-moz-transition-timing-function:ease-in;-o-transition-timing-function:ease-in;transition-timing-function:ease-in}.bbc-logo{margin:0;text-indent:-119988px;overflow:hidden;text-align:left;background-image:url('img/logo-bbc.png?1371385205');background-repeat:no-repeat;background-position:50% 50%;width:356px;height:120px}.bbc-logo a{display:block;height:100%}.m-hero{margin:0 auto;width:978px;padding-top:140px;padding-left:80px;padding-right:80px;height:260px;margin-top:-200px;background:#333;color:#fff}.home .m-hero{height:580px}.m-hero h2{margin-top:180px;margin-bottom:20px;color:#fff}.m-hero p{margin:0;line-height:30px;font-size:20px;font-weight:200}.m-hero.l-soins{background-image:url('img/head-soin.jpg?1371385330')}.m-hero.l-tech{background-image:url('img/head-tech.jpg?1371399388')}.m-hero.l-equipe{background-image:url('img/head-equipe.jpg?1371399388')}.home .m-hero{height:580px;position:relative}.m-hero .home-slider{position:absolute;top:0;left:0;z-index:1}.m-hero .bbc-logo,.m-hero h2,.m-hero p{position:relative;z-index:1000}.main-header{color:#fff}.main-header .top{height:270px;background:#111}.main-header .top #main-nav{float:left}.main-header .top .m-phone{float:right}.m-phone{margin:0;line-height:67px;font-size:24px;font-weight:200}.m-phone i{position:relative;top:1px;margin-right:8px;color:#999}#main-nav{font-family:"Source Sans Pro",sans-serif;font-weight:600;text-transform:uppercase}#main-nav ul{overflow:hidden;margin:0;padding:0}#main-nav ul li{float:left;margin-right:40px;border-top:3px solid #111}#main-nav a{text-decoration:none;line-height:67px;color:#999}#main-nav a:visited{color:#999}#main-nav a:focus{color:#fff}#main-nav a:hover{color:#fff}#main-nav a:active{color:#999}#main-nav .current-menu-item{border-top-color:#fff}#main-nav .current-menu-item a,#main-nav .current-menu-item a:visited{color:#fff}#main-nav span{color:#999}.banner{margin-top:0;margin-bottom:60px;line-height:180px}.banner.contact{background-image:url('img/bg-contact.jpg?1362008006')}.m-contact{margin-bottom:40px}.m-contact .contact-block{width:22.69939%;float:left;margin-right:3.06748%;display:inline}.m-contact .contact-block.last{width:22.69939%;float:right;margin-right:0;*margin-left:-30px;display:inline}.m-contact .schedule{padding:0;margin:0}.m-contact .schedule li{list-style:none;clear:both}.m-contact .schedule li span.d{float:left;font-weight:600;color:#333}.m-contact .schedule li span.t{float:right;padding-right:50px;font-weight:400;color:#666;width:90px}.m-contact .phone{display:block;margin-top:5px;font-size:24px;font-weight:200}.m-contact .phone i{position:relative;top:1px;margin-right:8px}.main-footer .bot{color:#999;background:#111}.main-footer .copyrights{margin:0;line-height:50px}.m-cta{float:left;position:relative;display:block;width:33%;height:260px;background:#ddd;font-size:20px;font-weight:200;text-align:center;text-transform:uppercase;color:#fff}.m-cta strong{color:#fff}.m-cta span{cursor:pointer;display:block;position:absolute;bottom:0;left:0;width:100%;line-height:60px;background:#000;background:rgba(0,0,0,0.65);-webkit-transition-property:background-color;-moz-transition-property:background-color;-o-transition-property:background-color;transition-property:background-color;-webkit-transition-duration:0.2s;-moz-transition-duration:0.2s;-o-transition-duration:0.2s;transition-duration:0.2s;-webkit-transition-timing-function:ease-out;-moz-transition-timing-function:ease-out;-o-transition-timing-function:ease-out;transition-timing-function:ease-out}.m-cta:hover span{background:rgba(0,0,0,0.85)}.m-cta i{position:relative;top:1px;margin-left:12px}.m-cta.l-soins{background-image:url('img/cta-soin.jpg?1371385219')}.m-cta.l-tech{background-image:url('img/cta-tech.jpg?1371399388')}.m-cta.l-equipe{background-image:url('img/cta-equipe.jpg?1371385233')}.entry-content h3{font-weight:200}.entry-content p{font-size:20px;font-weight:200;line-height:30px}.entry-content p:last-child{margin-bottom:40px}.col-main{width:65.64417%;float:left;margin-right:3.06748%;display:inline}.col-secondary{width:31.28834%;float:right;margin-right:0;*margin-left:-30px;display:inline}.col-left{clear:both;width:48.46626%;float:left;margin-right:3.06748%;display:inline}.col-right{width:48.46626%;float:right;margin-right:0;*margin-left:-30px;display:inline}section{clear:both}.m-widget{background-color:#f3f3f3}.m-widget .content{padding:26px 30px 30px 30px}.m-widget h3{font-size:18px;line-height:22px;margin-bottom:12px}.m-widget p{margin-bottom:28px;line-height:20px;font-size:14px;color:#666}.m-button{display:-moz-inline-stack;display:inline-block;vertical-align:middle;*vertical-align:auto;zoom:1;*display:inline;padding:6px 12px;background:#666;text-decoration:none;color:#fff}.m-button i{position:relative;top:1px;margin-left:6px}.m-button i.left{margin-right:6px;margin-left:0}.m-button:hover{background-color:#999}.m-equipe .dentiste{margin-bottom:40px;width:31.28834%;float:left;margin-right:3.06748%;display:inline}.m-equipe .dentiste.last{width:31.28834%;float:right;margin-right:0;*margin-left:-30px;display:inline}.m-equipe .dentiste.full{width:100%;float:right;margin-right:0;*margin-left:-30px;display:inline;border-top:1px solid #ddd;padding-top:60px;margin-bottom:0}.m-equipe .dentiste.full img{width:31.28834%;float:left;margin-right:3.06748%;display:inline;float:left}.m-equipe img{margin-bottom:30px}.m-equipe h3{margin-bottom:0;font-size:20px;line-height:24px}.m-equipe .sous-titre{font-size:14px;color:#999}.m-equipe .description{margin-bottom:0}.m-equipe ul{color:#333;font-weight:600}.m-accordion{width:100%;overflow:hidden}.m-accordion>ul{padding:0;margin-top:0}.m-accordion ul li.m-accordion-container{overflow:hidden;padding:17px 0 0 30px;height:48px;background:none;border:1px solid #ddd;border-top:none}.m-accordion ul li.m-accordion-container.l-large{height:68px}.m-accordion ul li.m-accordion-container.l-large>a{height:68px}.m-accordion ul li.m-accordion-container:first-child{border-top:1px solid #ddd}.m-accordion ul li>a{display:block;position:relative;padding-right:30px;height:48px;outline:none;font-size:20px;font-weight:600;text-decoration:none;color:#333;-webkit-transition-property:color;-moz-transition-property:color;-o-transition-property:color;transition-property:color;-webkit-transition-duration:0.2s;-moz-transition-duration:0.2s;-o-transition-duration:0.2s;transition-duration:0.2s;-webkit-transition-timing-function:ease-in-out;-moz-transition-timing-function:ease-in-out;-o-transition-timing-function:ease-in-out;transition-timing-function:ease-in-out}.m-accordion ul li>a:hover{text-decoration:none}.m-accordion ul li>a:hover i,.m-accordion ul li>a:focus i{opacity:1;color:#333}.m-accordion ul li>a i{position:absolute;top:50%;right:28px;margin-top:-17px;width:17px;height:17px;color:#ddd;-webkit-transition-property:all;-moz-transition-property:all;-o-transition-property:all;transition-property:all;-webkit-transition-duration:0.2s;-moz-transition-duration:0.2s;-o-transition-duration:0.2s;transition-duration:0.2s;-webkit-transition-timing-function:ease-in-out;-moz-transition-timing-function:ease-in-out;-o-transition-timing-function:ease-in-out;transition-timing-function:ease-in-out}.m-accordion ul li.s-open>a i{-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-ms-transform:rotate(90deg);-o-transform:rotate(90deg);transform:rotate(90deg)}.m-accordion .m-accordion-content{padding:0 0px 26px 0px}.m-accordion .m-accordion-content ul{margin:0}.m-accordion .m-accordion-content li{line-height:23px !important}.lt-ie8 .m-accordion ul li.m-accordion-container>a span{top:15px;right:0}
+ */
+/* line 19, css/sass/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 27, css/sass/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 38, css/sass/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 48, css/sass/_normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 63, css/sass/_normalize.scss */
+html {
+  font-size: 100%;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* line 76, css/sass/_normalize.scss */
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+/* line 81, css/sass/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* line 93, css/sass/_normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 102, css/sass/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* line 116, css/sass/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 121, css/sass/_normalize.scss */
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+
+/* line 126, css/sass/_normalize.scss */
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+/* line 131, css/sass/_normalize.scss */
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+/* line 136, css/sass/_normalize.scss */
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+
+/* line 141, css/sass/_normalize.scss */
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0;
+}
+
+/* line 149, css/sass/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 156, css/sass/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 160, css/sass/_normalize.scss */
+blockquote {
+  margin: 1em 40px;
+}
+
+/* line 167, css/sass/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 175, css/sass/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 184, css/sass/_normalize.scss */
+p,
+pre {
+  margin: 1em 0;
+}
+
+/* line 193, css/sass/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+/* line 203, css/sass/_normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* line 210, css/sass/_normalize.scss */
+q {
+  quotes: none;
+}
+
+/* line 216, css/sass/_normalize.scss */
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+/* line 222, css/sass/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 227, css/sass/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 234, css/sass/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 238, css/sass/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 246, css/sass/_normalize.scss */
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0;
+}
+
+/* line 250, css/sass/_normalize.scss */
+dd {
+  margin: 0 0 0 40px;
+}
+
+/* line 256, css/sass/_normalize.scss */
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+
+/* line 262, css/sass/_normalize.scss */
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+
+/* line 268, css/sass/_normalize.scss */
+img {
+  border: 0;
+  /* 1 */
+  -ms-interpolation-mode: bicubic;
+  /* 2 */
+}
+
+/* line 273, css/sass/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 278, css/sass/_normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* line 282, css/sass/_normalize.scss */
+form {
+  margin: 0;
+}
+
+/* line 287, css/sass/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 293, css/sass/_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  white-space: normal;
+  /* 2 */
+  *margin-left: -7px;
+  /* 3 */
+}
+
+/* line 304, css/sass/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+  vertical-align: baseline;
+  /* 3 */
+  *vertical-align: middle;
+  /* 3 */
+}
+
+/* line 312, css/sass/_normalize.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/* line 320, css/sass/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+  *overflow: visible;
+  /* 4 */
+}
+
+/* line 328, css/sass/_normalize.scss */
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+/* line 334, css/sass/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+  *height: 13px;
+  /* 3 */
+  *width: 13px;
+  /* 3 */
+}
+
+/* line 342, css/sass/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/* line 351, css/sass/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 356, css/sass/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 361, css/sass/_normalize.scss */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/* line 366, css/sass/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 9, css/sass/_h5bp.scss */
+html,
+button,
+input,
+select,
+textarea {
+  color: #222;
+}
+
+/* line 13, css/sass/_h5bp.scss */
+body {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/* line 28, css/sass/_h5bp.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 37, css/sass/_h5bp.scss */
+img {
+  vertical-align: middle;
+}
+
+/* line 41, css/sass/_h5bp.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 47, css/sass/_h5bp.scss */
+textarea {
+  resize: vertical;
+}
+
+/* line 51, css/sass/_h5bp.scss */
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* line 61, css/sass/_h5bp.scss */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+}
+
+/* line 68, css/sass/_h5bp.scss */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 100%;
+}
+
+/* line 75, css/sass/_h5bp.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 80, css/sass/_h5bp.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 92, css/sass/_h5bp.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 101, css/sass/_h5bp.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 106, css/sass/_h5bp.scss */
+.clearfix:before, .container:before, .main-header .top:before, .main-footer:before, .m-equipe:before,
+.clearfix:after,
+.container:after,
+.main-header .top:after,
+.main-footer:after,
+.m-equipe:after {
+  content: " ";
+  display: table;
+}
+
+/* line 111, css/sass/_h5bp.scss */
+.clearfix:after, .container:after, .main-header .top:after, .main-footer:after, .m-equipe:after {
+  clear: both;
+}
+
+/* line 115, css/sass/_h5bp.scss */
+.clearfix, .container, .main-header .top, .main-footer, .m-equipe {
+  *zoom: 1;
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("font/fontawesome-webfont.eot?v=3.0.1");
+  src: url("font/fontawesome-webfont.eot?#iefix&v=3.0.1") format("embedded-opentype"), url("font/fontawesome-webfont.woff?v=3.0.1") format("woff"), url("font/fontawesome-webfont.ttf?v=3.0.1") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*  Font Awesome styles
+    ------------------------------------------------------- */
+/* line 20, css/sass/_font-awesome.scss */
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  /* sprites.less reset */
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: normal;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  margin-top: 0;
+}
+
+/* more sprites.less reset */
+/* line 52, css/sass/_font-awesome.scss */
+.icon-white,
+.nav-pills > .active > a > [class^="icon-"],
+.nav-pills > .active > a > [class*=" icon-"],
+.nav-list > .active > a > [class^="icon-"],
+.nav-list > .active > a > [class*=" icon-"],
+.navbar-inverse .nav > .active > a > [class^="icon-"],
+.navbar-inverse .nav > .active > a > [class*=" icon-"],
+.dropdown-menu > li > a:hover > [class^="icon-"],
+.dropdown-menu > li > a:hover > [class*=" icon-"],
+.dropdown-menu > .active > a > [class^="icon-"],
+.dropdown-menu > .active > a > [class*=" icon-"],
+.dropdown-submenu:hover > a > [class^="icon-"],
+.dropdown-submenu:hover > a > [class*=" icon-"] {
+  background-image: none;
+}
+
+/* line 57, css/sass/_font-awesome.scss */
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  text-decoration: inherit;
+  display: inline-block;
+  speak: none;
+}
+
+/* makes sure icons active on rollover in links */
+/* line 66, css/sass/_font-awesome.scss */
+a [class^="icon-"],
+a [class*=" icon-"] {
+  display: inline-block;
+}
+
+/* makes the font 33% larger relative to the icon container */
+/* line 72, css/sass/_font-awesome.scss */
+.icon-large:before {
+  vertical-align: -10%;
+  font-size: 1.3333333333333333em;
+}
+
+/* line 79, css/sass/_font-awesome.scss */
+.btn [class^="icon-"],
+.btn [class*=" icon-"], .nav [class^="icon-"],
+.nav [class*=" icon-"] {
+  display: inline;
+  /* keeps button heights with and without icons the same */
+}
+/* line 82, css/sass/_font-awesome.scss */
+.btn [class^="icon-"].icon-large,
+.btn [class*=" icon-"].icon-large, .nav [class^="icon-"].icon-large,
+.nav [class*=" icon-"].icon-large {
+  line-height: .9em;
+}
+/* line 83, css/sass/_font-awesome.scss */
+.btn [class^="icon-"].icon-spin,
+.btn [class*=" icon-"].icon-spin, .nav [class^="icon-"].icon-spin,
+.nav [class*=" icon-"].icon-spin {
+  display: inline-block;
+}
+
+/* line 89, css/sass/_font-awesome.scss */
+.nav-tabs [class^="icon-"],
+.nav-tabs [class*=" icon-"], .nav-pills [class^="icon-"],
+.nav-pills [class*=" icon-"] {
+  /* keeps button heights with and without icons the same */
+}
+/* line 91, css/sass/_font-awesome.scss */
+.nav-tabs [class^="icon-"], .nav-tabs [class^="icon-"].icon-large,
+.nav-tabs [class*=" icon-"],
+.nav-tabs [class*=" icon-"].icon-large, .nav-pills [class^="icon-"], .nav-pills [class^="icon-"].icon-large,
+.nav-pills [class*=" icon-"],
+.nav-pills [class*=" icon-"].icon-large {
+  line-height: .9em;
+}
+
+/* line 97, css/sass/_font-awesome.scss */
+li [class^="icon-"],
+li [class*=" icon-"], .nav li [class^="icon-"],
+.nav li [class*=" icon-"] {
+  display: inline-block;
+  width: 1.25em;
+  text-align: center;
+}
+/* line 101, css/sass/_font-awesome.scss */
+li [class^="icon-"].icon-large,
+li [class*=" icon-"].icon-large, .nav li [class^="icon-"].icon-large,
+.nav li [class*=" icon-"].icon-large {
+  /* increased font size for icon-large */
+  width: 1.5625em;
+}
+
+/* line 108, css/sass/_font-awesome.scss */
+ul.icons {
+  list-style-type: none;
+  text-indent: -.75em;
+}
+/* line 114, css/sass/_font-awesome.scss */
+ul.icons li [class^="icon-"],
+ul.icons li [class*=" icon-"] {
+  width: .75em;
+}
+
+/* line 120, css/sass/_font-awesome.scss */
+.icon-muted {
+  color: #eeeeee;
+}
+
+/* line 127, css/sass/_font-awesome.scss */
+.icon-border {
+  border: solid 1px #eeeeee;
+  padding: .2em .25em .15em;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 136, css/sass/_font-awesome.scss */
+.icon-2x {
+  font-size: 2em;
+}
+/* line 138, css/sass/_font-awesome.scss */
+.icon-2x.icon-border {
+  border-width: 2px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 143, css/sass/_font-awesome.scss */
+.icon-3x {
+  font-size: 3em;
+}
+/* line 145, css/sass/_font-awesome.scss */
+.icon-3x.icon-border {
+  border-width: 3px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 150, css/sass/_font-awesome.scss */
+.icon-4x {
+  font-size: 4em;
+}
+/* line 152, css/sass/_font-awesome.scss */
+.icon-4x.icon-border {
+  border-width: 4px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+/* line 162, css/sass/_font-awesome.scss */
+.pull-right {
+  float: right;
+}
+
+/* line 163, css/sass/_font-awesome.scss */
+.pull-left {
+  float: left;
+}
+
+/* line 167, css/sass/_font-awesome.scss */
+[class^="icon-"].pull-left,
+[class*=" icon-"].pull-left {
+  margin-right: .3em;
+}
+/* line 170, css/sass/_font-awesome.scss */
+[class^="icon-"].pull-right,
+[class*=" icon-"].pull-right {
+  margin-left: .3em;
+}
+
+/* line 179, css/sass/_font-awesome.scss */
+.btn [class^="icon-"].pull-left.icon-2x, .btn [class^="icon-"].pull-right.icon-2x,
+.btn [class*=" icon-"].pull-left.icon-2x,
+.btn [class*=" icon-"].pull-right.icon-2x {
+  margin-top: .18em;
+}
+/* line 181, css/sass/_font-awesome.scss */
+.btn [class^="icon-"].icon-spin.icon-large,
+.btn [class*=" icon-"].icon-spin.icon-large {
+  line-height: .8em;
+}
+
+/* line 189, css/sass/_font-awesome.scss */
+.btn.btn-small [class^="icon-"].pull-left.icon-2x, .btn.btn-small [class^="icon-"].pull-right.icon-2x,
+.btn.btn-small [class*=" icon-"].pull-left.icon-2x,
+.btn.btn-small [class*=" icon-"].pull-right.icon-2x {
+  margin-top: .25em;
+}
+
+/* line 196, css/sass/_font-awesome.scss */
+.btn.btn-large [class^="icon-"],
+.btn.btn-large [class*=" icon-"] {
+  margin-top: 0;
+}
+/* line 199, css/sass/_font-awesome.scss */
+.btn.btn-large [class^="icon-"].pull-left.icon-2x, .btn.btn-large [class^="icon-"].pull-right.icon-2x,
+.btn.btn-large [class*=" icon-"].pull-left.icon-2x,
+.btn.btn-large [class*=" icon-"].pull-right.icon-2x {
+  margin-top: .05em;
+}
+/* line 201, css/sass/_font-awesome.scss */
+.btn.btn-large [class^="icon-"].pull-left.icon-2x,
+.btn.btn-large [class*=" icon-"].pull-left.icon-2x {
+  margin-right: .2em;
+}
+/* line 202, css/sass/_font-awesome.scss */
+.btn.btn-large [class^="icon-"].pull-right.icon-2x,
+.btn.btn-large [class*=" icon-"].pull-right.icon-2x {
+  margin-left: .2em;
+}
+
+/* line 207, css/sass/_font-awesome.scss */
+.icon-spin {
+  display: inline-block;
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  -webkit-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+}
+
+@-moz-keyframes spin {
+  /* line 216, css/sass/_font-awesome.scss */
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+
+  /* line 217, css/sass/_font-awesome.scss */
+  100% {
+    -moz-transform: rotate(359deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  /* line 220, css/sass/_font-awesome.scss */
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 221, css/sass/_font-awesome.scss */
+  100% {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
+@-o-keyframes spin {
+  /* line 224, css/sass/_font-awesome.scss */
+  0% {
+    -o-transform: rotate(0deg);
+  }
+
+  /* line 225, css/sass/_font-awesome.scss */
+  100% {
+    -o-transform: rotate(359deg);
+  }
+}
+
+@-ms-keyframes spin {
+  /* line 228, css/sass/_font-awesome.scss */
+  0% {
+    -ms-transform: rotate(0deg);
+  }
+
+  /* line 229, css/sass/_font-awesome.scss */
+  100% {
+    -ms-transform: rotate(359deg);
+  }
+}
+
+@keyframes spin {
+  /* line 232, css/sass/_font-awesome.scss */
+  0% {
+    transform: rotate(0deg);
+  }
+
+  /* line 233, css/sass/_font-awesome.scss */
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+@-moz-document url-prefix() {
+  /* line 237, css/sass/_font-awesome.scss */
+  .icon-spin {
+    height: .9em;
+  }
+
+  /* line 238, css/sass/_font-awesome.scss */
+  .btn .icon-spin {
+    height: auto;
+  }
+
+  /* line 239, css/sass/_font-awesome.scss */
+  .icon-spin.icon-large {
+    height: 1.25em;
+  }
+
+  /* line 240, css/sass/_font-awesome.scss */
+  .btn .icon-spin.icon-large {
+    height: .75em;
+  }
+}
+
+/*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+    readers do not read off random characters that represent icons */
+/* line 245, css/sass/_font-awesome.scss */
+.icon-glass:before {
+  content: "\f000";
+}
+
+/* line 246, css/sass/_font-awesome.scss */
+.icon-music:before {
+  content: "\f001";
+}
+
+/* line 247, css/sass/_font-awesome.scss */
+.icon-search:before {
+  content: "\f002";
+}
+
+/* line 248, css/sass/_font-awesome.scss */
+.icon-envelope:before {
+  content: "\f003";
+}
+
+/* line 249, css/sass/_font-awesome.scss */
+.icon-heart:before {
+  content: "\f004";
+}
+
+/* line 250, css/sass/_font-awesome.scss */
+.icon-star:before {
+  content: "\f005";
+}
+
+/* line 251, css/sass/_font-awesome.scss */
+.icon-star-empty:before {
+  content: "\f006";
+}
+
+/* line 252, css/sass/_font-awesome.scss */
+.icon-user:before {
+  content: "\f007";
+}
+
+/* line 253, css/sass/_font-awesome.scss */
+.icon-film:before {
+  content: "\f008";
+}
+
+/* line 254, css/sass/_font-awesome.scss */
+.icon-th-large:before {
+  content: "\f009";
+}
+
+/* line 255, css/sass/_font-awesome.scss */
+.icon-th:before {
+  content: "\f00a";
+}
+
+/* line 256, css/sass/_font-awesome.scss */
+.icon-th-list:before {
+  content: "\f00b";
+}
+
+/* line 257, css/sass/_font-awesome.scss */
+.icon-ok:before {
+  content: "\f00c";
+}
+
+/* line 258, css/sass/_font-awesome.scss */
+.icon-remove:before {
+  content: "\f00d";
+}
+
+/* line 259, css/sass/_font-awesome.scss */
+.icon-zoom-in:before {
+  content: "\f00e";
+}
+
+/* line 261, css/sass/_font-awesome.scss */
+.icon-zoom-out:before {
+  content: "\f010";
+}
+
+/* line 262, css/sass/_font-awesome.scss */
+.icon-off:before {
+  content: "\f011";
+}
+
+/* line 263, css/sass/_font-awesome.scss */
+.icon-signal:before {
+  content: "\f012";
+}
+
+/* line 264, css/sass/_font-awesome.scss */
+.icon-cog:before {
+  content: "\f013";
+}
+
+/* line 265, css/sass/_font-awesome.scss */
+.icon-trash:before {
+  content: "\f014";
+}
+
+/* line 266, css/sass/_font-awesome.scss */
+.icon-home:before {
+  content: "\f015";
+}
+
+/* line 267, css/sass/_font-awesome.scss */
+.icon-file:before {
+  content: "\f016";
+}
+
+/* line 268, css/sass/_font-awesome.scss */
+.icon-time:before {
+  content: "\f017";
+}
+
+/* line 269, css/sass/_font-awesome.scss */
+.icon-road:before {
+  content: "\f018";
+}
+
+/* line 270, css/sass/_font-awesome.scss */
+.icon-download-alt:before {
+  content: "\f019";
+}
+
+/* line 271, css/sass/_font-awesome.scss */
+.icon-download:before {
+  content: "\f01a";
+}
+
+/* line 272, css/sass/_font-awesome.scss */
+.icon-upload:before {
+  content: "\f01b";
+}
+
+/* line 273, css/sass/_font-awesome.scss */
+.icon-inbox:before {
+  content: "\f01c";
+}
+
+/* line 274, css/sass/_font-awesome.scss */
+.icon-play-circle:before {
+  content: "\f01d";
+}
+
+/* line 275, css/sass/_font-awesome.scss */
+.icon-repeat:before {
+  content: "\f01e";
+}
+
+/* \f020 doesn't work in Safari. all shifted one down */
+/* line 278, css/sass/_font-awesome.scss */
+.icon-refresh:before {
+  content: "\f021";
+}
+
+/* line 279, css/sass/_font-awesome.scss */
+.icon-list-alt:before {
+  content: "\f022";
+}
+
+/* line 280, css/sass/_font-awesome.scss */
+.icon-lock:before {
+  content: "\f023";
+}
+
+/* line 281, css/sass/_font-awesome.scss */
+.icon-flag:before {
+  content: "\f024";
+}
+
+/* line 282, css/sass/_font-awesome.scss */
+.icon-headphones:before {
+  content: "\f025";
+}
+
+/* line 283, css/sass/_font-awesome.scss */
+.icon-volume-off:before {
+  content: "\f026";
+}
+
+/* line 284, css/sass/_font-awesome.scss */
+.icon-volume-down:before {
+  content: "\f027";
+}
+
+/* line 285, css/sass/_font-awesome.scss */
+.icon-volume-up:before {
+  content: "\f028";
+}
+
+/* line 286, css/sass/_font-awesome.scss */
+.icon-qrcode:before {
+  content: "\f029";
+}
+
+/* line 287, css/sass/_font-awesome.scss */
+.icon-barcode:before {
+  content: "\f02a";
+}
+
+/* line 288, css/sass/_font-awesome.scss */
+.icon-tag:before {
+  content: "\f02b";
+}
+
+/* line 289, css/sass/_font-awesome.scss */
+.icon-tags:before {
+  content: "\f02c";
+}
+
+/* line 290, css/sass/_font-awesome.scss */
+.icon-book:before {
+  content: "\f02d";
+}
+
+/* line 291, css/sass/_font-awesome.scss */
+.icon-bookmark:before {
+  content: "\f02e";
+}
+
+/* line 292, css/sass/_font-awesome.scss */
+.icon-print:before {
+  content: "\f02f";
+}
+
+/* line 294, css/sass/_font-awesome.scss */
+.icon-camera:before {
+  content: "\f030";
+}
+
+/* line 295, css/sass/_font-awesome.scss */
+.icon-font:before {
+  content: "\f031";
+}
+
+/* line 296, css/sass/_font-awesome.scss */
+.icon-bold:before {
+  content: "\f032";
+}
+
+/* line 297, css/sass/_font-awesome.scss */
+.icon-italic:before {
+  content: "\f033";
+}
+
+/* line 298, css/sass/_font-awesome.scss */
+.icon-text-height:before {
+  content: "\f034";
+}
+
+/* line 299, css/sass/_font-awesome.scss */
+.icon-text-width:before {
+  content: "\f035";
+}
+
+/* line 300, css/sass/_font-awesome.scss */
+.icon-align-left:before {
+  content: "\f036";
+}
+
+/* line 301, css/sass/_font-awesome.scss */
+.icon-align-center:before {
+  content: "\f037";
+}
+
+/* line 302, css/sass/_font-awesome.scss */
+.icon-align-right:before {
+  content: "\f038";
+}
+
+/* line 303, css/sass/_font-awesome.scss */
+.icon-align-justify:before {
+  content: "\f039";
+}
+
+/* line 304, css/sass/_font-awesome.scss */
+.icon-list:before {
+  content: "\f03a";
+}
+
+/* line 305, css/sass/_font-awesome.scss */
+.icon-indent-left:before {
+  content: "\f03b";
+}
+
+/* line 306, css/sass/_font-awesome.scss */
+.icon-indent-right:before {
+  content: "\f03c";
+}
+
+/* line 307, css/sass/_font-awesome.scss */
+.icon-facetime-video:before {
+  content: "\f03d";
+}
+
+/* line 308, css/sass/_font-awesome.scss */
+.icon-picture:before {
+  content: "\f03e";
+}
+
+/* line 310, css/sass/_font-awesome.scss */
+.icon-pencil:before {
+  content: "\f040";
+}
+
+/* line 311, css/sass/_font-awesome.scss */
+.icon-map-marker:before {
+  content: "\f041";
+}
+
+/* line 312, css/sass/_font-awesome.scss */
+.icon-adjust:before {
+  content: "\f042";
+}
+
+/* line 313, css/sass/_font-awesome.scss */
+.icon-tint:before {
+  content: "\f043";
+}
+
+/* line 314, css/sass/_font-awesome.scss */
+.icon-edit:before {
+  content: "\f044";
+}
+
+/* line 315, css/sass/_font-awesome.scss */
+.icon-share:before {
+  content: "\f045";
+}
+
+/* line 316, css/sass/_font-awesome.scss */
+.icon-check:before {
+  content: "\f046";
+}
+
+/* line 317, css/sass/_font-awesome.scss */
+.icon-move:before {
+  content: "\f047";
+}
+
+/* line 318, css/sass/_font-awesome.scss */
+.icon-step-backward:before {
+  content: "\f048";
+}
+
+/* line 319, css/sass/_font-awesome.scss */
+.icon-fast-backward:before {
+  content: "\f049";
+}
+
+/* line 320, css/sass/_font-awesome.scss */
+.icon-backward:before {
+  content: "\f04a";
+}
+
+/* line 321, css/sass/_font-awesome.scss */
+.icon-play:before {
+  content: "\f04b";
+}
+
+/* line 322, css/sass/_font-awesome.scss */
+.icon-pause:before {
+  content: "\f04c";
+}
+
+/* line 323, css/sass/_font-awesome.scss */
+.icon-stop:before {
+  content: "\f04d";
+}
+
+/* line 324, css/sass/_font-awesome.scss */
+.icon-forward:before {
+  content: "\f04e";
+}
+
+/* line 326, css/sass/_font-awesome.scss */
+.icon-fast-forward:before {
+  content: "\f050";
+}
+
+/* line 327, css/sass/_font-awesome.scss */
+.icon-step-forward:before {
+  content: "\f051";
+}
+
+/* line 328, css/sass/_font-awesome.scss */
+.icon-eject:before {
+  content: "\f052";
+}
+
+/* line 329, css/sass/_font-awesome.scss */
+.icon-chevron-left:before {
+  content: "\f053";
+}
+
+/* line 330, css/sass/_font-awesome.scss */
+.icon-chevron-right:before {
+  content: "\f054";
+}
+
+/* line 331, css/sass/_font-awesome.scss */
+.icon-plus-sign:before {
+  content: "\f055";
+}
+
+/* line 332, css/sass/_font-awesome.scss */
+.icon-minus-sign:before {
+  content: "\f056";
+}
+
+/* line 333, css/sass/_font-awesome.scss */
+.icon-remove-sign:before {
+  content: "\f057";
+}
+
+/* line 334, css/sass/_font-awesome.scss */
+.icon-ok-sign:before {
+  content: "\f058";
+}
+
+/* line 335, css/sass/_font-awesome.scss */
+.icon-question-sign:before {
+  content: "\f059";
+}
+
+/* line 336, css/sass/_font-awesome.scss */
+.icon-info-sign:before {
+  content: "\f05a";
+}
+
+/* line 337, css/sass/_font-awesome.scss */
+.icon-screenshot:before {
+  content: "\f05b";
+}
+
+/* line 338, css/sass/_font-awesome.scss */
+.icon-remove-circle:before {
+  content: "\f05c";
+}
+
+/* line 339, css/sass/_font-awesome.scss */
+.icon-ok-circle:before {
+  content: "\f05d";
+}
+
+/* line 340, css/sass/_font-awesome.scss */
+.icon-ban-circle:before {
+  content: "\f05e";
+}
+
+/* line 342, css/sass/_font-awesome.scss */
+.icon-arrow-left:before {
+  content: "\f060";
+}
+
+/* line 343, css/sass/_font-awesome.scss */
+.icon-arrow-right:before {
+  content: "\f061";
+}
+
+/* line 344, css/sass/_font-awesome.scss */
+.icon-arrow-up:before {
+  content: "\f062";
+}
+
+/* line 345, css/sass/_font-awesome.scss */
+.icon-arrow-down:before {
+  content: "\f063";
+}
+
+/* line 346, css/sass/_font-awesome.scss */
+.icon-share-alt:before {
+  content: "\f064";
+}
+
+/* line 347, css/sass/_font-awesome.scss */
+.icon-resize-full:before {
+  content: "\f065";
+}
+
+/* line 348, css/sass/_font-awesome.scss */
+.icon-resize-small:before {
+  content: "\f066";
+}
+
+/* line 349, css/sass/_font-awesome.scss */
+.icon-plus:before {
+  content: "\f067";
+}
+
+/* line 350, css/sass/_font-awesome.scss */
+.icon-minus:before {
+  content: "\f068";
+}
+
+/* line 351, css/sass/_font-awesome.scss */
+.icon-asterisk:before {
+  content: "\f069";
+}
+
+/* line 352, css/sass/_font-awesome.scss */
+.icon-exclamation-sign:before {
+  content: "\f06a";
+}
+
+/* line 353, css/sass/_font-awesome.scss */
+.icon-gift:before {
+  content: "\f06b";
+}
+
+/* line 354, css/sass/_font-awesome.scss */
+.icon-leaf:before {
+  content: "\f06c";
+}
+
+/* line 355, css/sass/_font-awesome.scss */
+.icon-fire:before {
+  content: "\f06d";
+}
+
+/* line 356, css/sass/_font-awesome.scss */
+.icon-eye-open:before {
+  content: "\f06e";
+}
+
+/* line 358, css/sass/_font-awesome.scss */
+.icon-eye-close:before {
+  content: "\f070";
+}
+
+/* line 359, css/sass/_font-awesome.scss */
+.icon-warning-sign:before {
+  content: "\f071";
+}
+
+/* line 360, css/sass/_font-awesome.scss */
+.icon-plane:before {
+  content: "\f072";
+}
+
+/* line 361, css/sass/_font-awesome.scss */
+.icon-calendar:before {
+  content: "\f073";
+}
+
+/* line 362, css/sass/_font-awesome.scss */
+.icon-random:before {
+  content: "\f074";
+}
+
+/* line 363, css/sass/_font-awesome.scss */
+.icon-comment:before {
+  content: "\f075";
+}
+
+/* line 364, css/sass/_font-awesome.scss */
+.icon-magnet:before {
+  content: "\f076";
+}
+
+/* line 365, css/sass/_font-awesome.scss */
+.icon-chevron-up:before {
+  content: "\f077";
+}
+
+/* line 366, css/sass/_font-awesome.scss */
+.icon-chevron-down:before {
+  content: "\f078";
+}
+
+/* line 367, css/sass/_font-awesome.scss */
+.icon-retweet:before {
+  content: "\f079";
+}
+
+/* line 368, css/sass/_font-awesome.scss */
+.icon-shopping-cart:before {
+  content: "\f07a";
+}
+
+/* line 369, css/sass/_font-awesome.scss */
+.icon-folder-close:before {
+  content: "\f07b";
+}
+
+/* line 370, css/sass/_font-awesome.scss */
+.icon-folder-open:before {
+  content: "\f07c";
+}
+
+/* line 371, css/sass/_font-awesome.scss */
+.icon-resize-vertical:before {
+  content: "\f07d";
+}
+
+/* line 372, css/sass/_font-awesome.scss */
+.icon-resize-horizontal:before {
+  content: "\f07e";
+}
+
+/* line 374, css/sass/_font-awesome.scss */
+.icon-bar-chart:before {
+  content: "\f080";
+}
+
+/* line 375, css/sass/_font-awesome.scss */
+.icon-twitter-sign:before {
+  content: "\f081";
+}
+
+/* line 376, css/sass/_font-awesome.scss */
+.icon-facebook-sign:before {
+  content: "\f082";
+}
+
+/* line 377, css/sass/_font-awesome.scss */
+.icon-camera-retro:before {
+  content: "\f083";
+}
+
+/* line 378, css/sass/_font-awesome.scss */
+.icon-key:before {
+  content: "\f084";
+}
+
+/* line 379, css/sass/_font-awesome.scss */
+.icon-cogs:before {
+  content: "\f085";
+}
+
+/* line 380, css/sass/_font-awesome.scss */
+.icon-comments:before {
+  content: "\f086";
+}
+
+/* line 381, css/sass/_font-awesome.scss */
+.icon-thumbs-up:before {
+  content: "\f087";
+}
+
+/* line 382, css/sass/_font-awesome.scss */
+.icon-thumbs-down:before {
+  content: "\f088";
+}
+
+/* line 383, css/sass/_font-awesome.scss */
+.icon-star-half:before {
+  content: "\f089";
+}
+
+/* line 384, css/sass/_font-awesome.scss */
+.icon-heart-empty:before {
+  content: "\f08a";
+}
+
+/* line 385, css/sass/_font-awesome.scss */
+.icon-signout:before {
+  content: "\f08b";
+}
+
+/* line 386, css/sass/_font-awesome.scss */
+.icon-linkedin-sign:before {
+  content: "\f08c";
+}
+
+/* line 387, css/sass/_font-awesome.scss */
+.icon-pushpin:before {
+  content: "\f08d";
+}
+
+/* line 388, css/sass/_font-awesome.scss */
+.icon-external-link:before {
+  content: "\f08e";
+}
+
+/* line 390, css/sass/_font-awesome.scss */
+.icon-signin:before {
+  content: "\f090";
+}
+
+/* line 391, css/sass/_font-awesome.scss */
+.icon-trophy:before {
+  content: "\f091";
+}
+
+/* line 392, css/sass/_font-awesome.scss */
+.icon-github-sign:before {
+  content: "\f092";
+}
+
+/* line 393, css/sass/_font-awesome.scss */
+.icon-upload-alt:before {
+  content: "\f093";
+}
+
+/* line 394, css/sass/_font-awesome.scss */
+.icon-lemon:before {
+  content: "\f094";
+}
+
+/* line 395, css/sass/_font-awesome.scss */
+.icon-phone:before {
+  content: "\f095";
+}
+
+/* line 396, css/sass/_font-awesome.scss */
+.icon-check-empty:before {
+  content: "\f096";
+}
+
+/* line 397, css/sass/_font-awesome.scss */
+.icon-bookmark-empty:before {
+  content: "\f097";
+}
+
+/* line 398, css/sass/_font-awesome.scss */
+.icon-phone-sign:before {
+  content: "\f098";
+}
+
+/* line 399, css/sass/_font-awesome.scss */
+.icon-twitter:before {
+  content: "\f099";
+}
+
+/* line 400, css/sass/_font-awesome.scss */
+.icon-facebook:before {
+  content: "\f09a";
+}
+
+/* line 401, css/sass/_font-awesome.scss */
+.icon-github:before {
+  content: "\f09b";
+}
+
+/* line 402, css/sass/_font-awesome.scss */
+.icon-unlock:before {
+  content: "\f09c";
+}
+
+/* line 403, css/sass/_font-awesome.scss */
+.icon-credit-card:before {
+  content: "\f09d";
+}
+
+/* line 404, css/sass/_font-awesome.scss */
+.icon-rss:before {
+  content: "\f09e";
+}
+
+/* line 406, css/sass/_font-awesome.scss */
+.icon-hdd:before {
+  content: "\f0a0";
+}
+
+/* line 407, css/sass/_font-awesome.scss */
+.icon-bullhorn:before {
+  content: "\f0a1";
+}
+
+/* line 408, css/sass/_font-awesome.scss */
+.icon-bell:before {
+  content: "\f0a2";
+}
+
+/* line 409, css/sass/_font-awesome.scss */
+.icon-certificate:before {
+  content: "\f0a3";
+}
+
+/* line 410, css/sass/_font-awesome.scss */
+.icon-hand-right:before {
+  content: "\f0a4";
+}
+
+/* line 411, css/sass/_font-awesome.scss */
+.icon-hand-left:before {
+  content: "\f0a5";
+}
+
+/* line 412, css/sass/_font-awesome.scss */
+.icon-hand-up:before {
+  content: "\f0a6";
+}
+
+/* line 413, css/sass/_font-awesome.scss */
+.icon-hand-down:before {
+  content: "\f0a7";
+}
+
+/* line 414, css/sass/_font-awesome.scss */
+.icon-circle-arrow-left:before {
+  content: "\f0a8";
+}
+
+/* line 415, css/sass/_font-awesome.scss */
+.icon-circle-arrow-right:before {
+  content: "\f0a9";
+}
+
+/* line 416, css/sass/_font-awesome.scss */
+.icon-circle-arrow-up:before {
+  content: "\f0aa";
+}
+
+/* line 417, css/sass/_font-awesome.scss */
+.icon-circle-arrow-down:before {
+  content: "\f0ab";
+}
+
+/* line 418, css/sass/_font-awesome.scss */
+.icon-globe:before {
+  content: "\f0ac";
+}
+
+/* line 419, css/sass/_font-awesome.scss */
+.icon-wrench:before {
+  content: "\f0ad";
+}
+
+/* line 420, css/sass/_font-awesome.scss */
+.icon-tasks:before {
+  content: "\f0ae";
+}
+
+/* line 422, css/sass/_font-awesome.scss */
+.icon-filter:before {
+  content: "\f0b0";
+}
+
+/* line 423, css/sass/_font-awesome.scss */
+.icon-briefcase:before {
+  content: "\f0b1";
+}
+
+/* line 424, css/sass/_font-awesome.scss */
+.icon-fullscreen:before {
+  content: "\f0b2";
+}
+
+/* line 426, css/sass/_font-awesome.scss */
+.icon-group:before {
+  content: "\f0c0";
+}
+
+/* line 427, css/sass/_font-awesome.scss */
+.icon-link:before {
+  content: "\f0c1";
+}
+
+/* line 428, css/sass/_font-awesome.scss */
+.icon-cloud:before {
+  content: "\f0c2";
+}
+
+/* line 429, css/sass/_font-awesome.scss */
+.icon-beaker:before {
+  content: "\f0c3";
+}
+
+/* line 430, css/sass/_font-awesome.scss */
+.icon-cut:before {
+  content: "\f0c4";
+}
+
+/* line 431, css/sass/_font-awesome.scss */
+.icon-copy:before {
+  content: "\f0c5";
+}
+
+/* line 432, css/sass/_font-awesome.scss */
+.icon-paper-clip:before {
+  content: "\f0c6";
+}
+
+/* line 433, css/sass/_font-awesome.scss */
+.icon-save:before {
+  content: "\f0c7";
+}
+
+/* line 434, css/sass/_font-awesome.scss */
+.icon-sign-blank:before {
+  content: "\f0c8";
+}
+
+/* line 435, css/sass/_font-awesome.scss */
+.icon-reorder:before {
+  content: "\f0c9";
+}
+
+/* line 436, css/sass/_font-awesome.scss */
+.icon-list-ul:before {
+  content: "\f0ca";
+}
+
+/* line 437, css/sass/_font-awesome.scss */
+.icon-list-ol:before {
+  content: "\f0cb";
+}
+
+/* line 438, css/sass/_font-awesome.scss */
+.icon-strikethrough:before {
+  content: "\f0cc";
+}
+
+/* line 439, css/sass/_font-awesome.scss */
+.icon-underline:before {
+  content: "\f0cd";
+}
+
+/* line 440, css/sass/_font-awesome.scss */
+.icon-table:before {
+  content: "\f0ce";
+}
+
+/* line 442, css/sass/_font-awesome.scss */
+.icon-magic:before {
+  content: "\f0d0";
+}
+
+/* line 443, css/sass/_font-awesome.scss */
+.icon-truck:before {
+  content: "\f0d1";
+}
+
+/* line 444, css/sass/_font-awesome.scss */
+.icon-pinterest:before {
+  content: "\f0d2";
+}
+
+/* line 445, css/sass/_font-awesome.scss */
+.icon-pinterest-sign:before {
+  content: "\f0d3";
+}
+
+/* line 446, css/sass/_font-awesome.scss */
+.icon-google-plus-sign:before {
+  content: "\f0d4";
+}
+
+/* line 447, css/sass/_font-awesome.scss */
+.icon-google-plus:before {
+  content: "\f0d5";
+}
+
+/* line 448, css/sass/_font-awesome.scss */
+.icon-money:before {
+  content: "\f0d6";
+}
+
+/* line 449, css/sass/_font-awesome.scss */
+.icon-caret-down:before {
+  content: "\f0d7";
+}
+
+/* line 450, css/sass/_font-awesome.scss */
+.icon-caret-up:before {
+  content: "\f0d8";
+}
+
+/* line 451, css/sass/_font-awesome.scss */
+.icon-caret-left:before {
+  content: "\f0d9";
+}
+
+/* line 452, css/sass/_font-awesome.scss */
+.icon-caret-right:before {
+  content: "\f0da";
+}
+
+/* line 453, css/sass/_font-awesome.scss */
+.icon-columns:before {
+  content: "\f0db";
+}
+
+/* line 454, css/sass/_font-awesome.scss */
+.icon-sort:before {
+  content: "\f0dc";
+}
+
+/* line 455, css/sass/_font-awesome.scss */
+.icon-sort-down:before {
+  content: "\f0dd";
+}
+
+/* line 456, css/sass/_font-awesome.scss */
+.icon-sort-up:before {
+  content: "\f0de";
+}
+
+/* line 458, css/sass/_font-awesome.scss */
+.icon-envelope-alt:before {
+  content: "\f0e0";
+}
+
+/* line 459, css/sass/_font-awesome.scss */
+.icon-linkedin:before {
+  content: "\f0e1";
+}
+
+/* line 460, css/sass/_font-awesome.scss */
+.icon-undo:before {
+  content: "\f0e2";
+}
+
+/* line 461, css/sass/_font-awesome.scss */
+.icon-legal:before {
+  content: "\f0e3";
+}
+
+/* line 462, css/sass/_font-awesome.scss */
+.icon-dashboard:before {
+  content: "\f0e4";
+}
+
+/* line 463, css/sass/_font-awesome.scss */
+.icon-comment-alt:before {
+  content: "\f0e5";
+}
+
+/* line 464, css/sass/_font-awesome.scss */
+.icon-comments-alt:before {
+  content: "\f0e6";
+}
+
+/* line 465, css/sass/_font-awesome.scss */
+.icon-bolt:before {
+  content: "\f0e7";
+}
+
+/* line 466, css/sass/_font-awesome.scss */
+.icon-sitemap:before {
+  content: "\f0e8";
+}
+
+/* line 467, css/sass/_font-awesome.scss */
+.icon-umbrella:before {
+  content: "\f0e9";
+}
+
+/* line 468, css/sass/_font-awesome.scss */
+.icon-paste:before {
+  content: "\f0ea";
+}
+
+/* line 469, css/sass/_font-awesome.scss */
+.icon-lightbulb:before {
+  content: "\f0eb";
+}
+
+/* line 470, css/sass/_font-awesome.scss */
+.icon-exchange:before {
+  content: "\f0ec";
+}
+
+/* line 471, css/sass/_font-awesome.scss */
+.icon-cloud-download:before {
+  content: "\f0ed";
+}
+
+/* line 472, css/sass/_font-awesome.scss */
+.icon-cloud-upload:before {
+  content: "\f0ee";
+}
+
+/* line 474, css/sass/_font-awesome.scss */
+.icon-user-md:before {
+  content: "\f0f0";
+}
+
+/* line 475, css/sass/_font-awesome.scss */
+.icon-stethoscope:before {
+  content: "\f0f1";
+}
+
+/* line 476, css/sass/_font-awesome.scss */
+.icon-suitcase:before {
+  content: "\f0f2";
+}
+
+/* line 477, css/sass/_font-awesome.scss */
+.icon-bell-alt:before {
+  content: "\f0f3";
+}
+
+/* line 478, css/sass/_font-awesome.scss */
+.icon-coffee:before {
+  content: "\f0f4";
+}
+
+/* line 479, css/sass/_font-awesome.scss */
+.icon-food:before {
+  content: "\f0f5";
+}
+
+/* line 480, css/sass/_font-awesome.scss */
+.icon-file-alt:before {
+  content: "\f0f6";
+}
+
+/* line 481, css/sass/_font-awesome.scss */
+.icon-building:before {
+  content: "\f0f7";
+}
+
+/* line 482, css/sass/_font-awesome.scss */
+.icon-hospital:before {
+  content: "\f0f8";
+}
+
+/* line 483, css/sass/_font-awesome.scss */
+.icon-ambulance:before {
+  content: "\f0f9";
+}
+
+/* line 484, css/sass/_font-awesome.scss */
+.icon-medkit:before {
+  content: "\f0fa";
+}
+
+/* line 485, css/sass/_font-awesome.scss */
+.icon-fighter-jet:before {
+  content: "\f0fb";
+}
+
+/* line 486, css/sass/_font-awesome.scss */
+.icon-beer:before {
+  content: "\f0fc";
+}
+
+/* line 487, css/sass/_font-awesome.scss */
+.icon-h-sign:before {
+  content: "\f0fd";
+}
+
+/* line 488, css/sass/_font-awesome.scss */
+.icon-plus-sign-alt:before {
+  content: "\f0fe";
+}
+
+/* line 490, css/sass/_font-awesome.scss */
+.icon-double-angle-left:before {
+  content: "\f100";
+}
+
+/* line 491, css/sass/_font-awesome.scss */
+.icon-double-angle-right:before {
+  content: "\f101";
+}
+
+/* line 492, css/sass/_font-awesome.scss */
+.icon-double-angle-up:before {
+  content: "\f102";
+}
+
+/* line 493, css/sass/_font-awesome.scss */
+.icon-double-angle-down:before {
+  content: "\f103";
+}
+
+/* line 494, css/sass/_font-awesome.scss */
+.icon-angle-left:before {
+  content: "\f104";
+}
+
+/* line 495, css/sass/_font-awesome.scss */
+.icon-angle-right:before {
+  content: "\f105";
+}
+
+/* line 496, css/sass/_font-awesome.scss */
+.icon-angle-up:before {
+  content: "\f106";
+}
+
+/* line 497, css/sass/_font-awesome.scss */
+.icon-angle-down:before {
+  content: "\f107";
+}
+
+/* line 498, css/sass/_font-awesome.scss */
+.icon-desktop:before {
+  content: "\f108";
+}
+
+/* line 499, css/sass/_font-awesome.scss */
+.icon-laptop:before {
+  content: "\f109";
+}
+
+/* line 500, css/sass/_font-awesome.scss */
+.icon-tablet:before {
+  content: "\f10a";
+}
+
+/* line 501, css/sass/_font-awesome.scss */
+.icon-mobile-phone:before {
+  content: "\f10b";
+}
+
+/* line 502, css/sass/_font-awesome.scss */
+.icon-circle-blank:before {
+  content: "\f10c";
+}
+
+/* line 503, css/sass/_font-awesome.scss */
+.icon-quote-left:before {
+  content: "\f10d";
+}
+
+/* line 504, css/sass/_font-awesome.scss */
+.icon-quote-right:before {
+  content: "\f10e";
+}
+
+/* line 506, css/sass/_font-awesome.scss */
+.icon-spinner:before {
+  content: "\f110";
+}
+
+/* line 507, css/sass/_font-awesome.scss */
+.icon-circle:before {
+  content: "\f111";
+}
+
+/* line 508, css/sass/_font-awesome.scss */
+.icon-reply:before {
+  content: "\f112";
+}
+
+/* line 509, css/sass/_font-awesome.scss */
+.icon-github-alt:before {
+  content: "\f113";
+}
+
+/* line 510, css/sass/_font-awesome.scss */
+.icon-folder-close-alt:before {
+  content: "\f114";
+}
+
+/* line 511, css/sass/_font-awesome.scss */
+.icon-folder-open-alt:before {
+  content: "\f115";
+}
+
+/* line 75, css/sass/style.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 78, css/sass/style.scss */
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #666666;
+}
+@media (max-width: 1037px) {
+  /* line 78, css/sass/style.scss */
+  body {
+    font-size: 18px;
+  }
+}
+
+/* line 91, css/sass/style.scss */
+.container {
+  margin: 0 auto;
+  max-width: 1138px;
+}
+/* line 95, css/sass/style.scss */
+.container.page-content {
+  margin: 60px auto;
+}
+/* line 96, css/sass/style.scss */
+.container .wrapper {
+  margin-bottom: 60px;
+}
+
+/* line 99, css/sass/style.scss */
+.wrapper {
+  *zoom: 1;
+  max-width: 978px;
+  _width: 978px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 38, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (max-width: 1037px) {
+  /* line 99, css/sass/style.scss */
+  .wrapper {
+    max-width: 958px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 38, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .wrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+/* line 109, css/sass/style.scss */
+.banner {
+  margin-left: -80px;
+  margin-right: -80px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+@media (max-width: 1037px) {
+  /* line 109, css/sass/style.scss */
+  .banner {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* line 123, css/sass/style.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  color: #333333;
+}
+
+/* line 132, css/sass/style.scss */
+h2 {
+  margin: 52px 0 0;
+  font-size: 68px;
+  line-height: 78px;
+}
+
+/* line 139, css/sass/style.scss */
+h3 {
+  margin: 0 0 28px 0;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+/* line 144, css/sass/style.scss */
+h4 {
+  margin: 0 0 16px 0;
+  font-size: 20px;
+}
+@media (max-width: 1037px) {
+  /* line 144, css/sass/style.scss */
+  h4 {
+    font-size: 24px;
+  }
+}
+
+/* line 154, css/sass/style.scss */
+ul.bullet {
+  padding: 0;
+}
+/* line 156, css/sass/style.scss */
+ul.bullet li {
+  position: relative;
+  list-style: none;
+  line-height: 24px;
+}
+/* line 160, css/sass/style.scss */
+ul.bullet li:before {
+  content: " ";
+  position: absolute;
+  top: 12px;
+  left: -16px;
+  width: 4px;
+  height: 4px;
+  -webkit-border-radius: 4em;
+  -moz-border-radius: 4em;
+  border-radius: 4em;
+  background-color: #333333;
+}
+/* line 172, css/sass/style.scss */
+ul.bullet.tech-list li {
+  margin-bottom: 1em;
+}
+
+/* line 176, css/sass/style.scss */
+p {
+  margin-top: 0;
+  line-height: 24px;
+}
+/* line 179, css/sass/style.scss */
+p.first {
+  margin: 0;
+}
+/* line 180, css/sass/style.scss */
+p.important {
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 30px;
+  color: #666666;
+}
+
+/* line 189, css/sass/style.scss */
+strong {
+  font-weight: 600;
+  color: #333333;
+}
+
+/* line 194, css/sass/style.scss */
+.m-hero h2, .banner {
+  font-size: 68px;
+  line-height: 72px;
+}
+@media (max-width: 1037px) {
+  /* line 194, css/sass/style.scss */
+  .m-hero h2, .banner {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+/* line 208, css/sass/style.scss */
+a {
+  -webkit-transition-property: background-color, color;
+  -moz-transition-property: background-color, color;
+  -o-transition-property: background-color, color;
+  transition-property: background-color color;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in;
+  -moz-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+
+/* line 214, css/sass/style.scss */
+.bbc-logo {
+  margin: 0;
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-image: url('img/logo-bbc.png?1371385205');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 356px;
+  height: 120px;
+}
+/* line 217, css/sass/style.scss */
+.bbc-logo a {
+  display: block;
+  height: 100%;
+}
+
+/* line 251, css/sass/style.scss */
+.m-button {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  padding: 6px 12px;
+  background: #666666;
+  text-decoration: none;
+  color: white;
+}
+/* line 232, css/sass/style.scss */
+.m-button i {
+  position: relative;
+  top: 1px;
+  margin-left: 6px;
+}
+/* line 236, css/sass/style.scss */
+.m-button i.left {
+  margin-right: 6px;
+  margin-left: 0;
+}
+/* line 241, css/sass/style.scss */
+.m-button:hover, .m-button:active {
+  background-color: #999999;
+}
+@media (max-width: 1037px) {
+  /* line 251, css/sass/style.scss */
+  .m-button {
+    display: block;
+    text-align: center;
+  }
+}
+
+/* line 258, css/sass/style.scss */
+.m-hero {
+  margin: 0 auto;
+  max-width: 978px;
+  padding-top: 140px;
+  padding-left: 80px;
+  padding-right: 80px;
+  height: 260px;
+  overflow: hidden;
+  margin-top: -200px;
+  background: #333333;
+  color: white;
+}
+/* line 266, css/sass/style.scss */
+.home .m-hero {
+  height: 580px;
+}
+/* line 270, css/sass/style.scss */
+.m-hero h2 {
+  margin-top: 180px;
+  margin-bottom: 20px;
+  color: white;
+}
+/* line 276, css/sass/style.scss */
+.m-hero p {
+  margin: 0;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 200;
+}
+/* line 284, css/sass/style.scss */
+.m-hero.l-soins {
+  background-image: url('img/head-soin.jpg?1371385330');
+}
+/* line 287, css/sass/style.scss */
+.m-hero.l-tech {
+  background-image: url('img/head-tech.jpg?1371399388');
+}
+/* line 290, css/sass/style.scss */
+.m-hero.l-equipe {
+  background-image: url('img/head-equipe.jpg?1371399388');
+}
+/* line 296, css/sass/style.scss */
+.home .m-hero {
+  height: 580px;
+  position: relative;
+}
+/* line 300, css/sass/style.scss */
+.m-hero .home-slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+/* line 305, css/sass/style.scss */
+.m-hero .home-slider img {
+  max-width: 100%;
+}
+/* line 311, css/sass/style.scss */
+.m-hero .bbc-logo,
+.m-hero h2,
+.m-hero p {
+  position: relative;
+  z-index: 1000;
+}
+
+/* line 318, css/sass/style.scss */
+.main-header {
+  color: white;
+}
+/* line 320, css/sass/style.scss */
+.main-header .top {
+  height: 270px;
+  background: #111111;
+}
+/* line 325, css/sass/style.scss */
+.main-header .top #main-nav {
+  float: left;
+}
+/* line 326, css/sass/style.scss */
+.main-header .top .m-phone {
+  float: right;
+}
+
+/* line 330, css/sass/style.scss */
+.m-phone {
+  margin: 0;
+  line-height: 67px;
+  font-size: 24px;
+  font-weight: 200;
+}
+/* line 335, css/sass/style.scss */
+.m-phone i {
+  position: relative;
+  top: 1px;
+  margin-right: 8px;
+  color: #999999;
+}
+
+/* line 343, css/sass/style.scss */
+#main-nav {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+/* line 351, css/sass/style.scss */
+#main-nav ul {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+/* line 355, css/sass/style.scss */
+#main-nav ul li {
+  float: left;
+  margin-right: 40px;
+  border-top: 3px solid #111111;
+}
+/* line 362, css/sass/style.scss */
+#main-nav a {
+  text-decoration: none;
+  line-height: 67px;
+  color: #999999;
+}
+/* line 18, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#main-nav a:visited {
+  color: #999999;
+}
+/* line 21, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#main-nav a:focus {
+  color: white;
+}
+/* line 24, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#main-nav a:hover {
+  color: white;
+}
+/* line 27, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#main-nav a:active {
+  color: #999999;
+}
+/* line 367, css/sass/style.scss */
+#main-nav .current-menu-item {
+  border-top-color: white;
+}
+/* line 368, css/sass/style.scss */
+#main-nav .current-menu-item a, #main-nav .current-menu-item a:visited {
+  color: white;
+}
+/* line 373, css/sass/style.scss */
+#main-nav span {
+  color: #999999;
+}
+
+/* line 376, css/sass/style.scss */
+.banner {
+  margin-top: 0;
+  margin-bottom: 60px;
+  line-height: 180px;
+}
+/* line 382, css/sass/style.scss */
+.banner.contact {
+  background-image: url('img/bg-contact.jpg?1362008006');
+}
+@media (max-width: 1037px) {
+  /* line 376, css/sass/style.scss */
+  .banner {
+    line-height: 85px;
+    margin-bottom: 0;
+  }
+  /* line 389, css/sass/style.scss */
+  .banner.contact {
+    background: none;
+  }
+}
+
+/* line 395, css/sass/style.scss */
+.m-contact {
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+/* line 398, css/sass/style.scss */
+.m-contact .contact-block {
+  width: 22.69939%;
+  float: left;
+  margin-right: 3.06748%;
+  display: inline;
+}
+/* line 400, css/sass/style.scss */
+.m-contact .contact-block.last {
+  width: 22.69939%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -30px;
+  display: inline;
+}
+@media (max-width: 1037px) {
+  /* line 398, css/sass/style.scss */
+  .m-contact .contact-block {
+    display: block;
+    margin-bottom: 20px;
+    float: none;
+    width: auto;
+    margin-right: auto;
+  }
+  /* line 407, css/sass/style.scss */
+  .m-contact .contact-block.last {
+    float: none;
+    width: auto;
+    margin-right: auto;
+  }
+}
+/* line 412, css/sass/style.scss */
+.m-contact .schedule {
+  padding: 0;
+  margin: 0;
+}
+/* line 415, css/sass/style.scss */
+.m-contact .schedule li {
+  list-style: none;
+  clear: both;
+}
+/* line 418, css/sass/style.scss */
+.m-contact .schedule li span.d {
+  float: left;
+  font-weight: 600;
+  color: #333333;
+}
+/* line 423, css/sass/style.scss */
+.m-contact .schedule li span.t {
+  float: right;
+  padding-right: 50px;
+  font-weight: 400;
+  color: #666666;
+  width: 90px;
+}
+@media (max-width: 1037px) {
+  /* line 432, css/sass/style.scss */
+  .m-contact .schedule li span {
+    float: none !important;
+  }
+  /* line 434, css/sass/style.scss */
+  .m-contact .schedule li span.d {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    width: 90px;
+  }
+}
+/* line 442, css/sass/style.scss */
+.m-contact .phone span.text {
+  display: block;
+  margin-top: 5px;
+  font-size: 24px;
+  font-weight: 200;
+}
+/* line 450, css/sass/style.scss */
+.m-contact .phone .m-button {
+  margin-top: 20px;
+  display: none;
+}
+/* line 454, css/sass/style.scss */
+.m-contact .phone i {
+  position: relative;
+  top: 1px;
+  margin-right: 8px;
+}
+@media (max-width: 1037px) {
+  /* line 461, css/sass/style.scss */
+  .m-contact .phone span.text {
+    display: none;
+  }
+  /* line 464, css/sass/style.scss */
+  .m-contact .phone .m-button {
+    display: block;
+  }
+}
+
+/* line 473, css/sass/style.scss */
+.main-footer .bot {
+  color: #999999;
+  background: #111111;
+}
+/* line 477, css/sass/style.scss */
+.main-footer .copyrights {
+  margin: 0;
+  line-height: 50px;
+}
+@media (max-width: 1037px) {
+  /* line 471, css/sass/style.scss */
+  .main-footer {
+    background: #dddddd;
+  }
+}
+
+/* line 487, css/sass/style.scss */
+.m-cta {
+  float: left;
+  position: relative;
+  display: block;
+  width: 33%;
+  height: 260px;
+  background: #dddddd;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+/* line 503, css/sass/style.scss */
+.m-cta strong {
+  color: white;
+}
+/* line 504, css/sass/style.scss */
+.m-cta span {
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  line-height: 60px;
+  background: black;
+  background: rgba(0, 0, 0, 0.65);
+  -webkit-transition-property: background-color;
+  -moz-transition-property: background-color;
+  -o-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+/* line 518, css/sass/style.scss */
+.m-cta:hover span {
+  background: rgba(0, 0, 0, 0.85);
+}
+/* line 521, css/sass/style.scss */
+.m-cta i {
+  position: relative;
+  top: 1px;
+  margin-left: 12px;
+}
+/* line 526, css/sass/style.scss */
+.m-cta.l-soins {
+  background-image: url('img/cta-soin.jpg?1371385219');
+}
+/* line 529, css/sass/style.scss */
+.m-cta.l-tech {
+  background-image: url('img/cta-tech.jpg?1371399388');
+}
+/* line 532, css/sass/style.scss */
+.m-cta.l-equipe {
+  background-image: url('img/cta-equipe.jpg?1371385233');
+}
+
+/* line 539, css/sass/style.scss */
+.entry-content h3 {
+  font-weight: 200;
+}
+/* line 542, css/sass/style.scss */
+.entry-content p {
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 30px;
+}
+
+/* line 551, css/sass/style.scss */
+.entry-content p:last-child {
+  margin-bottom: 40px;
+}
+
+/* line 553, css/sass/style.scss */
+.col-main {
+  width: 65.64417%;
+  float: left;
+  margin-right: 3.06748%;
+  display: inline;
+}
+
+/* line 556, css/sass/style.scss */
+.col-secondary {
+  width: 31.28834%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -30px;
+  display: inline;
+}
+
+/* line 560, css/sass/style.scss */
+.col-left {
+  clear: both;
+  width: 48.46626%;
+  float: left;
+  margin-right: 3.06748%;
+  display: inline;
+}
+
+/* line 564, css/sass/style.scss */
+.col-right {
+  width: 48.46626%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -30px;
+  display: inline;
+}
+
+/* line 567, css/sass/style.scss */
+section {
+  clear: both;
+}
+
+/* line 569, css/sass/style.scss */
+.m-widget {
+  background-color: #f3f3f3;
+}
+/* line 571, css/sass/style.scss */
+.m-widget .content {
+  padding: 26px 30px 30px 30px;
+}
+/* line 574, css/sass/style.scss */
+.m-widget h3 {
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 12px;
+}
+/* line 579, css/sass/style.scss */
+.m-widget p {
+  margin-bottom: 28px;
+  line-height: 20px;
+  font-size: 14px;
+  color: #666666;
+}
+
+/* line 597, css/sass/style.scss */
+.m-equipe .dentiste {
+  margin-bottom: 40px;
+  width: 31.28834%;
+  float: left;
+  margin-right: 3.06748%;
+  display: inline;
+}
+/* line 600, css/sass/style.scss */
+.m-equipe .dentiste.last {
+  width: 31.28834%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -30px;
+  display: inline;
+}
+/* line 603, css/sass/style.scss */
+.m-equipe .dentiste.full {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -30px;
+  display: inline;
+  border-top: 1px solid #dddddd;
+  padding-top: 60px;
+  margin-bottom: 0;
+}
+/* line 608, css/sass/style.scss */
+.m-equipe .dentiste.full img {
+  width: 31.28834%;
+  float: left;
+  margin-right: 3.06748%;
+  display: inline;
+  float: left;
+}
+/* line 614, css/sass/style.scss */
+.m-equipe img {
+  margin-bottom: 30px;
+}
+/* line 615, css/sass/style.scss */
+.m-equipe h3 {
+  margin-bottom: 0;
+  font-size: 20px;
+  line-height: 24px;
+}
+/* line 620, css/sass/style.scss */
+.m-equipe .sous-titre {
+  font-size: 14px;
+  color: #999999;
+}
+/* line 624, css/sass/style.scss */
+.m-equipe .description {
+  margin-bottom: 0;
+}
+/* line 627, css/sass/style.scss */
+.m-equipe ul {
+  color: #333333;
+  font-weight: 600;
+}
+
+/* line 636, css/sass/style.scss */
+.m-accordion {
+  width: 100%;
+  overflow: hidden;
+}
+/* line 639, css/sass/style.scss */
+.m-accordion > ul {
+  padding: 0;
+  margin-top: 0;
+}
+/* line 645, css/sass/style.scss */
+.m-accordion ul li.m-accordion-container {
+  overflow: hidden;
+  padding: 17px 0 0 30px;
+  height: 48px;
+  background: none;
+  border: 1px solid #dddddd;
+  border-top: none;
+}
+/* line 652, css/sass/style.scss */
+.m-accordion ul li.m-accordion-container.l-large {
+  height: 68px;
+}
+/* line 654, css/sass/style.scss */
+.m-accordion ul li.m-accordion-container.l-large > a {
+  height: 68px;
+}
+/* line 656, css/sass/style.scss */
+.m-accordion ul li.m-accordion-container:first-child {
+  border-top: 1px solid #dddddd;
+}
+/* line 658, css/sass/style.scss */
+.m-accordion ul li > a {
+  display: block;
+  position: relative;
+  padding-right: 30px;
+  height: 48px;
+  outline: none;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #333333;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+/* line 673, css/sass/style.scss */
+.m-accordion ul li > a:hover {
+  text-decoration: none;
+}
+/* line 676, css/sass/style.scss */
+.m-accordion ul li > a:hover i, .m-accordion ul li > a:focus i {
+  opacity: 1;
+  color: #333333;
+}
+/* line 681, css/sass/style.scss */
+.m-accordion ul li > a i {
+  position: absolute;
+  top: 50%;
+  right: 28px;
+  margin-top: -17px;
+  width: 17px;
+  height: 17px;
+  color: #dddddd;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+/* line 696, css/sass/style.scss */
+.m-accordion ul li.s-open > a i {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+/* line 702, css/sass/style.scss */
+.m-accordion .m-accordion-content {
+  padding: 0 0px 26px 0px;
+}
+/* line 705, css/sass/style.scss */
+.m-accordion .m-accordion-content ul {
+  margin: 0;
+}
+/* line 706, css/sass/style.scss */
+.m-accordion .m-accordion-content li {
+  line-height: 23px !important;
+}
+
+/* line 710, css/sass/style.scss */
+.lt-ie8 .m-accordion ul li.m-accordion-container > a span {
+  top: 15px;
+  right: 0;
+}

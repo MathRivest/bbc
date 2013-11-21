@@ -27,9 +27,9 @@
 
         <?php if(is_front_page()):?>
         <div class="home-slider">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home-marie-eve-cyr.jpg" width="1138" height="720">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home-yve-bouchar.jpg" width="1138" height="720">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home-chantale-belanger.jpg" width="1138" height="720">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home-marie-eve-cyr.jpg">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home-yve-bouchar.jpg">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home-chantale-belanger.jpg">
         </div>
         <h2>Services professionnels <br/>de dentisterie</h2>
         <p>La clinique dentaire Bouchard-Bélanger-Cyr vous offre des services professionnels de dentisterie générale, d'urgence et spécialisée dans un environnement combinant confort et haute technologie.</p>
