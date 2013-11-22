@@ -262,11 +262,16 @@ $padding-right: 80px;
     padding-left:$padding-left;
     padding-right:$padding-right;
     height:400px - $padding-top;
-    overflow: hidden;
-    .home &{height: 720px - $padding-top;}
     margin-top:-200px;
     background:$grey;
     color:$white;
+
+    .home &{height: 720px - $padding-top;}
+
+    @include at-breakpoint($laptop-and-under){
+        overflow: hidden;
+    }
+
     h2{
         @extend %bigtitle;
         margin-top:180px;
