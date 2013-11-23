@@ -2327,50 +2327,51 @@ a {
   /* line 258, css/sass/style.scss */
   .m-hero {
     overflow: hidden;
+    margin-top: 0 !important;
   }
 }
-/* line 275, css/sass/style.scss */
+/* line 276, css/sass/style.scss */
 .m-hero h2 {
   margin-top: 180px;
   margin-bottom: 20px;
   color: white;
 }
-/* line 281, css/sass/style.scss */
+/* line 282, css/sass/style.scss */
 .m-hero p {
   margin: 0;
   line-height: 30px;
   font-size: 20px;
   font-weight: 200;
 }
-/* line 289, css/sass/style.scss */
+/* line 290, css/sass/style.scss */
 .m-hero.l-soins {
   background-image: url('img/head-soin.jpg?1384102705');
 }
-/* line 292, css/sass/style.scss */
+/* line 293, css/sass/style.scss */
 .m-hero.l-tech {
   background-image: url('img/head-tech.jpg?1384102705');
 }
-/* line 295, css/sass/style.scss */
+/* line 296, css/sass/style.scss */
 .m-hero.l-equipe {
   background-image: url('img/head-equipe.jpg?1384102705');
 }
-/* line 301, css/sass/style.scss */
+/* line 302, css/sass/style.scss */
 .home .m-hero {
   height: 580px;
   position: relative;
 }
-/* line 305, css/sass/style.scss */
+/* line 306, css/sass/style.scss */
 .m-hero .home-slider {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 1;
 }
-/* line 310, css/sass/style.scss */
+/* line 311, css/sass/style.scss */
 .m-hero .home-slider img {
   max-width: 100%;
 }
-/* line 316, css/sass/style.scss */
+/* line 317, css/sass/style.scss */
 .m-hero .bbc-logo,
 .m-hero h2,
 .m-hero p {
@@ -2378,32 +2379,43 @@ a {
   z-index: 1000;
 }
 
-/* line 323, css/sass/style.scss */
+/* line 324, css/sass/style.scss */
 .main-header {
   color: white;
 }
-/* line 325, css/sass/style.scss */
+/* line 326, css/sass/style.scss */
 .main-header .top {
   height: 270px;
   background: #111111;
 }
-/* line 330, css/sass/style.scss */
+/* line 331, css/sass/style.scss */
 .main-header .top #main-nav {
   float: left;
 }
-/* line 331, css/sass/style.scss */
+/* line 332, css/sass/style.scss */
 .main-header .top .m-phone {
   float: right;
 }
+@media (max-width: 1037px) {
+  /* line 336, css/sass/style.scss */
+  .main-header .top {
+    height: auto;
+  }
+  /* line 339, css/sass/style.scss */
+  .main-header .top #main-nav,
+  .main-header .top .m-phone {
+    float: none;
+  }
+}
 
-/* line 335, css/sass/style.scss */
+/* line 346, css/sass/style.scss */
 .m-phone {
   margin: 0;
   line-height: 67px;
   font-size: 24px;
   font-weight: 200;
 }
-/* line 340, css/sass/style.scss */
+/* line 351, css/sass/style.scss */
 .m-phone i {
   position: relative;
   top: 1px;
@@ -2411,25 +2423,25 @@ a {
   color: #999999;
 }
 
-/* line 348, css/sass/style.scss */
+/* line 359, css/sass/style.scss */
 #main-nav {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
 }
-/* line 356, css/sass/style.scss */
+/* line 367, css/sass/style.scss */
 #main-nav ul {
   overflow: hidden;
   margin: 0;
   padding: 0;
 }
-/* line 360, css/sass/style.scss */
+/* line 371, css/sass/style.scss */
 #main-nav ul li {
   float: left;
   margin-right: 40px;
   border-top: 3px solid #111111;
 }
-/* line 367, css/sass/style.scss */
+/* line 378, css/sass/style.scss */
 #main-nav a {
   text-decoration: none;
   line-height: 67px;
@@ -2451,54 +2463,61 @@ a {
 #main-nav a:active {
   color: #999999;
 }
-/* line 372, css/sass/style.scss */
+/* line 383, css/sass/style.scss */
 #main-nav .current-menu-item {
   border-top-color: white;
 }
-/* line 373, css/sass/style.scss */
+/* line 384, css/sass/style.scss */
 #main-nav .current-menu-item a, #main-nav .current-menu-item a:visited {
   color: white;
 }
-/* line 378, css/sass/style.scss */
+/* line 389, css/sass/style.scss */
 #main-nav span {
   color: #999999;
 }
+@media (max-width: 1037px) {
+  /* line 393, css/sass/style.scss */
+  #main-nav ul li {
+    float: none;
+    margin: 0;
+  }
+}
 
-/* line 381, css/sass/style.scss */
+/* line 401, css/sass/style.scss */
 .banner {
   margin-top: 0;
   margin-bottom: 60px;
   line-height: 180px;
 }
-/* line 387, css/sass/style.scss */
+/* line 407, css/sass/style.scss */
 .banner.contact {
   background-image: url('img/bg-contact.jpg?1384101434');
 }
 @media (max-width: 1037px) {
-  /* line 381, css/sass/style.scss */
+  /* line 401, css/sass/style.scss */
   .banner {
     line-height: 85px;
     margin-bottom: 0;
   }
-  /* line 394, css/sass/style.scss */
+  /* line 414, css/sass/style.scss */
   .banner.contact {
     background: none;
   }
 }
 
-/* line 400, css/sass/style.scss */
+/* line 420, css/sass/style.scss */
 .m-contact {
   margin-bottom: 40px;
   overflow: hidden;
 }
-/* line 403, css/sass/style.scss */
+/* line 423, css/sass/style.scss */
 .m-contact .contact-block {
   width: 22.69939%;
   float: left;
   margin-right: 3.06748%;
   display: inline;
 }
-/* line 405, css/sass/style.scss */
+/* line 425, css/sass/style.scss */
 .m-contact .contact-block.last {
   width: 22.69939%;
   float: right;
@@ -2507,7 +2526,7 @@ a {
   display: inline;
 }
 @media (max-width: 1037px) {
-  /* line 403, css/sass/style.scss */
+  /* line 423, css/sass/style.scss */
   .m-contact .contact-block {
     display: block;
     margin-bottom: 20px;
@@ -2515,30 +2534,30 @@ a {
     width: auto;
     margin-right: auto;
   }
-  /* line 412, css/sass/style.scss */
+  /* line 432, css/sass/style.scss */
   .m-contact .contact-block.last {
     float: none;
     width: auto;
     margin-right: auto;
   }
 }
-/* line 417, css/sass/style.scss */
+/* line 437, css/sass/style.scss */
 .m-contact .schedule {
   padding: 0;
   margin: 0;
 }
-/* line 420, css/sass/style.scss */
+/* line 440, css/sass/style.scss */
 .m-contact .schedule li {
   list-style: none;
   clear: both;
 }
-/* line 423, css/sass/style.scss */
+/* line 443, css/sass/style.scss */
 .m-contact .schedule li span.d {
   float: left;
   font-weight: 600;
   color: #333333;
 }
-/* line 428, css/sass/style.scss */
+/* line 448, css/sass/style.scss */
 .m-contact .schedule li span.t {
   float: right;
   padding-right: 50px;
@@ -2547,11 +2566,11 @@ a {
   width: 90px;
 }
 @media (max-width: 1037px) {
-  /* line 437, css/sass/style.scss */
+  /* line 457, css/sass/style.scss */
   .m-contact .schedule li span {
     float: none !important;
   }
-  /* line 439, css/sass/style.scss */
+  /* line 459, css/sass/style.scss */
   .m-contact .schedule li span.d {
     display: -moz-inline-stack;
     display: inline-block;
@@ -2562,53 +2581,53 @@ a {
     width: 90px;
   }
 }
-/* line 447, css/sass/style.scss */
+/* line 467, css/sass/style.scss */
 .m-contact .phone span.text {
   display: block;
   margin-top: 5px;
   font-size: 24px;
   font-weight: 200;
 }
-/* line 455, css/sass/style.scss */
+/* line 475, css/sass/style.scss */
 .m-contact .phone .m-button {
   margin-top: 20px;
   display: none;
 }
-/* line 459, css/sass/style.scss */
+/* line 479, css/sass/style.scss */
 .m-contact .phone i {
   position: relative;
   top: 1px;
   margin-right: 8px;
 }
 @media (max-width: 1037px) {
-  /* line 466, css/sass/style.scss */
+  /* line 486, css/sass/style.scss */
   .m-contact .phone span.text {
     display: none;
   }
-  /* line 469, css/sass/style.scss */
+  /* line 489, css/sass/style.scss */
   .m-contact .phone .m-button {
     display: block;
   }
 }
 
-/* line 478, css/sass/style.scss */
+/* line 498, css/sass/style.scss */
 .main-footer .bot {
   color: #999999;
   background: #111111;
 }
-/* line 482, css/sass/style.scss */
+/* line 502, css/sass/style.scss */
 .main-footer .copyrights {
   margin: 0;
   line-height: 50px;
 }
 @media (max-width: 1037px) {
-  /* line 476, css/sass/style.scss */
+  /* line 496, css/sass/style.scss */
   .main-footer {
     background: #dddddd;
   }
 }
 
-/* line 492, css/sass/style.scss */
+/* line 512, css/sass/style.scss */
 .m-cta {
   float: left;
   position: relative;
@@ -2618,15 +2637,16 @@ a {
   background: #dddddd;
   font-size: 20px;
   font-weight: 200;
+  text-decoration: none;
   text-align: center;
   text-transform: uppercase;
   color: white;
 }
-/* line 508, css/sass/style.scss */
+/* line 529, css/sass/style.scss */
 .m-cta strong {
   color: white;
 }
-/* line 509, css/sass/style.scss */
+/* line 530, css/sass/style.scss */
 .m-cta span {
   cursor: pointer;
   display: block;
@@ -2650,46 +2670,61 @@ a {
   -o-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-/* line 523, css/sass/style.scss */
+/* line 544, css/sass/style.scss */
 .m-cta:hover span {
   background: rgba(0, 0, 0, 0.85);
 }
-/* line 526, css/sass/style.scss */
+/* line 547, css/sass/style.scss */
 .m-cta i {
   position: relative;
   top: 1px;
   margin-left: 12px;
 }
-/* line 531, css/sass/style.scss */
+/* line 552, css/sass/style.scss */
 .m-cta.l-soins {
   background-image: url('img/cta-soin.jpg?1384102705');
 }
-/* line 534, css/sass/style.scss */
+/* line 555, css/sass/style.scss */
 .m-cta.l-tech {
   background-image: url('img/cta-tech.jpg?1384102705');
 }
-/* line 537, css/sass/style.scss */
+/* line 558, css/sass/style.scss */
 .m-cta.l-equipe {
   background-image: url('img/cta-equipe.jpg?1384102705');
 }
+@media (max-width: 767px) {
+  /* line 512, css/sass/style.scss */
+  .m-cta {
+    float: none;
+    margin: 0 20px 10px;
+    width: auto;
+    height: 60px;
+    background: none !important;
+  }
+  /* line 570, css/sass/style.scss */
+  .m-cta span {
+    position: static;
+    background: black;
+  }
+}
 
-/* line 544, css/sass/style.scss */
+/* line 581, css/sass/style.scss */
 .entry-content h3 {
   font-weight: 200;
 }
-/* line 547, css/sass/style.scss */
+/* line 584, css/sass/style.scss */
 .entry-content p {
   font-size: 20px;
   font-weight: 200;
   line-height: 30px;
 }
 
-/* line 556, css/sass/style.scss */
+/* line 593, css/sass/style.scss */
 .entry-content p:last-child {
   margin-bottom: 40px;
 }
 
-/* line 558, css/sass/style.scss */
+/* line 595, css/sass/style.scss */
 .col-main {
   width: 65.64417%;
   float: left;
@@ -2697,7 +2732,7 @@ a {
   display: inline;
 }
 
-/* line 561, css/sass/style.scss */
+/* line 598, css/sass/style.scss */
 .col-secondary {
   width: 31.28834%;
   float: right;
@@ -2707,7 +2742,7 @@ a {
 }
 
 @media (max-width: 767px) {
-  /* line 569, css/sass/style.scss */
+  /* line 606, css/sass/style.scss */
   .col-main,
   .col-secondary {
     display: block;
@@ -2716,7 +2751,7 @@ a {
     margin-right: auto;
   }
 }
-/* line 577, css/sass/style.scss */
+/* line 614, css/sass/style.scss */
 .col-left {
   clear: both;
   width: 48.46626%;
@@ -2724,12 +2759,12 @@ a {
   margin-right: 3.06748%;
   display: inline;
 }
-/* line 580, css/sass/style.scss */
+/* line 617, css/sass/style.scss */
 .col-left img {
   max-width: 100%;
 }
 
-/* line 582, css/sass/style.scss */
+/* line 619, css/sass/style.scss */
 .col-right {
   width: 48.46626%;
   float: right;
@@ -2739,7 +2774,7 @@ a {
 }
 
 @media (max-width: 767px) {
-  /* line 589, css/sass/style.scss */
+  /* line 626, css/sass/style.scss */
   .col-left,
   .col-right {
     display: block;
@@ -2748,30 +2783,30 @@ a {
     margin-right: auto;
   }
 }
-/* line 596, css/sass/style.scss */
+/* line 633, css/sass/style.scss */
 section {
   clear: both;
 }
 
-/* line 598, css/sass/style.scss */
+/* line 635, css/sass/style.scss */
 .m-widget {
   background-color: #f3f3f3;
 }
-/* line 600, css/sass/style.scss */
+/* line 637, css/sass/style.scss */
 .m-widget img {
   max-width: 100%;
 }
-/* line 601, css/sass/style.scss */
+/* line 638, css/sass/style.scss */
 .m-widget .content {
   padding: 26px 30px 30px 30px;
 }
-/* line 604, css/sass/style.scss */
+/* line 641, css/sass/style.scss */
 .m-widget h3 {
   font-size: 18px;
   line-height: 22px;
   margin-bottom: 12px;
 }
-/* line 609, css/sass/style.scss */
+/* line 646, css/sass/style.scss */
 .m-widget p {
   margin-bottom: 28px;
   line-height: 20px;
@@ -2779,17 +2814,17 @@ section {
   color: #666666;
 }
 @media (max-width: 767px) {
-  /* line 598, css/sass/style.scss */
+  /* line 635, css/sass/style.scss */
   .m-widget {
     margin-bottom: 20px;
   }
-  /* line 621, css/sass/style.scss */
+  /* line 658, css/sass/style.scss */
   .m-widget img {
     display: none;
   }
 }
 
-/* line 634, css/sass/style.scss */
+/* line 671, css/sass/style.scss */
 .m-equipe .dentiste {
   margin-bottom: 40px;
   width: 31.28834%;
@@ -2797,7 +2832,7 @@ section {
   margin-right: 3.06748%;
   display: inline;
 }
-/* line 637, css/sass/style.scss */
+/* line 674, css/sass/style.scss */
 .m-equipe .dentiste.last {
   width: 31.28834%;
   float: right;
@@ -2805,7 +2840,7 @@ section {
   *margin-left: -30px;
   display: inline;
 }
-/* line 640, css/sass/style.scss */
+/* line 677, css/sass/style.scss */
 .m-equipe .dentiste.full {
   width: 100%;
   float: right;
@@ -2816,7 +2851,7 @@ section {
   padding-top: 60px;
   margin-bottom: 0;
 }
-/* line 645, css/sass/style.scss */
+/* line 682, css/sass/style.scss */
 .m-equipe .dentiste.full img {
   margin-bottom: 16px;
   width: 31.28834%;
@@ -2825,33 +2860,33 @@ section {
   display: inline;
   float: left;
 }
-/* line 652, css/sass/style.scss */
+/* line 689, css/sass/style.scss */
 .m-equipe img {
   max-width: 100%;
   margin-bottom: 30px;
 }
-/* line 656, css/sass/style.scss */
+/* line 693, css/sass/style.scss */
 .m-equipe h3 {
   margin-bottom: 0;
   font-size: 20px;
   line-height: 24px;
 }
-/* line 661, css/sass/style.scss */
+/* line 698, css/sass/style.scss */
 .m-equipe .sous-titre {
   font-size: 14px;
   color: #999999;
 }
-/* line 665, css/sass/style.scss */
+/* line 702, css/sass/style.scss */
 .m-equipe .description {
   margin-bottom: 0;
 }
-/* line 668, css/sass/style.scss */
+/* line 705, css/sass/style.scss */
 .m-equipe ul {
   color: #333333;
   font-weight: 600;
 }
 @media (max-width: 767px) {
-  /* line 677, css/sass/style.scss */
+  /* line 714, css/sass/style.scss */
   .m-equipe .dentiste,
   .m-equipe .dentiste.last,
   .m-equipe .dentiste.full {
@@ -2862,7 +2897,7 @@ section {
     border: none;
     padding-top: 0;
   }
-  /* line 682, css/sass/style.scss */
+  /* line 719, css/sass/style.scss */
   .m-equipe .dentiste img,
   .m-equipe .dentiste.last img,
   .m-equipe .dentiste.full img {
@@ -2871,17 +2906,17 @@ section {
   }
 }
 
-/* line 695, css/sass/style.scss */
+/* line 732, css/sass/style.scss */
 .m-accordion {
   width: 100%;
   overflow: hidden;
 }
-/* line 698, css/sass/style.scss */
+/* line 735, css/sass/style.scss */
 .m-accordion > ul {
   padding: 0;
   margin-top: 0;
 }
-/* line 704, css/sass/style.scss */
+/* line 741, css/sass/style.scss */
 .m-accordion ul li.m-accordion-container {
   overflow: hidden;
   padding: 17px 0 0 30px;
@@ -2890,19 +2925,19 @@ section {
   border: 1px solid #dddddd;
   border-top: none;
 }
-/* line 711, css/sass/style.scss */
+/* line 748, css/sass/style.scss */
 .m-accordion ul li.m-accordion-container.l-large {
   height: 68px;
 }
-/* line 713, css/sass/style.scss */
+/* line 750, css/sass/style.scss */
 .m-accordion ul li.m-accordion-container.l-large > a {
   height: 68px;
 }
-/* line 715, css/sass/style.scss */
+/* line 752, css/sass/style.scss */
 .m-accordion ul li.m-accordion-container:first-child {
   border-top: 1px solid #dddddd;
 }
-/* line 717, css/sass/style.scss */
+/* line 754, css/sass/style.scss */
 .m-accordion ul li > a {
   display: block;
   position: relative;
@@ -2926,16 +2961,16 @@ section {
   -o-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
-/* line 732, css/sass/style.scss */
+/* line 769, css/sass/style.scss */
 .m-accordion ul li > a:hover {
   text-decoration: none;
 }
-/* line 735, css/sass/style.scss */
+/* line 772, css/sass/style.scss */
 .m-accordion ul li > a:hover i, .m-accordion ul li > a:focus i {
   opacity: 1;
   color: #333333;
 }
-/* line 740, css/sass/style.scss */
+/* line 777, css/sass/style.scss */
 .m-accordion ul li > a i {
   position: absolute;
   top: 50%;
@@ -2957,7 +2992,7 @@ section {
   -o-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
-/* line 755, css/sass/style.scss */
+/* line 792, css/sass/style.scss */
 .m-accordion ul li.s-open > a i {
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
@@ -2965,20 +3000,20 @@ section {
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
 }
-/* line 761, css/sass/style.scss */
+/* line 798, css/sass/style.scss */
 .m-accordion .m-accordion-content {
   padding: 0 0px 26px 0px;
 }
-/* line 764, css/sass/style.scss */
+/* line 801, css/sass/style.scss */
 .m-accordion .m-accordion-content ul {
   margin: 0;
 }
-/* line 765, css/sass/style.scss */
+/* line 802, css/sass/style.scss */
 .m-accordion .m-accordion-content li {
   line-height: 23px !important;
 }
 
-/* line 769, css/sass/style.scss */
+/* line 806, css/sass/style.scss */
 .lt-ie8 .m-accordion ul li.m-accordion-container > a span {
   top: 15px;
   right: 0;

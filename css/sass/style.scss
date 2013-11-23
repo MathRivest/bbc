@@ -270,6 +270,7 @@ $padding-right: 80px;
 
     @include at-breakpoint($laptop-and-under){
         overflow: hidden;
+        margin-top:0!important;
     }
 
     h2{
@@ -330,6 +331,16 @@ $padding-right: 80px;
         #main-nav{float:left;}
         .m-phone{float:right;}
     }
+
+    @include at-breakpoint($laptop-and-under){
+        .top{
+            height:auto;
+            #main-nav,
+            .m-phone{
+                float:none;
+            }
+        }
+    }
 }
 
 .m-phone{
@@ -376,6 +387,15 @@ $padding-right: 80px;
         border-top-color:$white;
     }
     span{color:$light-grey;}
+
+    @include at-breakpoint($laptop-and-under){
+        ul{
+            li{
+                float:none;
+                margin:0;
+            }
+        }
+    }
 }
 
 .banner{
@@ -501,6 +521,7 @@ $padding-right: 80px;
         weight:200;
     }
     text:{
+        decoration:none;
         align:center;
         transform: uppercase;
     }
@@ -538,6 +559,22 @@ $padding-right: 80px;
         @include background-image(image-url('cta-equipe.jpg'));
     }
     &.last{}
+
+
+    @include at-breakpoint($phone){
+        float:none;
+        margin:0 20px 10px;
+        width:auto;
+        height:60px;
+        background:none!important;
+        span{
+            position:static;
+            background:$black;
+        }
+    }
+
+
+
 }
 
 .entry-content{
