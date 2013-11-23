@@ -174,7 +174,7 @@
         </div>
         <aside class="col-secondary">
             <section class="m-widget l-tech">
-                <img src="<?php echo get_bloginfo('template_url') ?>/img/widget-tech.jpg" width="306" height="204">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/widget-tech.jpg">
                 <div class="content">
                     <h3>Hautes technologies</h3>
                     <p>Pour nous, vous offrir les ressources technologiques les plus performantes est primordial. En effet, c’est avec ces ressources essentielles que notre équipe de professionnels établit les diagnostics et les traitements appropriés pour mieux vous server</p>

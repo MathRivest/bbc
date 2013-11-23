@@ -49,7 +49,7 @@
         </section>
         <aside class="col-secondary">
             <section class="m-widget l-soins">
-                <img src="<?php echo get_bloginfo('template_url') ?>/img/widget-soin.jpg" width="306" height="204">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/widget-soin.jpg">
                 <div class="content">
                     <h3>Soins offerts selon vos besoins</h3>
                     <p>Nous vous offrons une gamme complète de soins, disponibles sur place, dans un environnement combinant confort et haute technologie.</p>
