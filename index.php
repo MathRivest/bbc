@@ -16,26 +16,37 @@
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 
 <div class="container">
-    <div class="wrapper">
+	<div class="wrapper">
 
-		<?php if ( have_posts() ): ?>
-		<h2>Latest Posts</h2>	
-		<ol>
-		<?php while ( have_posts() ) : the_post(); ?>
-			<li>
-				<article>
-					<h2><a href="<?php esc_url( the_permalink() ); ?>" title="Permalink to <?php the_title(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
-					<time datetime="<?php the_time( 'Y-m-d' ); ?>" pubdate><?php the_date(); ?> <?php the_time(); ?></time> <?php comments_popup_link('Leave a Comment', '1 Comment', '% Comments'); ?>
-					<?php the_content(); ?>
+		<div class="posts-wrapper">
+			<?php Starkers_Utilities::get_template_parts( array('parts/shared/featured-post' ) ); ?>
+			<?php query_posts(array("post__not_in" =>get_option("sticky_posts"), 'paged' => get_query_var('paged'))); ?>
+			<?php if ( have_posts() ): ?>
+				<?php while ( have_posts() ) : the_post(); ?>
+				<article <?php post_class(); ?>>
+					<?php if(has_post_thumbnail()){ ?>
+						<div class="left">
+							<?php echo get_the_post_thumbnail($post_id, array(140,140)); ?>
+						</div>
+					<?php } ?>
+					<div class="right">
+						<h2 class="h4"><a href="<?php esc_url( the_permalink() ); ?>" title="Permalink to <?php the_title(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+						<div class="meta">
+							<span>Publié le <?php the_time('j F'); ?> par <span class="author"><?php the_author() ?></span></span>
+						</div>
+						<?php the_excerpt(); ?>
+					</div>
 				</article>
-			</li>
-		<?php endwhile; ?>
-		</ol>
-		<?php else: ?>
-		<h2>No posts to display</h2>
-		<?php endif; ?>
+				<?php endwhile; ?>
+			<?php else: ?>
+				<h2>No posts to display</h2>
+			<?php endif; ?>
+		</div>
 
-    </div>
+		<div class="sidebar-wrapper">
+			<?php Starkers_Utilities::get_template_parts( array('parts/shared/html-sidebar') ); ?>
+		</div>
+	</div>
 </div>
 
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer') ); ?>
