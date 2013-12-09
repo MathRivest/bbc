@@ -23,24 +23,16 @@
 			<?php query_posts(array("post__not_in" =>get_option("sticky_posts"), 'paged' => get_query_var('paged'))); ?>
 			<?php if ( have_posts() ): ?>
 				<?php while ( have_posts() ) : the_post(); ?>
-				<article <?php post_class(); ?>>
-					<?php if(has_post_thumbnail()){ ?>
-						<div class="left">
-							<?php echo get_the_post_thumbnail($post_id, array(140,140)); ?>
-						</div>
-					<?php } ?>
-					<div class="right">
-						<h2 class="h4"><a href="<?php esc_url( the_permalink() ); ?>" title="Permalink to <?php the_title(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
-						<div class="meta">
-							<span>Publié le <?php the_time('j F'); ?> par <span class="author"><?php the_author() ?></span></span>
-						</div>
-						<?php the_excerpt(); ?>
-					</div>
-				</article>
+				<?php Starkers_Utilities::get_template_parts( array('parts/shared/post' ) ); ?>
 				<?php endwhile; ?>
+				<div class="m-paging">
+					<?php posts_nav_link('&nbsp;','<i class="icon-caret-left left"></i>Articles précédents','Voir plus d&#8217articles<i class="icon-caret-right"></i>'); ?>
+				</div>
 			<?php else: ?>
 				<h2>No posts to display</h2>
 			<?php endif; ?>
+
+
 		</div>
 
 		<div class="sidebar-wrapper">

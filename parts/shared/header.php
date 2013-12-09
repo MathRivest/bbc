@@ -8,7 +8,7 @@
         $heroClass = "l-equipe";
     elseif(is_page( 'contact' )):
         $heroClass = "l-contact";
-    elseif(is_home()):
+    else:
         $heroClass = "l-blog";
     endif;
     ?>

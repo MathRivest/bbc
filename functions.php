@@ -26,6 +26,13 @@
 	======================================================================================================================== */
 
 	add_theme_support('post-thumbnails');
+
+	if ( function_exists( 'add_image_size' ) ) { 
+		add_image_size( 'featured-thumb', 642, 400 );
+	}
+
+
+
 	add_post_type_support('page', 'excerpt');
 
 	// This theme uses wp_nav_menu() in one location.

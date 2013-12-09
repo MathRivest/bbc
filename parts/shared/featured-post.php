@@ -14,7 +14,7 @@
 		<a href="<?php esc_url( the_permalink() ); ?>" title="<?php the_title(); ?>" rel="bookmark">
 			<?php
 				if(has_post_thumbnail()){
-					echo get_the_post_thumbnail($post_id, 'full');
+					echo get_the_post_thumbnail($post_id, 'featured-post');
 				}else{
 					echo '<img src="http://placehold.it/642x400">';
 				}
