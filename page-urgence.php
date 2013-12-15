@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Soins
+ * Template Name: Urgences
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -32,13 +32,24 @@
             </div>
         <?php endwhile; ?>
 
-        <?php
-            if(get_locale() == "fr_FR"){
-                Starkers_Utilities::get_template_parts( array( 'parts/content/fr-soins') );
-            }else{
-                Starkers_Utilities::get_template_parts( array( 'parts/content/en-soins') );
-            }
-        ?>
+
+
+        <section class="col-main">
+            <h4>Urgences</h4>
+            <!-- <p>Pour nous, vous offrir les ressources technologiques les plus performantes est primordial. En effet, c’est avec ces ressources essentielles que notre équipe de professionnels établit les diagnostics et les traitements appropriés pour mieux vous servir.</p> -->
+            
+        </section>
+        <aside class="col-secondary">
+            <section class="m-widget l-soins">
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/widget-soin.jpg">
+                <div class="content">
+                    <h3>Soins offerts selon vos besoins</h3>
+                    <p>Nous vous offrons une gamme complète de soins, disponibles sur place, dans un environnement combinant confort et haute technologie.</p>
+                    <a href="/bbc/soins-services" class="m-button">En savoir plus<i class="icon-caret-right"></i></a>
+                </div>
+            </section>
+        </aside>
+
 
     </div>
 </div>

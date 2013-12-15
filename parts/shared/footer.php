@@ -35,6 +35,9 @@
 		<div class="bot">
 			<div class="wrapper">
 				<p class="copyrights">&copy; <?php echo date("Y"); ?> Clinique Bouchard-Bélanger-Cyr. Tous droits réservés.</p>
+				<ul id="js-lang_switcher" class="m-switcher">
+					<?php pll_the_languages(); ?>
+				</ul>
 			</div>
 		</div>
 	</footer>

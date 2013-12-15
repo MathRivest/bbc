@@ -537,8 +537,13 @@ $padding-right: 80px;
     .bot{
         color:$light-grey;
         background:$almost-black;
+        .m-switcher{
+            float:right;
+            margin-top:12px;
+        }
     }
     .copyrights{
+        float:left;
         margin:0;
         line-height: 50px;
     }
@@ -931,6 +936,10 @@ section{clear:both;}
     .listing-title{
         margin-bottom:30px;
     }
+    .post-banner{
+        img{width:100%;}
+        margin-bottom:40px;
+    }
 }
 
 
@@ -951,6 +960,24 @@ section{clear:both;}
     a{
         @include button;
         margin-right:10px;
+    }
+}
+
+.m-switcher{
+    border:1px solid $grey-light;
+    margin:0;
+    padding:0;
+    li{
+        list-style:none;
+    }
+    a{
+        display:block;
+        padding:2px 10px;
+        color:$white;
+        text-decoration: none;
+    }
+    .current-lang{
+        display:none;
     }
 }
 

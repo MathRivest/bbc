@@ -19,6 +19,12 @@
 
 		<div class="post-wrapper">
 			<article class="post-detail">
+
+				<?php if(has_post_thumbnail()){ ?>
+					<div class="post-banner">
+						<?php echo get_the_post_thumbnail($post_id, 'full'); ?>
+					</div>
+				<?php } ?>
 				<h2><?php the_title(); ?></h2>
 				<div class="meta">
 					<span>Publié le <?php the_time('j F'); ?> par <span class="author"><?php the_author() ?></span></span>

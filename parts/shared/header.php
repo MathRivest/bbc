@@ -1,13 +1,16 @@
 
     <?php
-    if(is_page( 'soins-services' )):
+
+    if(is_page( 'soins-services' ) || is_page( 'care-services' )):
         $heroClass = "l-soins";
-    elseif(is_page( 'technologies' )):
+    elseif(is_page( 'technologies' ) || is_page( 'advanced-technologies' )):
         $heroClass = "l-tech";
-    elseif(is_page( 'dentistes' )):
+    elseif(is_page( 'dentistes' ) || is_page( 'our-team' )):
         $heroClass = "l-equipe";
     elseif(is_page( 'contact' )):
         $heroClass = "l-contact";
+    elseif(is_front_page()):
+        $heroClass = "";
     else:
         $heroClass = "l-blog";
     endif;
