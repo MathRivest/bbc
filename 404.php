@@ -11,6 +11,13 @@
 ?>
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 
-<h2>Page not found</h2>
+
+
+<div class="container page-content">
+	<div class="wrapper">
+		<h3>Aucune page trouvée</h3>
+		<p>Visitez notre <a href="<?php echo site_url(); ?>">accueil</a> pour plus d'informations</p>
+	</div>
+</div>
 
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer' ) ); ?>

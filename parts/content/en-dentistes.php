@@ -1,9 +1,10 @@
 
         <div class="m-equipe">
+            <p>We work together to offer a personalized, professional service, tailored to address your needs and expectations. With our team’s diversity of skills, we are able to offer all services under one roof.</p>
             <div class="dentiste">
                 <img src="<?php echo get_bloginfo('template_url') ?>/img/dentiste-yve-bouchar.jpg">
                 <h3>Dr. Yves Bouchard</h3>
-                <p class="sous-titre">Chirurgien dentiste et associé</p>
+                <p class="sous-titre">Dental Surgeon and Associate</p>
                 <!-- <ul class="bullet">
                     <li>Dentisterie esthétique</li>
                     <li>Restauration CEREC 3</li>
@@ -11,14 +12,14 @@
                     <li>Chirurgie et greffe</li>
                 </ul> -->
                 <div class="description">
-                    <p>Yves Bouchard obtient son doctorat en médecine dentaire en1981 et depuis poursuit de nombreuses formations dont le programme complet au LD Pankey Institute orienté vers une approche globale de l’appareil masticatoire. Il a intégré l’approche CEREC pour ensuite devenir spécialiste-formateur. Grand passionné et à l'esprit entrepreneur, Yves fonde la clinique dentaire Yves Bouchard en 1983, puis l'équipe s'agrandit pour devenir la clinique dentaire Bouchard-Bélanger-Cyr. Au fil de ces quelques 30 années, passion, connaissances, professionnalisme et engagement sont au rendez-vous pour permettre à ses patients de recevoir toute l'information requise afin de prendre une décision éclairée et appropriée non seulement pour leur santé dentaire, mais également pour orner leur bouche d'un sourire dont ils peuvent être fiers!</p>
+                    <p>Yves Bouchard received his Doctorate of Dental Medicine in1981 and has continued to pursue additional training in his field, such as completing the full program at the LD Pankey Institute; a comprehensive approach to the masticatory system. He integrated the CEREC approach into his practice and then became a CEREC specialist and trainer. In 1983, Yves’s entrepreneurial spirit led him to open the Yves Bouchard Dental Clinic which today has grown into the Bouchard-Belanger-Cyr Dental Clinic. Over the past thirty years, his passion for the field of dentistry, along with his knowledge, commitment and professionalism, have enabled Dr. Bouchard’s patients to make informed decisions concerning their dental health, while at the same time giving them a smile that makes them proud.</p>
                     <!-- <a href="#" class="m-button">Lire la suite<i class="icon-caret-down"></i></a> -->
                 </div>
             </div>
             <div class="dentiste">
                 <img src="<?php echo get_bloginfo('template_url') ?>/img/dentiste-chantale-belanger.jpg">
-                <h3>Dre. Chantale Bélanger</h3>
-                <p class="sous-titre">Chirurgienne dentiste et associée</p>
+                <h3>Dr. Chantale Bélanger</h3>
+                <p class="sous-titre">Dental Surgeon and Associate</p>
                 <!-- <ul class="bullet">
                     <li>CEREC 3</li>
                     <li>Orthodontie</li>
@@ -30,9 +31,10 @@
                 </div>
             </div>
             <div class="dentiste last">
+
                 <img src="<?php echo get_bloginfo('template_url') ?>/img/dentiste-marie-eve-cyr.jpg">
-                <h3>Dre. Marie-Eve Cyr</h3>
-                <p class="sous-titre">Chirurgienne dentiste et associée</p>
+                <h3>Dr. Marie-Eve Cyr</h3>
+                <p class="sous-titre">Dental Surgeon and Associate</p>
                 <!-- <ul class="bullet">
                     <li>Implantologie</li>
                     <li>Analgésie relative</li>
@@ -40,14 +42,14 @@
                     <li>Chirurgie (dents de sagesse)</li>
                 </ul> -->
                 <div class="description">
-                    <p>Depuis qu'elle a fait son choix de carrière, Dre Marie-Eve Cyr est toujours aussi passionnée d'exercer sa profession. Ses connaissances se perfectionnent constamment avec de nombreuses formations continues, afin d'offrir des services à la fine pointe et de demeurer au fait des nouveautés. C'est en poursuivant cet objectif qu’elle complète une résidence multidisciplinaire à la suite de l’obtention de son doctorat en médecine dentaire en 2002, puis gradue de l’Institut Canadien d’Implantologie quelques années plus tard.  L'équipe attentionnée de Marie-Eve Cyr saura créer un climat de confiance en prenant soin d'expliquer les traitements, d'écouter vos commentaires et répondre à vos questions, et ce dans le but de rendre votre séjour le plus agréable possible.</p>
+                    <p>Dr. Marie-Eve Cyr is as passionate today about dentistry as when she first chose this career path. After obtaining her Doctorate of Dental Medicine in 2002, Dr. Cyr completed a multidisciplinary residency and graduated from the Canadian Institute of Implantology. She continues to hone her knowledge and skills as a dental surgeon by staying abreast of new procedures and developments in her field in order to provide the latest in dental services for her patients. Dr. Cyr and her dedicated team create an environment of trust and confidence by taking the time to thoroughly explain the different treatments, listen to your comments and respond to all of your questions in order to make your visit as pleasant as possible.</p>
                     <!-- <a href="#" class="m-button">Lire la suite<i class="icon-caret-down"></i></a> -->
                 </div>
             </div>
             <div class="dentiste full">
                 <img src="<?php echo get_bloginfo('template_url') ?>/img/dentiste-eliste-labrecque.jpg">
-                <h3>Dre. Elise M. Labrecque</h3>
-                <p class="sous-titre">Chirurgienne dentiste</p>
+                <h3>Dr. Elise M. Labrecque</h3>
+                <p class="sous-titre">Dental Surgeon</p>
                 <!-- <ul class="bullet">
                     <li>Dentisterie esthétique</li>
                     <li>Restauration CEREC 3</li>
@@ -55,7 +57,7 @@
                     <li>Chirurgie et greffe</li>
                 </ul> -->
                 <div class="description">
-                    <p>C'est à l'Université Laval que Dre Élise M. Labrecque a complété son doctorat en médecine dentaire en 2010. Elle poursuit ensuite sa formation en obtenant un certificat de résidence multidisciplinaire de l'Université de Montréal, ce qui lui donne l'occasion de réaliser des traitements complexes et diversifiés. Elle place réellement le bien-être du patient au centre de sa pratique et accorde une grande importance à la communication avec ce dernier. Elle s'assure invariablement que le patient ait bien compris toutes les implications et alternatives aux différents traitements. Depuis l'automne 2011, elle occupe également un poste de chargée de clinique au département de chirurgie de l'Université de Montréal.</p>
+                    <p>Dr. Elise M. Labrecque completed her Doctorate of Dental Medicine from Laval University in 2010. She then obtained a certificate for a multidisciplinary dental residency at the University of Montreal, which gave her the opportunity to perform complex and diverse treatments. Her patients’ well-being is paramount to her practice. For this reason, she makes certain that her patients understand all the implications and alternatives to the different treatments available. In addition, Dr. Labreque has held a position in the Department of Clinical Surgery at the University of Montreal since the fall of 2011.</p>
                     <!-- <a href="#" class="m-button">Lire la suite<i class="icon-caret-down"></i></a> -->
                 </div>
             </div>

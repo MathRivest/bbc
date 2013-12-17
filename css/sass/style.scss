@@ -95,6 +95,9 @@ body{
     &.page-content{margin:60px auto;}
     .wrapper{margin-bottom:60px;}
 }
+.page-template-page-front-php{
+    .page-content .wrapper{margin-bottom:0!important;}
+}
 
 .wrapper{
     @include container;
@@ -103,6 +106,9 @@ body{
         @include with-grid-settings($padding: 40px) {
           @include container;
         }
+    }
+    .wrapper{
+        padding:0;
     }
 }
 
@@ -127,13 +133,13 @@ body{
 %toedge{
     margin-left:-$toedge-width;
     margin-right:-$toedge-width;
-    padding-left:$toedge-width;
-    padding-right:$toedge-width;
+    //padding-left:$toedge-width;
+    //padding-right:$toedge-width;
     @include at-breakpoint($laptop-and-under){
         margin-left:-$mobile-toedge-width;
         margin-right:-$mobile-toedge-width;
-        padding-left:$mobile-toedge-width;
-        padding-right:$mobile-toedge-width;
+        //padding-left:$mobile-toedge-width;
+        //padding-right:$mobile-toedge-width;
     }
 }
 
@@ -314,8 +320,12 @@ $padding-right: 80px;
     &.l-tech{
         @include background-image(image-url('head-tech.jpg'));
     }
+    &.l-urgence{
+        @include background-image(image-url('head-tech.jpg'));
+    }
     &.l-equipe{
         @include background-image(image-url('head-equipe.jpg'));
+        .bbc-logo{display:none;}
     }
     &.l-contact{
         //@include background-image(image-url('head-contact.jpg'));
@@ -439,6 +449,11 @@ $padding-right: 80px;
 
 .banner{
     @extend %toedge;
+    padding:{
+        left:$toedge-width;
+        right:$toedge-width;
+    }
+
     margin-top:0;
     margin-bottom: 60px;
     @extend %bigtitle;
@@ -450,6 +465,10 @@ $padding-right: 80px;
     @include at-breakpoint($laptop-and-under){
         line-height: 85px;
         margin-bottom:0;
+        padding:{
+            left:$mobile-toedge-width;
+            right:$mobile-toedge-width;
+        }
         &.contact{
             background:none;
         }
@@ -458,7 +477,7 @@ $padding-right: 80px;
 
 .m-contact{
     margin-bottom: 40px;
-    overflow: hidden;
+    @extend .clearfix;
     .contact-block{
         @include span-columns(3,12);
         &.last{
@@ -551,6 +570,10 @@ $padding-right: 80px;
     @include at-breakpoint($laptop-and-under){
         background:$lighter-grey;
     }
+}
+
+.m-cta_wrapper{
+    @extend %toedge;
 }
 
 .m-cta{

@@ -7,6 +7,8 @@
         $heroClass = "l-tech";
     elseif(is_page( 'dentistes' ) || is_page( 'our-team' )):
         $heroClass = "l-equipe";
+    elseif(is_page( 'urgence' ) || is_page( 'emergency' )):
+        $heroClass = "l-urgence";
     elseif(is_page( 'contact' )):
         $heroClass = "l-contact";
     elseif(is_front_page()):
@@ -24,11 +26,9 @@
         </div>
     </div>
     <div class="m-hero <?php echo $heroClass;?>">
-        <?php if(!is_page( 'dentistes' )):?>
         <h1 class="bbc-logo">
-            <a href="/bbc"><?php bloginfo( 'name' ); ?></a>
+            <a href="<?php echo site_url(); ?>"><?php bloginfo( 'name' ); ?></a>
         </h1>
-        <?php endif;?>
 
         <?php if(is_front_page()):?>
         <div class="home-slider">
@@ -36,8 +36,13 @@
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home-yve-bouchar.jpg">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home-chantale-belanger.jpg">
         </div>
-        <h2>Services professionnels <br/>de dentisterie</h2>
-        <p>La clinique dentaire Bouchard-Bélanger-Cyr vous offre des services professionnels de dentisterie générale, d'urgence et spécialisée dans un environnement combinant confort et haute technologie.</p>
+        <?php if(get_locale() == "fr_FR"){ ?>
+            <h2>Services professionnels <br/>de dentisterie</h2>
+            <p>La clinique dentaire Bouchard-Bélanger-Cyr vous offre des services professionnels de dentisterie générale, d'urgence et spécialisée dans un environnement combinant confort et haute technologie.</p>
+        <?php }else{ ?>
+            <h2>Professional <br/>Dental Services</h2>
+            <p>The Bouchard-Bélanger-Cyr Dental Clinic is a full-service clinic offering general, emergency, as well as specialized dental services. We offer blends comfort and care with the very latest technologies.</p>
+        <?php } ?>
 
         <?php endif?>
     </div>
@@ -61,10 +66,19 @@
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home-yve-bouchar.jpg">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home-chantale-belanger.jpg">
         </div>
-        <h2>Services professionnels <br/>de dentisterie</h2>
+         <?php if(get_locale() == "fr_FR"){ ?>
+            <h2>Services professionnels <br/>de dentisterie</h2>
+        <?php }else{ ?>
+            <h2>Professional <br/>Dental Services</h2>
+        <?php } ?>
 
         <?php endif?>
     </div>
-    <p class="mobile-visible">La clinique dentaire Bouchard-Bélanger-Cyr vous offre des services professionnels de dentisterie générale, d'urgence et spécialisée dans un environnement combinant confort et haute technologie.</p>
-
+    <?php if(is_front_page()):?>
+         <?php if(get_locale() == "fr_FR"){ ?>
+            <p class="mobile-visible">La clinique dentaire Bouchard-Bélanger-Cyr vous offre des services professionnels de dentisterie générale, d'urgence et spécialisée dans un environnement combinant confort et haute technologie.</p>
+        <?php }else{ ?>
+            <p class="mobile-visible">The Bouchard-Bélanger-Cyr Dental Clinic is a full-service clinic offering general, emergency, as well as specialized dental services. We offer blends comfort and care with the very latest technologies.</p>
+        <?php } ?>
+    <?php endif?>
 </header>

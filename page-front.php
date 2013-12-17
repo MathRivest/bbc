@@ -17,12 +17,14 @@
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 
 <div class="container page-content">
-<?php
-    if(get_locale() == "fr_FR"){
-        Starkers_Utilities::get_template_parts( array( 'parts/content/fr-accueil') );
-    }else{
-        Starkers_Utilities::get_template_parts( array( 'parts/content/en-accueil') );
-    }
-?>
+    <div class="wrapper">
+        <?php
+            if(get_locale() == "fr_FR"){
+                Starkers_Utilities::get_template_parts( array( 'parts/content/fr-accueil') );
+            }else{
+                Starkers_Utilities::get_template_parts( array( 'parts/content/en-accueil') );
+            }
+        ?>
+    </div>
 </div>
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer' ) ); ?>
