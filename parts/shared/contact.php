@@ -18,9 +18,9 @@
 			<h4>Heures d’ouverture</h4>
 			<ul class="schedule">
 				<li><span class="d">Lundi</span> <span class="t">8h00 à 20h00</span></li>
-				<li><span class="d">Mardi</span> <span class="t">7h00 à 18h00</span></li>
-				<li><span class="d">Mercredi</span> <span class="t">8h00 à 18h00</span></li>
-				<li><span class="d">Jeudi</span> <span class="t">8h00 à 20h00</span></li>
+				<li><span class="d">Mardi</span> <span class="t">7h00 à 17h00</span></li>
+				<li><span class="d">Mercredi</span> <span class="t">7h00 à 18h00</span></li>
+				<li><span class="d">Jeudi</span> <span class="t">9h00 à 19h00</span></li>
 				<li><span class="d">Vendredi</span> <span class="t">7h00 à 15h00</span></li>
 			</ul>
 		</div>
@@ -46,7 +46,8 @@
 		<?php endif; ?>
 		<div class="contact-block">
 			<h4>Address:</h4>
-			<p>4470 Beaubien Street East Suite 103<br/>
+			<p>4470 Beaubien Street East<br/>
+				Suite 103<br/>
 				Montreal, (Quebec)<br/>
 				H1T 3Y8
 			</p>
@@ -56,9 +57,9 @@
 			<h4>Business Hours:</h4>
 			<ul class="schedule">
 				<li><span class="d">Monday</span><span class="t">8am – 8pm</span></li>
-				<li><span class="d">Tuesday</span><span class="t">7am – 6pm</span></li>
-				<li><span class="d">Wednesday</span><span class="t">8am – 6pm</span></li>
-				<li><span class="d">Thursday</span><span class="t">8am – 8pm</span></li>
+				<li><span class="d">Tuesday</span><span class="t">7am – 5pm</span></li>
+				<li><span class="d">Wednesday</span><span class="t">7am – 6pm</span></li>
+				<li><span class="d">Thursday</span><span class="t">7am – 7pm</span></li>
 				<li><span class="d">Friday</span><span class="t">7am – 3pm</span></li>
 			</ul>
 		</div>
