@@ -55,8 +55,9 @@
             <h1 class="bbc-logo">
                 <a href="/bbc"><?php bloginfo( 'name' ); ?></a>
             </h1>
+            <a href="tel:+5143745950" class="b-menu"><i class="icon-reorder"></i></a>
             <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' , 'container' => 'nav', 'container_id' => 'main-nav') ); ?>
-            <p class="m-phone"><i class="icon-phone"></i>514 374-5950</p>
+            <div class="phone-wrapper"><a href="" class="m-button"><i class="icon-phone left"></i>Appelez maintenant</a></div>
         </div>
     </div>
     <div class="m-hero <?php echo $heroClass;?>">

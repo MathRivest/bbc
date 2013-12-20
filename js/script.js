@@ -24,4 +24,10 @@ jQuery(function() {
         timeout: 7000
     });
 
+
+    jQuery('.b-menu').on('click', function(){
+        jQuery('#main-nav, .phone-wrapper').toggle();
+        return false;
+    });
+
 });//End of ready function
