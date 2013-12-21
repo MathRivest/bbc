@@ -13,6 +13,7 @@
 
 <div class="container">
 	<div class="wrapper">
+		<?php Starkers_Utilities::get_template_parts( array('parts/shared/html-sidebar_top') ); ?>
 
 		<div class="posts-wrapper">
 			<h2 class="listing-title"><?php echo single_cat_title( '', false ); ?></h2>
@@ -29,9 +30,7 @@
 
 		</div>
 
-		<div class="sidebar-wrapper">
-			<?php Starkers_Utilities::get_template_parts( array('parts/shared/html-sidebar') ); ?>
-		</div>
+		<?php Starkers_Utilities::get_template_parts( array('parts/shared/html-sidebar_bot') ); ?>
 	</div>
 </div>
 

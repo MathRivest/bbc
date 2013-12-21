@@ -18,6 +18,7 @@
 <div class="container">
 	<div class="wrapper">
 
+		<?php Starkers_Utilities::get_template_parts( array('parts/shared/html-sidebar_top') ); ?>
 		<div class="posts-wrapper">
 			<?php Starkers_Utilities::get_template_parts( array('parts/shared/featured-post' ) ); ?>
 			<?php query_posts(array("post__not_in" =>get_option("sticky_posts"), 'paged' => get_query_var('paged'))); ?>
@@ -31,13 +32,8 @@
 			<?php else: ?>
 				<h2>No posts to display</h2>
 			<?php endif; ?>
-
-
 		</div>
-
-		<div class="sidebar-wrapper">
-			<?php Starkers_Utilities::get_template_parts( array('parts/shared/html-sidebar') ); ?>
-		</div>
+		<?php Starkers_Utilities::get_template_parts( array('parts/shared/html-sidebar_bot') ); ?>
 	</div>
 </div>
 

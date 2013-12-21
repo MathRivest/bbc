@@ -382,6 +382,7 @@ $padding-right: 80px;
         overflow: hidden;
         margin-top:0!important;
         @include background-size(cover);
+        background-position:top center;
         h2{
             position:absolute;
             bottom:20px;
@@ -401,6 +402,9 @@ $padding-right: 80px;
                 width:auto;
                 height:100%;
             }
+        }
+        &.l-blog{
+            display:none;
         }
     }
 
@@ -667,7 +671,7 @@ $padding-right: 80px;
     float:left;
     position:relative;
     display:block;
-    width:33%;
+    width:25%;
     height:260px;
     background:$lighter-grey;
     font:{
@@ -712,16 +716,24 @@ $padding-right: 80px;
     &.l-equipe{
         @include background-image(image-url('cta-equipe.jpg'));
     }
+    &.l-urgence{
+        @include background-image(image-url('cta-equipe.jpg'));
+    }
     &.last{}
 
+    @include at-breakpoint($laptop-and-under){
+        height: 200px;
+    }
 
     @include at-breakpoint($phone){
         float:none;
         margin:0 20px 10px;
         width:auto;
-        height:60px;
+        height:45px;
         background:none!important;
         span{
+            line-height:45px;
+            font-size:18px;
             position:static;
             background:$black;
         }
@@ -835,10 +847,17 @@ section{clear:both;}
         margin-bottom:20px;
         img{display:none;}
     }
-
-
 }
 
+@include at-breakpoint($tablet-and-under){
+    .m-widget.l-categories{
+        margin:{
+            top:-24px;
+            left: - $mobile-toedge-width;
+            right: - $mobile-toedge-width;
+        }
+    }
+}
 
 
 
@@ -979,6 +998,11 @@ section{clear:both;}
         ul{margin:0;}
         li{line-height:23px!important;}
     }
+    @include at-breakpoint($tablet-and-under){
+        ul li.m-accordion-container{
+            padding-left:20px;
+        }
+    }
 }
 
 .lt-ie8 .m-accordion ul li.m-accordion-container > a span{
@@ -1036,6 +1060,9 @@ section{clear:both;}
                 padding:0 30px;
             }
             h2{color:$white;}
+            img{
+                width:100%;
+            }
         }
     }
     .meta{
@@ -1059,6 +1086,12 @@ section{clear:both;}
         img{width:100%;}
         margin-bottom:40px;
     }
+
+    @include at-breakpoint($tablet-and-under){
+        @include reset-columns;
+        display:block;
+        margin-bottom:20px;
+    }
 }
 
 
@@ -1072,7 +1105,11 @@ section{clear:both;}
 
 
 .sidebar-wrapper{
-    @include span-columns(4 omega,12);
+    @include span-columns(4 omega, 12);
+
+    @include at-breakpoint($tablet-and-under){
+        @include reset-columns;
+    }
 }
 
 .m-paging{

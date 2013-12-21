@@ -17,6 +17,7 @@
 <div class="container">
 	<div class="wrapper">
 
+		<?php Starkers_Utilities::get_template_parts( array('parts/shared/html-sidebar_top') ); ?>
 		<div class="post-wrapper">
 			<article class="post-detail">
 
@@ -38,9 +39,7 @@
 			</div>
 		</div>
 
-		<div class="sidebar-wrapper">
-			<?php Starkers_Utilities::get_template_parts( array('parts/shared/html-sidebar') ); ?>
-		</div>
+		<?php Starkers_Utilities::get_template_parts( array('parts/shared/html-sidebar_bot') ); ?>
 	</div>
 </div>
 

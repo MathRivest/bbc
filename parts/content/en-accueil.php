@@ -5,7 +5,10 @@
 	<a href="/bbc/advanced-technologies" class="m-cta l-tech">
 		<span><strong>Advanced Technology</strong><i class="icon-caret-right"></i></span>
 	</a>
-	<a href="/bbc/our-team" class="m-cta last l-equipe">
+	<a href="/bbc/our-team" class="m-cta l-equipe">
 		<span><strong>Our Team</strong><i class="icon-caret-right"></i></span>
+	</a>
+	<a href="/bbc/emergency" class="m-cta last l-urgence">
+		<span><strong>Emergency</strong><i class="icon-caret-right"></i></span>
 	</a>
 </div>
