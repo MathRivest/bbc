@@ -63,9 +63,15 @@
     <div class="m-hero <?php echo $heroClass;?>">
         <?php if(is_front_page()):?>
         <div class="home-slider">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home-marie-eve-cyr.jpg">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home-yve-bouchar.jpg">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home-chantale-belanger.jpg">
+            <div style="background-image:url('<?php echo get_stylesheet_directory_uri(); ?>/img/home-marie-eve-cyr.jpg');">
+                <!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home-marie-eve-cyr.jpg"> -->
+            </div>
+            <div style="background-image:url('<?php echo get_stylesheet_directory_uri(); ?>/img/home-yve-bouchar.jpg');">
+                <!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home-yve-bouchar.jpg"> -->
+            </div>
+            <div style="background-image:url('<?php echo get_stylesheet_directory_uri(); ?>/img/home-chantale-belanger.jpg');">
+                <!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home-chantale-belanger.jpg"> -->
+            </div>
         </div>
          <?php if(get_locale() == "fr_FR"){ ?>
             <h2>Services professionnels <br/>de dentisterie</h2>
@@ -73,13 +79,15 @@
             <h2>Professional <br/>Dental Services</h2>
         <?php } ?>
 
+        <?php else :?>
+            <h2><?php echo the_title(); ?></h2>
         <?php endif?>
     </div>
     <?php if(is_front_page()):?>
          <?php if(get_locale() == "fr_FR"){ ?>
-            <p class="mobile-visible">La clinique dentaire Bouchard-Bélanger-Cyr vous offre des services professionnels de dentisterie générale, d'urgence et spécialisée dans un environnement combinant confort et haute technologie.</p>
+            <p class="mobile-visible tagline">La clinique dentaire Bouchard-Bélanger-Cyr vous offre des services professionnels de dentisterie générale, d'urgence et spécialisée dans un environnement combinant confort et haute technologie.</p>
         <?php }else{ ?>
-            <p class="mobile-visible">The Bouchard-Bélanger-Cyr Dental Clinic is a full-service clinic offering general, emergency, as well as specialized dental services. We offer blends comfort and care with the very latest technologies.</p>
+            <p class="mobile-visible tagline">The Bouchard-Bélanger-Cyr Dental Clinic is a full-service clinic offering general, emergency, as well as specialized dental services. We offer blends comfort and care with the very latest technologies.</p>
         <?php } ?>
     <?php endif?>
 </header>
