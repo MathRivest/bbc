@@ -378,7 +378,7 @@ $padding-right: 80px;
 
     .mobile &{
         position:relative;
-        height:320px - $padding-top;
+        height:400px - $padding-top;
         overflow: hidden;
         margin-top:0!important;
         @include background-size(cover);
@@ -391,7 +391,7 @@ $padding-right: 80px;
             font-weight: 200;
         }
         .home-slider{
-            height:320px;
+            height:400px;
             >div{
                 height:100%;
                 width:100%;
@@ -405,6 +405,12 @@ $padding-right: 80px;
         }
         &.l-blog{
             display:none;
+        }
+        @include at-breakpoint($phone){
+            height:320px - $padding-top;
+            .home-slider{
+                height:320px;
+            }
         }
     }
 
@@ -505,11 +511,14 @@ $padding-right: 80px;
             li{
                 float:none;
                 margin:0;
-                line-height:45px;
-                padding:0 20px;
-                background:$grey-dark;
                 border-top:1px solid $grey!important;
                 &:first-child{border-top:none;}
+                a{
+                    display:block;
+                    line-height:45px;
+                    padding:0 20px;
+                    background:$grey-dark;
+                }
             }
         }
     }
@@ -548,16 +557,27 @@ $padding-right: 80px;
     @extend .clearfix;
     .contact-block{
         @include span-columns(3,12);
-        &.last{
-            @include span-columns(3 omega,12);
-        }
+        &.l-phone{@include span-columns(3 omega,12);}
+
         @include at-breakpoint($laptop-and-under){
+            @include span-columns(6,12);
+            margin-bottom:30px;
+
+            &.l-schedule{}
+            &.l-address,
+            &.l-phone{@include span-columns(6 omega,12);}
+            &.l-bus{clear:both;}
+
+        }
+        @include at-breakpoint($phone){
             display:block;
             margin-bottom:20px;
             @include reset-columns;
-            &.last{
-                @include reset-columns;
-            }
+
+            &.l-schedule{}
+            &.l-address,
+            &.l-phone{@include reset-columns;}
+            &.l-bus{clear:both;}
         }
     }
     .schedule{
@@ -654,7 +674,7 @@ $padding-right: 80px;
     @include replace-text-with-dimensions('i-gplus.png');
 }
 
-.b-fb, .bgplus{
+.b-fb, .b-gplus{
     @include transition-property(opacity);
     @include transition-duration(0.2s);
     @include transition-timing-function(ease-in);
@@ -684,6 +704,9 @@ $padding-right: 80px;
         transform: uppercase;
     }
     color:$white;
+    .l-3col &{
+        width:33%;
+    }
     strong{color:$white;}
     span{
         cursor:pointer;
@@ -728,7 +751,7 @@ $padding-right: 80px;
     @include at-breakpoint($phone){
         float:none;
         margin:0 20px 10px;
-        width:auto;
+        width:auto!important;
         height:45px;
         background:none!important;
         span{
@@ -847,6 +870,7 @@ section{clear:both;}
         margin-bottom:20px;
         img{display:none;}
     }
+
 }
 
 @include at-breakpoint($tablet-and-under){
@@ -858,7 +882,6 @@ section{clear:both;}
         }
     }
 }
-
 
 
 

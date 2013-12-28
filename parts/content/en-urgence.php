@@ -1,2 +1,2 @@
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ut, sit quidem quas cumque expedita nisi minima consequatur doloribus mollitia recusandae officia nesciunt tenetur beatae ea aperiam temporibus fugit deleniti!</p>
+<p>We offer fast and efficient emergency service. Whatever the nature of your problem: pain, fractured tooth, abscess, accident, orthodontic, crown, bridge or chipped veneer, we can help you. In case of emergency, please call us. We will provide you with the appropriate procedures to follow at home, or we will schedule an appointment as soon as possible.</p>
 <br><br>
