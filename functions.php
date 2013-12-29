@@ -115,3 +115,20 @@
 			</article>
 		<?php endif;
 	}
+
+
+
+
+
+
+
+
+
+add_filter('body_class','language_body_class');
+
+function language_body_class($classes = '') {
+	$classes[] = "i18n-" . get_locale();
+	return $classes;
+}
+
+

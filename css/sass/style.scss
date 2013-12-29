@@ -260,12 +260,17 @@ a{
         display:block;
         height:100%;
     }
-
     @include at-breakpoint($laptop-and-under){
         @include replace-text-with-dimensions('logo-bbc_mobile.png');
         width:50px;
         height:50px;
         background-size:100%;
+    }
+    .i18n-en_US &{
+        @include replace-text-with-dimensions('logo-bbc_en.png');
+        @include at-breakpoint($laptop-and-under){
+            @include replace-text-with-dimensions('logo-bbc_mobile.png');
+        }
     }
 }
 
@@ -338,7 +343,7 @@ $padding-right: 80px;
         @include background-image(image-url('head-tech.jpg'));
     }
     &.l-urgence{
-        @include background-image(image-url('head-tech.jpg'));
+        @include background-image(image-url('head-urgence.jpg'));
     }
     &.l-equipe{
         @include background-image(image-url('head-equipe.jpg'));
@@ -740,7 +745,7 @@ $padding-right: 80px;
         @include background-image(image-url('cta-equipe.jpg'));
     }
     &.l-urgence{
-        @include background-image(image-url('cta-equipe.jpg'));
+        @include background-image(image-url('cta-urgence.jpg'));
     }
     &.last{}
 
