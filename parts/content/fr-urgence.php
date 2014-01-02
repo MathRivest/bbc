@@ -1,2 +1,2 @@
-<p>We offer fast and efficient emergency service. Whatever the nature of your problem: pain, fractured tooth, abscess, accident, orthodontic, crown, bridge or chipped veneer, we can help you. In case of emergency, please call us. We will provide you with the appropriate procedures to follow at home, or we will schedule an appointment as soon as possible.</p>
+<p>Nous offrons un service d’urgence rapide et efficace. Quel que soit la nature de votre problème ou votre inquiétude, douleur, fracture de dent, abcès, accident, orthodontie, couronne, pont ou facette décimentée, nous pourrons vous aider. En cas de difficultés, appelez-nous. Nous vous donnerons la marche à suivre ou nous vous fixerons un rendez-vous dans les plus brefs délais.</p>
 <br><br>

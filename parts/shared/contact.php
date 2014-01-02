@@ -34,7 +34,7 @@
 		</div>
 		<div class="contact-block l-phone">
 			<h4>Téléphone</h4>
-			<p>Pour prendre rendez-vous ou pour plus de renseignements, composez le <span class="phone"><span class="text"><i class="icon-phone"></i>514 374-5950</span> <a href="tel:+5143745950" class="m-button"><i class="icon-phone"></i>514 374-5950</a></span></p>
+			<p>Pour prendre rendez-vous ou pour plus de renseignements, composez&nbsp;le <span class="phone"><span class="text"><i class="icon-phone"></i>514 374-5950</span> <a href="tel:+5143745950" class="m-button"><i class="icon-phone"></i>514 374-5950</a></span></p>
 		</div>
 	</div>
 

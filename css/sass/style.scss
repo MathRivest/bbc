@@ -210,6 +210,7 @@ ul.bullet{
         }
     }
     &.tech-list{
+        padding-left:20px;
         li{margin-bottom:1em;}
     }
 }
@@ -262,9 +263,9 @@ a{
     }
     @include at-breakpoint($laptop-and-under){
         @include replace-text-with-dimensions('logo-bbc_mobile.png');
-        width:50px;
-        height:50px;
-        background-size:100%;
+        width:50px!important;
+        height:50px!important;
+        background-size:100%!important;
     }
     .i18n-en_US &{
         @include replace-text-with-dimensions('logo-bbc_en.png');
@@ -446,6 +447,7 @@ $padding-right: 80px;
                 margin:18px 0;
             }
             .b-menu{
+                z-index:1000;
                 position: absolute;
                 top: 26px;
                 right: 20px;
@@ -545,8 +547,9 @@ $padding-right: 80px;
     }
 
     @include at-breakpoint($laptop-and-under){
-        line-height: 85px;
-        margin-bottom:0;
+        padding-top:15px;
+        line-height: 48px;
+        margin-bottom:15px;
         padding:{
             left:$mobile-toedge-width;
             right:$mobile-toedge-width;
@@ -965,14 +968,13 @@ section{clear:both;}
         li{
             &.m-accordion-container{
                 overflow: hidden;
-                padding:17px 0 0 30px;
-                height:48px;
                 background:none;
                 border: 1px solid $lighter-grey;
                 border-top:none;
+                padding:10px 0px 10px 0;
                 &.l-large{
-                    height:68px;
-                    > a{height:68px;}
+                    /* height:68px;
+                    > a{height:68px;} */
                 }
                 &:first-child{border-top: 1px solid $lighter-grey;}
             }
@@ -980,7 +982,6 @@ section{clear:both;}
                 display: block;
                 position: relative;
                 padding-right:30px;
-                height:48px;
                 outline:none;
                 font:{
                     size:20px;
@@ -1003,8 +1004,8 @@ section{clear:both;}
                     //@include hide-text;
                     position: absolute;
                     top: 50%;
-                    right:28px;
-                    margin-top: -17px;
+                    right:17px;
+                    margin-top: -8px;
                     width: 17px;
                     height: 17px;
                     color:$lighter-grey;

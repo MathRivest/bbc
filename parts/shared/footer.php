@@ -15,8 +15,8 @@
 				<ul id="js-lang_switcher" class="m-switcher">
 					<?php pll_the_languages(); ?>
 				</ul>
-				<a href="" class="b-gplus">Google+</a>
-				<a href="" class="b-fb">Facebook</a>
+				<a href="https://plus.google.com/112036864515715135141" target="_blank" class="b-gplus">Google+</a>
+				<a href="https://www.facebook.com/clinique.dentaire.bouchard.belanger" target="_blank" class="b-fb">Facebook</a>
 			</div>
 		</div>
 	</div>
